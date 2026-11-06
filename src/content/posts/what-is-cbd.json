@@ -1,0 +1,69 @@
+{
+  "order": 6,
+  "slug": "what-is-cbd",
+  "path": "/blog/what-is-cbd/",
+  "title": "CBD and THC: How They Differ | House of Zen",
+  "h1": "CBD and THC: How They Differ",
+  "description": "CBD and THC are close chemical relatives that behave very differently in the body. How they compare, how to read both on a label and where hemp fits in.",
+  "categories": [
+    { "name": "Cannabis 101", "slug": "cannabis-101" },
+    { "name": "Health & Lifestyle", "slug": "health-and-lifestyle" }
+  ],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-cat-cbd",
+  "imageAlt": "",
+  "excerpt": "CBD and THC are built from the same atoms, yet they behave very differently. Here is how to tell them apart on a label.",
+  "pull": "On paper they are close relatives: the same atoms in the same numbers, arranged a little differently.",
+  "relatedCategories": ["cbd", "topicals"],
+  "related": ["thc-vs-thca", "cannabis-for-beginners", "michigan-cannabis-label"],
+  "sections": [
+    {
+      "id": "close-relatives",
+      "heading": "Close relatives, different shapes",
+      "blocks": [
+        { "type": "p", "html": "THC and CBD are both cannabinoids, compounds the cannabis plant makes in its resin glands. On paper they are close relatives: the same atoms in the same numbers, arranged a little differently. That small difference in shape changes how each one behaves once it’s in the body." },
+        { "type": "p", "html": "THC binds readily to a type of receptor found throughout the brain, known as CB1, and that’s what produces the high. CBD doesn’t bind to those receptors in the same way, and it doesn’t produce a high of its own." },
+        { "type": "p", "html": "That doesn’t make CBD inactive. It can cause side effects in some people, and it can interact with certain medicines, so if you take medication, please ask your doctor or pharmacist before you try it." }
+      ]
+    },
+    {
+      "id": "reading-both-numbers",
+      "heading": "Reading both numbers on a label",
+      "blocks": [
+        { "type": "p", "html": "Every marijuana product sold in Michigan must be labeled with its THC and CBD content, so you never have to guess which one you’re holding. Products fall along a range. Many are high in THC with very little CBD. Others are the reverse, and some sit close to even. On an edible those figures appear in milligrams, and on flower as a percentage." },
+        { "type": "p", "html": "You’ll sometimes see this written as a ratio. A 1:1 product has equal amounts of each, while 20:1 has twenty parts of one to a single part of the other. Check which compound is named first, because brands don’t all write it the same way." },
+        { "type": "p", "html": "A product that leads with CBD can still contain THC, and you may still feel it. If your workplace has a drug policy, keep that in mind, since Michigan employers may still enforce those policies." }
+      ]
+    },
+    {
+      "id": "where-hemp-fits-in",
+      "heading": "Where hemp fits in",
+      "blocks": [
+        { "type": "p", "html": "You’ll also find CBD sold outside dispensaries, and this is where the word hemp comes in. Under Michigan law, cannabis with more than 0.3% THC, counting THCa, is marijuana, and only licensed marijuana businesses may sell it. At 0.3% or less, it is industrial hemp, and processing or selling that takes a separate state license. The CBD molecule is the same wherever it comes from. What changes is the set of rules the product was made and sold under." },
+        { "type": "p", "html": "What we can speak to is our own shelf. Our products are fully licensed, lab-tested and compliant with state regulations, and each label names the lab that did the testing." }
+      ]
+    },
+    {
+      "id": "what-we-wont-tell-you",
+      "heading": "What we won’t tell you",
+      "blocks": [
+        { "type": "p", "html": "You’ll see big promises made for CBD online. We don’t make them." },
+        { "type": "callout", "html": "<strong>Why we stay quiet on what CBD will do for you.</strong> Michigan’s marketing rules don’t allow health claims for marijuana products, and everyone responds differently in any case. If you’re thinking about CBD for a health reason, your doctor is the right person to ask." },
+        { "type": "p", "html": "What we can do is describe products plainly, including how they’re used and how much THC comes along with the CBD. Some people look through our <a href=\"/products/cbd/\">CBD products</a> because they’d like to avoid the high. Others are curious about <a href=\"/products/topicals/\">topicals</a>, which go on the skin. A topical is defined by how it’s used and not by what’s in it, so it may contain CBD, THC or both, and the label will show you which." }
+      ]
+    },
+    {
+      "id": "choosing-between-them",
+      "heading": "Choosing between them",
+      "blocks": [
+        { "type": "p", "html": "It doesn’t have to be one or the other. Tell us how you picture using it and anything you’d prefer to avoid, the high included, and we’ll show you how the numbers compare across what we carry. Our <a href=\"/blog/cannabis-for-beginners/\">beginner’s guide</a> is a good companion if this is all new." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Will CBD get me high?", "a_html": "CBD on its own doesn’t produce the high that THC does. Some CBD products also contain THC, though, so read both numbers on the label." },
+    { "q": "Do I need to be 21 to buy CBD products at House of Zen?", "a_html": "Yes. Our store is for adults 21 and older, so please bring a valid ID." },
+    { "q": "Is CBD the same thing as hemp?", "a_html": "No. CBD is a compound. Hemp is a legal category: in Michigan, cannabis at 0.3% THC or less, counting THCa. CBD can come from hemp or from marijuana." }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+ "order": 15,
+ "slug": "microdosing-basics",
+ "path": "/blog/microdosing-basics/",
+ "title": "Microdosing: The Low and Slow Approach | House of Zen",
+ "h1": "Microdosing: The Low and Slow Approach",
+ "description": "What people mean by microdosing cannabis, how to measure a small THC dose, how long to wait between doses and why we make no promises about the results.",
+ "categories": [{ "name": "Health & Lifestyle", "slug": "health-and-lifestyle" }],
+ "popular": false,
+ "readTime": "3 min read",
+ "image": "g-art-micro",
+ "imageAlt": "",
+ "excerpt": "Microdosing means a very small, measured amount of THC, taken slowly. Here is how to measure it and how long to wait, without the big promises.",
+ "pull": "The method is mostly patience, which is the one thing a dispensary cannot sell you.",
+ "relatedCategories": ["edibles", "cbd"],
+ "related": ["edibles-start-low", "what-is-cbd", "how-to-read-a-dispensary-menu"],
+ "sections": [
+  { "id": "what-it-means", "heading": "What people mean by microdosing", "blocks": [
+   { "type": "p", "html": "Microdosing means taking a very small, measured amount of THC rather than a full serving. There is no official definition. Many people use the word for something around 1 to 2.5 mg of THC." },
+   { "type": "p", "html": "You will find big promises about it elsewhere. We do not make them. We cannot tell you what a small dose will do for you, and neither can anyone else. Some people simply prefer a small, measured amount to a strong one, and going low and slow is a sensible way for any adult to learn how they respond." }
+  ] },
+  { "id": "measuring", "heading": "Measuring a small dose", "blocks": [
+   { "type": "p", "html": "Measuring is the hard part, so choose a form that prints its numbers. An <a href=\"/products/edibles/\">edible</a> label gives you the THC in milligrams, and from that you can work out what is in each piece. In Michigan, adult-use edibles are capped at 10 mg of THC per dose and 200 mg per package. That cap is a ceiling, not a target, and a microdose sits well below it." },
+   { "type": "p", "html": "A small dose may mean cutting one piece into quarters with a clean knife. Be realistic about this. A hand-cut quarter is a rough measure, and labels themselves must state that actual values may vary by 10 percent. A draw from a vaporizer or a pipe has no number printed on it at all." },
+   { "type": "p", "html": "<a href=\"/products/cbd/\">CBD products</a> are a separate matter. CBD is a different compound, and a CBD product is not a microdose of THC, so read the label for both numbers. Our <a href=\"/blog/what-is-cbd/\">guide to CBD</a> explains the difference." },
+   { "type": "p", "html": "These Michigan summaries are general information, not legal advice, as of October 2026." }
+  ] },
+  { "id": "the-slow-part", "heading": "The slow part", "blocks": [
+   { "type": "p", "html": "The method is mostly patience, which is the one thing a dispensary cannot sell you. A simple way to go about it:" },
+   { "type": "ol", "items": [
+    "Choose a day with nothing to drive to and nobody depending on you.",
+    "Take the smallest amount you can measure.",
+    "Wait at least two hours. Edibles can take that long to arrive, sometimes longer, and a second piece taken early is the classic mistake.",
+    "Write down what you took, when you took it and what you noticed.",
+    "Keep to the same amount for several sessions before changing anything."
+   ] },
+   { "type": "p", "html": "If you notice nothing, that is a perfectly good result. It does not mean you should take more today." }
+  ] },
+  { "id": "your-doctor", "heading": "Questions for your doctor", "blocks": [
+   { "type": "callout", "html": "We do not make health claims, and this article is not medical advice. If you take medication, are pregnant or breastfeeding, or have a health condition, talk to your doctor before using cannabis at any dose." },
+   { "type": "p", "html": "If your reason for trying this has anything to do with your health, that belongs in the same conversation. A doctor can look at your whole picture, and we cannot." }
+  ] },
+  { "id": "talk-it-over", "heading": "Talk it over with us", "blocks": [
+   { "type": "p", "html": "Product education is the part of this work we like best. Bring your questions, and we will go through a label with you and explain what the numbers on it mean. Clear, honest recommendations are a promise of ours, so if we think a low dose plan is more complicated than you need, we will say so." }
+  ] }
+ ],
+ "faq": [
+  { "q": "How many milligrams is a microdose?", "a_html": "There is no official number. Many people use the word for something around 1 to 2.5 mg of THC, but your own starting point is yours to find, slowly." },
+  { "q": "Can I microdose with a vaporizer or flower?", "a_html": "You can try, but it is harder to measure, because a draw has no number on it. Edibles with a printed dose are easier to keep track of. Our guide to <a href=\"/blog/vaporizers-explained/\">vaporizers</a> covers how they work." },
+  { "q": "Will I feel anything?", "a_html": "Maybe, maybe not. People differ, and we cannot predict it. If you feel nothing, wait for another day rather than taking more." }
+ ]
+}

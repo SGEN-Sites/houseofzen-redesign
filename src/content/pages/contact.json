@@ -1,0 +1,68 @@
+{
+ "slug": "contact",
+ "path": "/contact/",
+ "url": "https://houseofzendetroit.com/contact/",
+ "title": "Contact House of Zen | Detroit Cannabis Dispensary",
+ "description": "Visit or contact House of Zen cannabis dispensary at 14501 Mack Ave in Detroit, MI. Find our location, phone number, email and hours.",
+ "h1": "Contact House of Zen",
+ "sections": [
+  {
+   "id": "intro",
+   "heading": "Contact House of Zen",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Contact House of Zen",
+     "lead": "Contact",
+     "accent": "House of Zen"
+    },
+    {
+     "type": "p",
+     "html": "Reach out to any of us with your request and we’ll get in touch!"
+    }
+   ]
+  },
+  {
+   "id": "details",
+   "heading": "Location",
+   "blocks": [
+    {
+     "type": "detail",
+     "label": "Location",
+     "value": "14501 Mack Ave, Detroit, MI 48215"
+    },
+    {
+     "type": "detail",
+     "label": "Phone",
+     "value": "(313) 332-1733"
+    },
+    {
+     "type": "detail",
+     "label": "Email",
+     "value": "hello@houseofzendetroit.com"
+    },
+    {
+     "type": "detail",
+     "label": "Hours of Operation",
+     "value": "Mon-Sun: 9 am – 9 pm"
+    }
+   ]
+  },
+  {
+   "id": "form",
+   "heading": "Form",
+   "blocks": [
+    {
+     "type": "form",
+     "fields": [
+      "Name: First",
+      "Last",
+      "Email",
+      "Comment or Message"
+     ],
+     "button": "Submit"
+    }
+   ]
+  }
+ ]
+}

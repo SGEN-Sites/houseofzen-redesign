@@ -1,0 +1,22 @@
+{
+  "tool": "tools/fal-gen.mjs, then tmp/img (composite or conversion)",
+  "slot": "g-washi-sage",
+  "file": "assets/generated/g-washi-sage.jpg",
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, tile pass",
+  "sha256": "a2efa2d490dcd891c47bb328f59821bbbd983b33982746e07a1b9a8feb87cf29",
+  "width": 1920,
+  "height": 1920,
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "prompt": "A flat straight-on scan of warm off-white handmade washi paper with fine long mulberry fibres scattered evenly, perfectly even illumination, no vignette, no edges, no shadows, no objects, the same even texture filling the whole frame",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "no call of its own: the g-washi source, turned 180 degrees, its own drawn fibres, tinted pale sage",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "seed": 462863405,
+  "requestId": "01a1b236-399e-7af2-afd0-f9d349d562e1",
+  "model": "fal-ai/flux-pro/v1.1-ultra"
+}

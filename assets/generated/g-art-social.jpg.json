@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-social",
+  "file": "assets/generated/g-art-social.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Two plain hand-thrown ceramic cups on a low weathered wooden table at dusk, fading blue-grey light from a window on the left, a pale limewash plaster wall behind in soft shade, the cups right of centre with empty space around them, bare ceramic with nothing on it, low-key and quiet",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 1423931446,
+  "requestId": "01a1b236-ea1c-71c2-b420-e28b7e3340b8",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "3a4757a25870638799ec71074d91c9f65b51acf30f910c69950d9df49173a611",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:55:16.558Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

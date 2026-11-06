@@ -1,0 +1,73 @@
+{
+  "slug": "detroit-dispensary",
+  "path": "/detroit-dispensary/",
+  "title": "Detroit Dispensary | House of Zen",
+  "description": "House of Zen Detroit is a family-run cannabis dispensary at 14501 Mack Ave, open Mon-Sun: 9 am to 9 pm. See what to bring, what to expect, what we carry.",
+  "kicker": "Our Detroit dispensary",
+  "h1": "House of Zen Detroit",
+  "lede": "A licensed, family-run cannabis dispensary on Mack Ave. In the words of our live menu, we are “your hidden gem located on the eastside of Detroit.”",
+  "sections": [
+    {
+      "id": "store-details",
+      "heading": "Store details",
+      "blocks": [
+        { "type": "p", "html": "You will find us at 14501 Mack Ave, Detroit, MI 48215. Our hours are Mon-Sun: 9 am to 9 pm. You can call <a href=\"tel:+13133321733\">(313) 332-1733</a> or email <a href=\"mailto:hello@houseofzendetroit.com\">hello@houseofzendetroit.com</a>. House of Zen is for adults 21 and older." },
+        { "type": "p", "html": "We are one store, family-owned and family-run, with Teri Hargrave and Jacquline Weathersby as owners." },
+        { "type": "p", "html": "Would you like to order ahead? Our <a href=\"https://www.houseofzendetroit.com/stores/house-of-zen\" target=\"_blank\" rel=\"noopener\">live menu</a> lists in-store and curbside pickup. Please have your photo ID with you when you pick up." }
+      ]
+    },
+    {
+      "id": "visiting",
+      "heading": "Visiting House of Zen",
+      "blocks": [
+        { "type": "h3", "text": "What to bring" },
+        { "type": "p", "html": "A valid driver’s license or government-issued photo ID showing you are 21 or older. In Michigan, a licensed adult-use store must check it before any sale. If you hold a medical card, please call us to confirm whether and how we can serve medical card holders today." },
+        { "type": "h3", "text": "What to expect" },
+        { "type": "p", "html": "Come as you are, and take your time. Whether this is your first visit or one of many, our team is here to guide you through:" },
+        {
+          "type": "ul",
+          "items": [
+            "Product education tailored to your needs",
+            "Clear, honest recommendations",
+            "Easy, guided checkout experience",
+            "A judgment-free environment"
+          ]
+        },
+        { "type": "p", "html": "New here? Our <a href=\"/dispensary-guides/\">Dispensary Guide</a> shows how a first visit goes, and our welcome is simple: first customer deals: 30% OFF the purchase. Please see <a href=\"/deals/\">Deals</a> for the terms that may apply." }
+      ]
+    },
+    {
+      "id": "what-we-carry",
+      "heading": "What we carry",
+      "blocks": [
+        { "type": "p", "html": "We carry a full selection of licensed cannabis products designed to meet every lifestyle and experience level." },
+        { "type": "p", "html": "Our categories are <a href=\"/products/flower/\">Premium Flower</a>, <a href=\"/products/pre-rolls/\">Pre Rolls</a>, <a href=\"/products/edibles/\">Edibles</a>, <a href=\"/products/concentrates/\">Concentrates</a>, <a href=\"/products/topicals/\">Topicals</a>, <a href=\"/products/cbd/\">CBD Products</a>, <a href=\"/products/vaporizers/\">Vaporizers</a> and <a href=\"/products/accessories/\">Accessories</a>." },
+        { "type": "p", "html": "All products are fully licensed, lab-tested, and compliant with state regulations. For what is available today, please see our <a href=\"https://www.houseofzendetroit.com/stores/house-of-zen\" target=\"_blank\" rel=\"noopener\">live menu</a>, or ask us when you come in." }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": "Questions about visiting",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            { "q": "What are your hours?", "a_html": "We are open Mon-Sun: 9 am to 9 pm. You will find us at 14501 Mack Ave, Detroit, MI 48215." },
+            { "q": "What ID do I need?", "a_html": "Please bring a valid driver’s license or government-issued photo ID showing you are 21 or older. Michigan requires a licensed adult-use store to check it before any sale." },
+            { "q": "It is my first time. Is that all right?", "a_html": "Absolutely. We specialize in guiding first-time customers with clear education and recommendations, and our <a href=\"/dispensary-guides/\">Dispensary Guide</a> shows what to expect." },
+            { "q": "What do you carry?", "a_html": "We carry Premium Flower, Pre Rolls, Edibles, Concentrates, Topicals, CBD Products, Vaporizers and Accessories, including glass. Our <a href=\"https://www.houseofzendetroit.com/stores/house-of-zen\" target=\"_blank\" rel=\"noopener\">live menu</a> shows what is available today." }
+          ]
+        }
+      ]
+    }
+  ],
+  "_claims": ["mi-au-purchase-limit"],
+  "_confirm": [
+    "Parking: the adopted page type usually states it. Not on this page until the client confirms.",
+    "ATM on site: not on this page until the client confirms.",
+    "Payment methods accepted: not on this page until the client confirms.",
+    "Wheelchair access: not on this page until the client confirms.",
+    "Nearby landmarks and neighborhood directions: not on this page until the client confirms.",
+    "In-store and curbside pickup and photo ID for pickup: these come from site.liveMenuFacts, the client's live menu, not its main site. They are stated on this page, so the client must confirm them. docs/OPEN-DECISIONS.md A2 records the menu's header as 'Coming soon / Online ordering'."
+  ]
+}

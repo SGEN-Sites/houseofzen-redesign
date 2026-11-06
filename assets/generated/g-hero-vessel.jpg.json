@@ -1,0 +1,22 @@
+{
+  "tool": "tools/fal-gen.mjs, then tmp/img (composite or conversion)",
+  "slot": "g-hero-vessel",
+  "file": "assets/generated/g-hero-vessel.jpg",
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, composited",
+  "sha256": "083d4d9c6a55b2e074049a2b1d101f521229dcf1b6c26610395da0a645ab086c",
+  "width": 2752,
+  "height": 1536,
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "prompt": "A pale warm limewash plaster wall in early morning window light, seen straight on, wide and very quiet. Soft shoji lattice window shadows, a faint grid of thin soft-edged shadow bars, fall across the wall in the centre and on the right. Far to the right of the frame, its centre about 72 percent across the frame width, stands one hand-thrown stoneware vase with a deep indigo glaze, rounded and slightly asymmetrical, crossed by fine irregular gold kintsugi repair seams, holding one slender branch of sage-green olive leaves that arcs upward. The vase stands on a long rough pale grey stone ledge that runs along the full width of the bottom of the frame. On the ledge just to the right of the vase, a very slim incense stick stands in a tiny plain stoneware holder with a single thin thread of pale smoke rising straight up from its tip. The left 50 percent of the frame is calm, empty, evenly pale plaster with nothing on it. The vase fills about 55 percent of the frame height. Very sharp focus, crisp plaster texture",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "six seeds (three prompts wordings, one raw); seed 2202 kept for its vase, branch and light. Its vase stood at 39%, so the frame was shifted right to put the vase centre at 72%, the calm wall and ledge on the left extended by reflection and evened out per channel, the shade lifted with one tone curve, and a soft shoji lattice laid into the direct light only (tmp/img/hero/compose.py). A byte-identical rerun of the script was confirmed",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "seed": 2202,
+  "requestId": "01a1b232-8d43-7fe3-8c57-bd18880d71b6",
+  "model": "fal-ai/flux-pro/v1.1-ultra"
+}

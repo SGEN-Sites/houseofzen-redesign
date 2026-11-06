@@ -1,0 +1,112 @@
+{
+  "slug": "patient-guide",
+  "path": "/patient-guide/",
+  "title": "Patient Guide | House of Zen",
+  "description": "For Michigan card holders: what to bring, purchase and possession limits, taxes, caregivers, visiting patients, public use and work. As of October 2026.",
+  "kicker": "For card holders",
+  "h1": "Patient Guide",
+  "lede": "For people who already hold a medical card: how Michigan’s rules read, as of October 2026. This is general information, not medical or legal advice.",
+  "note": "The House of Zen live menu mentions valid medical patients. Please call us to confirm whether and how we can serve medical card holders today.",
+  "sections": [
+    {
+      "id": "what-to-bring",
+      "heading": "What to bring",
+      "blocks": [
+        { "type": "p", "html": "Registered patients buy from licensed provisioning centers by showing their registry card and photo ID. Patients must present a valid registry card and a valid driver license or government-issued photo ID at the time of purchase." },
+        { "type": "p", "html": "Keep them within reach when you are out, too. To be protected from arrest, a patient or caregiver must show police a valid registry card plus photo ID, and a card counts only if it is reasonably accessible where you are. An application or physician form is not a temporary card." }
+      ]
+    },
+    {
+      "id": "limits",
+      "heading": "Purchase and possession limits",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Buying:</strong> up to 2.5 ounces a day and 10 ounces a month per patient, checked in the statewide monitoring system.",
+            "<strong>Holding:</strong> up to 2.5 ounces of usable marijuana, with infused products counted by a set equivalency.",
+            "<strong>The equivalency:</strong> 1 ounce of usable marijuana equals 16 ounces of solid infused product, 7 grams of gaseous infused product, or 36 fluid ounces of liquid infused product.",
+            "<strong>Growing:</strong> if no caregiver grows for you, up to 12 plants kept in an enclosed, locked facility."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taxes",
+      "heading": "Taxes",
+      "blocks": [
+        { "type": "p", "html": "Medical marijuana sold to registered patients is not subject to Michigan’s 10% excise tax; only the 6% sales tax applies. Purchases by visiting patients count as medical sales for this purpose." }
+      ]
+    },
+    {
+      "id": "caregivers",
+      "heading": "Caregivers",
+      "blocks": [
+        { "type": "p", "html": "A caregiver must be at least 21, consent to a criminal background check and have no disqualifying convictions, and receives a separate caregiver card for each patient served. Under the statute, each patient may have only one caregiver, and a caregiver may assist no more than 5 registered patients." },
+        { "type": "p", "html": "A caregiver may possess 2.5 ounces of usable marijuana and equivalents for each connected patient, and 12 plants in an enclosed, locked facility for each patient who has allowed the caregiver to cultivate. Daily purchase limits apply per connected patient." }
+      ]
+    },
+    {
+      "id": "visiting-patients",
+      "heading": "Visiting patients",
+      "blocks": [
+        { "type": "p", "html": "Michigan honors out-of-state medical cards. A visiting patient with a valid, unexpired card from another state plus photo ID may buy at a licensed medical provisioning center, within the same purchase limits." }
+      ]
+    },
+    {
+      "id": "public-use",
+      "heading": "Public use",
+      "blocks": [
+        { "type": "p", "html": "The medical law does not allow smoking marijuana in any public place, and the Court of Appeals has held that a car parked in a lot open to the public counts." }
+      ]
+    },
+    {
+      "id": "work",
+      "heading": "Work",
+      "blocks": [
+        { "type": "p", "html": "A Michigan medical card does not stop a private employer from disciplining or firing an employee for marijuana use, though a court has held that such patients cannot be denied unemployment benefits for a failed test." }
+      ]
+    },
+    {
+      "id": "product-forms",
+      "heading": "Product forms, described plainly",
+      "blocks": [
+        { "type": "p", "html": "These descriptions cover format only. They say nothing about what any product will do for you." },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Flower and pre rolls:</strong> the dried plant, loose or already rolled, usually smoked.",
+            "<strong>Vaporizers:</strong> devices that heat oil or flower into a vapor you inhale.",
+            "<strong>Edibles:</strong> foods made with cannabis, which you eat.",
+            "<strong>Concentrates:</strong> extracts that hold a lot in a small amount.",
+            "<strong>Topicals:</strong> creams, balms and oils applied to the skin.",
+            "<strong>CBD products:</strong> products built around CBD, one of the plant’s compounds. Read the label for THC as well."
+          ]
+        },
+        { "type": "p", "html": "For anything about your health, please talk with your physician. For the program’s own word on any of this, go to the state’s Cannabis Regulatory Agency. Still applying? See <a href=\"/getting-a-medical-card/\">Getting a Medical Card</a>." }
+      ]
+    }
+  ],
+  "sources": [
+    {"label":"MMMP Patients & Caregivers","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/sections/mmp"},
+    {"label":"MMMP FAQ: Should I go to a third-party business to get/renew my registry identification card? Can my application and physician certification serve as a temporary registration card?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/im-a-current-prospective-medical-marijuana-patient--should-i-go-to-a-third-party-business-to-get-re"},
+    {"label":"Marihuana Rules, R 420.1 to R 420.1004 (PDF compilation; latest rule history Eff. Mar. 7, 2022, editorial corrections 2023)","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/-/media/Project/Websites/cra/Laws-Rules-Other-Resources/Marihuana-Rules---R-4201-to-R-4201004.pdf"},
+    {"label":"MMMP FAQ: How can I acquire medical marijuana from a licensed provisioning center?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/how-can-i-acquire-medical-marijuana-or-medical-marijuana-infused-products"},
+    {"label":"MMMP FAQ: Can my application and physician certification serve as a temporary registration card?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/can-my-application-and-physician-certification-serve-as-a-temporary-registration-card"},
+    {"label":"Controlled Substances Benchbook, sec. 8.3: Immunity Under sec. 4 of the MMMA (quotes MCL 333.26424)","publisher":"Michigan Judicial Institute (Michigan Supreme Court)","url":"https://www.courts.michigan.gov/4a8168/siteassets/publications/benchbooks/csbb/csbbresponsivehtml5.zip/CSBB/Ch_8_Marijuana/Immunity_Under__4-rua.htm"},
+    {"label":"Revenue Administrative Bulletin 2023-25: Taxation of Adult-Use (Recreational) Marihuana (approved Dec. 19, 2023)","publisher":"Michigan Department of Treasury","url":"https://www.michigan.gov/taxes/rep-legal/rab/2023-revenue-administrative-bulletins/revenue-administrative-bulletin-2023-25"},
+    {"label":"Overview: Cannabis Taxation in Michigan (slide deck, August 2025)","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/-/media/Project/Websites/cra/other/Slide-Deck---Overview-Cannabis-Taxation-in-Michigan---CRA---August-2025.pdf"},
+    {"label":"MMMP Application/Renewal Packet (PDF)","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/-/media/Project/Websites/cra/mmmp-application/MMMP_Application_Pkt.pdf"},
+    {"label":"MMMP FAQ: Will I receive a caregiver registry identification card for each qualifying patient that designates me as his or her caregiver?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/caregiver-questions/will-i-receive-a-caregiver-registry-identification-card-for-each-qualifying-patient-that-designates"},
+    {"label":"Michigan Compiled Laws, MCL 333.26423, Michigan Medical Marihuana Act definitions","publisher":"Michigan Legislature","url":"https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-26423"},
+    {"label":"MMMP FAQ: How do I become a caregiver?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/caregiver-questions/how-do-i-become-a-caregiver"},
+    {"label":"Michigan Compiled Laws, MCL 333.26426, Michigan Medical Marihuana Act section 6","publisher":"Michigan Legislature","url":"https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-26426"},
+    {"label":"Controlled Substances Benchbook, sec. 8.7: Other Issues Arising Under the MMMA (employment, MCL 750.474, driving, public place, odor searches)","publisher":"Michigan Judicial Institute (Michigan Supreme Court)","url":"https://www.courts.michigan.gov/4a8168/siteassets/publications/benchbooks/csbb/csbbresponsivehtml5.zip/CSBB/Ch_8_Marijuana/Other_Issues_Arising_Under_the_MMMA.htm"}
+  ],
+  "_claims": ["mi-med-program", "mi-med-purchase", "mi-med-arrest-protection", "mi-med-possession", "mi-tax-medical", "mi-med-caregiver", "mi-med-caregiver-cap", "mi-med-visiting", "mi-med-public", "mi-med-employment"],
+  "_confirm": [
+    "Client counsel reviews this page before it goes live (docs/OPEN-DECISIONS.md C6).",
+    "The one-caregiver and five-patient limits come from mi-med-caregiver-cap (confidence medium): statute text read on an unofficial mirror and in a search extraction of the Legislature's PDF, and no agency page states the number. The canonical legislature.mi.gov link timed out from this network, so counsel should read the statute itself.",
+    "Whether the store holds a medical provisioning center license is not stated by the client. This page describes state rules only; the note asks people to call."
+  ]
+}

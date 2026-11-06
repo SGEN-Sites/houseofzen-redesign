@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-shoji-light",
+  "file": "assets/generated/g-shoji-light.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "An empty pale warm limewash plaster wall with a soft lattice shadow of a shoji window falling across it at a gentle angle, low contrast, soft-edged shadow bars, faint trowel marks and hairline imperfections, gentle morning light, nothing else in the frame, a wide seamless calm surface seen straight on",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2926309628,
+  "requestId": "01a1b236-3998-79e3-8afb-ce22392e915d",
+  "cutout": null,
+  "width": 2408,
+  "height": 1354,
+  "sha256": "8d44b531331884b5af37771bbf2994c6adffba1820f5bf03c1ab6523c7dc02e3",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:55:21.044Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted; cropped to drop the wall corner and floor, toned to the plaster colour",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, graded"
+}

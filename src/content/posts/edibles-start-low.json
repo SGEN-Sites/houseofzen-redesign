@@ -1,0 +1,70 @@
+{
+  "order": 5,
+  "slug": "edibles-start-low",
+  "path": "/blog/edibles-start-low/",
+  "title": "Edibles: Start Low, Wait Long | House of Zen",
+  "h1": "Edibles: Start Low, Wait Long",
+  "description": "Why edibles take longer to feel than inhaled cannabis, how to read the dose on a Michigan label, how to pace a first try and where to keep them at home.",
+  "categories": [{ "name": "Cannabis 101", "slug": "cannabis-101" }],
+  "popular": true,
+  "readTime": "4 min read",
+  "image": "g-cat-edibles",
+  "imageAlt": "",
+  "excerpt": "Edibles reward patience more than any other way of using cannabis. Here is why they take so long, and how to read the dose before you begin.",
+  "pull": "Ten milligrams is the most a single adult-use dose can hold in Michigan, which makes it a ceiling and not a suggestion.",
+  "relatedCategories": ["edibles"],
+  "related": ["microdosing-basics", "michigan-cannabis-label", "cannabis-for-beginners"],
+  "sections": [
+    {
+      "id": "why-edibles-take-their-time",
+      "heading": "Why edibles take their time",
+      "blocks": [
+        { "type": "p", "html": "Smoke and vapor reach your bloodstream through your lungs. An edible takes the long way, through your stomach and then your liver, and the liver changes some of the THC into a related compound along the way. That route is why an edible can feel quite different from the same THC inhaled, and why it’s so hard to predict the moment it begins." },
+        { "type": "p", "html": "You might wait anywhere from half an hour to two hours to feel anything, and sometimes longer. What you’ve eaten that day, your own metabolism and your experience with cannabis can all shift the timing. Once it arrives, it can last for several hours. The same edible can also feel different from one day to another." }
+      ]
+    },
+    {
+      "id": "the-mistake-to-avoid",
+      "heading": "The mistake to avoid",
+      "blocks": [
+        { "type": "p", "html": "It usually goes like this. Someone eats a piece, feels nothing after an hour, decides it isn’t working and eats another. Then both arrive." },
+        { "type": "p", "html": "The first piece was on its way the whole time. When you’re new to edibles, decide how much you’re having before you start, and hold to that decision for the rest of the evening." }
+      ]
+    },
+    {
+      "id": "reading-the-dose",
+      "heading": "Reading the dose",
+      "blocks": [
+        { "type": "p", "html": "Michigan caps adult-use edibles at 10 mg of THC per dose and 200 mg per package. Check both the amount per piece and the total in the package, because they’re easy to confuse. Labels must also list an activation time, which gives you some idea how long to wait. Our article on <a href=\"/blog/michigan-cannabis-label/\">the Michigan label</a> covers the rest." },
+        { "type": "p", "html": "Ten milligrams is the most a single adult-use dose can hold in Michigan, which makes it a ceiling and not a suggestion. For a first try, we suggest something closer to 2.5 mg, a quarter of a 10 mg piece. If a piece is hard to divide neatly, ask us what’s available at lower doses." },
+        { "type": "p", "html": "Then wait at least two hours. Better still, stay at that amount for the whole evening and adjust on another day, if at all. Everyone responds differently, so the dose that suits a friend may not suit you." }
+      ]
+    },
+    {
+      "id": "habits-worth-keeping",
+      "heading": "Habits worth keeping",
+      "blocks": [
+        { "type": "ul", "items": [
+          "Write down the time you ate it. An hour can feel much longer than it is.",
+          "Leave alcohol out of it. The combination makes things harder to predict.",
+          "Note the amount and how it went, so that next time you’re working from your own experience.",
+          "Stay in for the evening. It is illegal to drive under the influence, and an edible can last for hours.",
+          "If you take medication, or are pregnant or breastfeeding, talk with a doctor first."
+        ] },
+        { "type": "p", "html": "Think about where they’ll live, too. Michigan requires edibles to come in opaque, child-resistant packaging that reseals if it holds more than one serving. They can’t be shaped like people, animals or fruit, and the word “candy” isn’t allowed on the package. The rules do their part, but a gummy still looks like food to a child, so keep edibles in their package and well out of reach." },
+        { "type": "callout", "html": "<strong>If someone has had too much.</strong> Stay with them, find somewhere comfortable and give it time. If you’re worried, or if a child has eaten any, call the National Poison Control Center at 1-800-222-1222. In an emergency, call 911." }
+      ]
+    },
+    {
+      "id": "ask-before-you-choose",
+      "heading": "Ask before you choose",
+      "blocks": [
+        { "type": "p", "html": "You’ll find our selection under <a href=\"/products/edibles/\">edibles</a>, and <a href=\"/blog/microdosing-basics/\">microdosing basics</a> goes further into very small amounts. Tell us how you’ve used cannabis before, if at all, and we’ll go through what each label means with you. There’s no rush." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "How long should I wait before taking more?", "a_html": "At least two hours, and longer is better. Many people simply wait until another day, which is the most reliable way to learn how a dose affects you." },
+    { "q": "What does “per dose” mean on a package?", "a_html": "It’s the amount of THC in one serving, as the package defines it. A package can hold several doses, up to 200 mg in total for adult-use edibles in Michigan, so read both figures." }
+  ]
+}

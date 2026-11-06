@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-washi",
+  "file": "assets/generated/g-washi.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A flat straight-on scan of warm off-white handmade washi paper with fine long mulberry fibres scattered evenly, perfectly even illumination, no vignette, no edges, no shadows, no objects, the same even texture filling the whole frame",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 462863405,
+  "requestId": "01a1b236-399e-7af2-afd0-f9d349d562e1",
+  "cutout": null,
+  "width": 1920,
+  "height": 1920,
+  "sha256": "ec061e001b2757439048c7af29283a5f56655fd12e47d29d748a861add7a6a81",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:54:37.040Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted; flattened, wrapped with a variance-preserving two-pass blend, the long mulberry fibres drawn in python with wrap-around (FLUX gave a fine tooth but no visible fibres)",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, tile pass"
+}

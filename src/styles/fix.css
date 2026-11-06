@@ -1,0 +1,6 @@
+/* fix.css - main session, loads last. */
+/* On a very tall viewport the parallax offset (measured from the viewport centre) hits its clamp and could push a framed
+   image over text. Tall screens lose the parallax, nothing else. */
+@media (min-height: 1400px) {
+  [data-depth] { translate: none; }
+}

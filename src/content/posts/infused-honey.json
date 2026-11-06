@@ -1,0 +1,58 @@
+{
+ "order": 22,
+ "slug": "infused-honey",
+ "path": "/blog/infused-honey/",
+ "title": "Simple Infused Honey | House of Zen",
+ "h1": "Simple Infused Honey",
+ "description": "A small-batch infused honey made with decarboxylated flower and a little coconut oil, with clear steps, labeling and storage, and a reminder to start low.",
+ "categories": [{ "name": "Recipes", "slug": "recipes" }],
+ "popular": false,
+ "readTime": "3 min read",
+ "image": "g-art-honey",
+ "imageAlt": "",
+ "excerpt": "A modest jar for adults, made slowly over simmering water. The recipe is easy. Labeling it and putting it away are the parts that matter most.",
+ "pull": "It looks exactly like the honey in your cupboard, which is why it must never live there.",
+ "relatedCategories": ["flower", "edibles"],
+ "related": ["how-to-decarb-cannabis", "edibles-start-low", "how-to-store-cannabis"],
+ "sections": [
+  { "id": "before-you-start", "heading": "Before you start", "blocks": [
+   { "type": "p", "html": "Infused honey is a small kitchen project for adults 21 and older, for stirring into tea or spreading on toast. It asks for one thing in advance: the flower must be decarboxylated first, and our <a href=\"/blog/how-to-decarb-cannabis/\">guide to decarboxylation</a> covers that step." },
+   { "type": "p", "html": "A word about honey itself. THC dissolves in fat rather than in sugar, so honey on its own takes up very little. That is why this recipe infuses a spoonful or two of coconut oil first, then blends the oil into the honey." },
+   { "type": "p", "html": "You may see recipes elsewhere that begin with alcohol or butane. Please skip them. Michigan’s adult-use law does not authorize separating plant resin with butane or any other substance whose flash point is below 100°F in a public place, a motor vehicle or at a home or on its immediate grounds, and high-proof drinking alcohol is such a substance. That summary is general information, not legal advice, as of October 2026." }
+  ] },
+  { "id": "what-you-need", "heading": "What you need", "blocks": [
+   { "type": "ul", "items": [
+    "1 cup of mild honey",
+    "2 tablespoons of coconut oil",
+    "1 gram of decarboxylated <a href=\"/products/flower/\">flower</a>",
+    "A small pot, a heatproof bowl that sits on top of it and a fine strainer or cheesecloth",
+    "A clean, dry jar with a lid, and a label"
+   ] },
+   { "type": "p", "html": "One gram in a full cup is deliberately modest. You can always make a stronger batch next time, and you cannot take back a strong one." }
+  ] },
+  { "id": "method", "heading": "Method", "blocks": [
+   { "type": "ol", "items": [
+    "Put an inch of water in the pot over low heat and set the bowl on top, so that the bowl does not touch the water.",
+    "Melt the coconut oil in the bowl and stir in the flower. Keep the water at a bare simmer for about 45 minutes, stirring now and then and topping up the water if it runs low.",
+    "Strain the oil into a clean container, pressing gently, and discard the plant material where children and pets cannot reach it.",
+    "Wipe out the bowl and warm the honey in it until it runs easily. Do not let it boil.",
+    "Stir in the strained oil and keep stirring for several minutes, until the honey looks even.",
+    "Pour it into the jar, let it cool, close the lid and label it right away."
+   ] }
+  ] },
+  { "id": "label-and-store", "heading": "Label it and put it away", "blocks": [
+   { "type": "p", "html": "It looks exactly like the honey in your cupboard, which is why it must never live there. Write “contains cannabis, adults only” and the date on the jar. Keep it locked away somewhere cool and dark, out of reach of children and pets." },
+   { "type": "p", "html": "Use a clean, dry spoon every time. Honey and coconut oil can separate as they rest, and the oil is what carries the THC, so stir well before each use. Even then, one spoonful may not match the next." },
+   { "type": "callout", "html": "Homemade potency cannot be known exactly. Start with a quarter teaspoon, wait at least two hours and only then decide whether you want more. Do not drive after using it, and never serve it to anyone without telling them what it is." }
+  ] },
+  { "id": "using-it", "heading": "Using it, and asking us", "blocks": [
+   { "type": "p", "html": "Keep track of how much you have had, since a sweet spoonful is easy to repeat without thinking. Our guide to <a href=\"/blog/edibles-start-low/\">starting low with edibles</a> applies here as well. Make a fresh small batch rather than a large one, and throw the jar away if it ever smells off or shows mold." },
+   { "type": "p", "html": "If you would rather have tested, printed numbers on the package, that is a perfectly good choice, and our <a href=\"/products/edibles/\">edibles</a> page is the place to look. If you have a question about choosing flower for a recipe, ask our team. We are glad to talk it through." }
+  ] }
+ ],
+ "faq": [
+  { "q": "Can I skip the coconut oil?", "a_html": "We would not. THC dissolves in fat, so honey alone takes up very little, and you would end up with an even less predictable jar." },
+  { "q": "How strong is this honey?", "a_html": "We cannot tell you, and neither can anyone else without a lab. Start with a quarter teaspoon and wait at least two hours, every time you make a new batch." },
+  { "q": "How long does it keep?", "a_html": "There is no firm date for a homemade batch. Keep it cool and dark, make small amounts and throw it away if it smells off or shows mold." }
+ ]
+}

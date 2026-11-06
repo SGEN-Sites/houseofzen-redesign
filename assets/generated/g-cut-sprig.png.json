@@ -1,0 +1,33 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cut-sprig",
+  "file": "assets/generated/g-cut-sprig.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A botanical photograph of a single fresh sprig of a real cannabis plant: a short green stem with three true cannabis fan leaves, each palmate leaf with seven slender serrated pointed leaflets radiating from one point, natural sage and moss green, matte, arranged loosely and naturally. The whole sprig is inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 2994713248,
+  "requestId": "01a1b234-1228-7f91-bdc9-684a28a38e3d",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1b234-6999-7d62-b05f-e7930c01ebef"
+  },
+  "width": 2048,
+  "height": 2048,
+  "sha256": "83ff68e0a75339226aefd59f681b150bb26de3044962619c5fc3650ef03d6e11",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:52:23.715Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra + BiRefNet v2 matting"
+}

@@ -1,0 +1,55 @@
+{
+ "order": 12,
+ "slug": "how-to-store-cannabis",
+ "path": "/blog/how-to-store-cannabis/",
+ "title": "How to Store Cannabis So It Stays Fresh | House of Zen",
+ "h1": "How to Store Cannabis So It Stays Fresh",
+ "description": "How to keep cannabis fresh at home: what light, heat, air and moisture do, how to store each product, Michigan’s home limit and keeping children safe.",
+ "categories": [{ "name": "Resources", "slug": "resources" }],
+ "popular": false,
+ "readTime": "3 min read",
+ "image": "g-art-store",
+ "imageAlt": "",
+ "excerpt": "Cannabis does not spoil overnight. It fades, and a jar, a dark cupboard and a little care will slow that down.",
+ "pull": "A smaller amount you finish is better than a large one that slowly fades.",
+ "relatedCategories": ["flower", "accessories"],
+ "related": ["michigan-cannabis-label", "pre-rolls-vs-flower", "edibles-start-low"],
+ "sections": [
+  { "id": "what-wears-it-down", "heading": "What wears cannabis down", "blocks": [
+   { "type": "p", "html": "Cannabis does not spoil overnight. It fades slowly, the way a jar of spices left beside the stove fades. The aroma goes first, then the flavor, and strength can follow." },
+   { "type": "p", "html": "Four things do most of the wearing: light, heat, air and moisture. Light and heat break down the compounds behind aroma and strength. Air dries flower out. Too much moisture invites mold, and mold is the one problem you cannot fix." },
+   { "type": "p", "html": "Good storage mostly means keeping those four at a distance, and it takes less equipment than you might expect." }
+  ] },
+  { "id": "keeping-flower", "heading": "Keeping flower", "blocks": [
+   { "type": "ul", "items": [
+    "<strong>An airtight glass jar.</strong> Choose one close to the size of what you have, so there is little air inside.",
+    "<strong>A cool, dark place.</strong> A cupboard or drawer away from the stove is ideal. A windowsill or the top of the refrigerator is not.",
+    "<strong>Steady humidity.</strong> Common guidance is somewhere near 60 percent relative humidity, and small two-way humidity packs made for the purpose can hold it there.",
+    "<strong>A light hand.</strong> Open the jar when you need to and handle the flower gently, since the resin on it is delicate."
+   ] },
+   { "type": "p", "html": "Thin plastic bags let air through, so they are not a place to keep <a href=\"/products/flower/\">flower</a> for long." },
+   { "type": "h3", "text": "What about the refrigerator or freezer?" },
+   { "type": "p", "html": "We would leave flower out of both. Moisture can condense on it as a cold jar warms back up, and freezing can make the resin brittle enough to break away when you handle it." }
+  ] },
+  { "id": "other-products", "heading": "Pre-rolls, edibles, vaporizers and the rest", "blocks": [
+   { "type": "p", "html": "Pre-rolls dry out faster than flower in a jar, because so much of their surface meets the air. Keep them in their tubes, somewhere cool and dark." },
+   { "type": "p", "html": "Edibles stay in their original package. It is child-resistant and it carries the label, and you will want both. Follow any storage directions printed there, and remember that chocolate melts." },
+   { "type": "p", "html": "Keep vaporizer cartridges upright, at room temperature and out of the sun. Concentrates want an airtight container in a cool, dark spot. Topicals need a closed lid and whatever the package says. A parked car is a poor home for all of them, in July especially." }
+  ] },
+  { "id": "children-and-the-law", "heading": "Children, guests and the law", "blocks": [
+   { "type": "p", "html": "At home, an adult in Michigan may keep up to 10 ounces plus whatever their own plants produce, but anything over 2.5 ounces must be locked up, in a container or area with locks or other functioning security devices. That summary is general information, not legal advice, as of October 2026." },
+   { "type": "callout", "html": "In a home where children live or visit, we suggest a locked box no matter how small the amount. If a child does get into cannabis, call the National Poison Control Center at 1-800-222-1222, or 911 in an emergency." },
+   { "type": "p", "html": "Think about guests as well. A jar on the coffee table looks harmless to a visiting teenager or a curious dog, so put things back before company arrives." }
+  ] },
+  { "id": "buy-what-you-use", "heading": "Buy what you will use", "blocks": [
+   { "type": "p", "html": "Write the date on the jar when you fill it, and use the oldest first, the way you would in a pantry." },
+   { "type": "p", "html": "A smaller amount you finish is better than a large one that slowly fades. We would rather sell you less than sell you more than you will enjoy." },
+   { "type": "p", "html": "Not sure how something should be kept? Ask when you buy it, and we will give you a plain answer. You can also see what we carry on our <a href=\"/products/accessories/\">accessories</a> page." }
+  ] }
+ ],
+ "faq": [
+  { "q": "How do I know if flower has gone bad?", "a_html": "Fuzz, webbing or a musty smell can mean mold, so throw it away. Flower that is simply dry and faint-smelling has faded." },
+  { "q": "Do I have to lock up my cannabis?", "a_html": "Michigan requires it for anything over 2.5 ounces at home. Below that it is a matter of good sense, and we suggest a lock whenever children live or visit." },
+  { "q": "How long will it keep?", "a_html": "There is no fixed date, because so much depends on the product and how it is kept. Dating your jar and buying smaller amounts is the simplest approach." }
+ ]
+}

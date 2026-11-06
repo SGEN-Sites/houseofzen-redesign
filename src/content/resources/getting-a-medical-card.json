@@ -1,0 +1,106 @@
+{
+  "slug": "getting-a-medical-card",
+  "path": "/getting-a-medical-card/",
+  "title": "Getting a Medical Card | House of Zen",
+  "description": "How Michigan residents apply for a medical marijuana card: who qualifies, the physician step, fee, timing, renewal, caregivers. As of October 2026.",
+  "kicker": "Medical card",
+  "h1": "Getting a Medical Card",
+  "lede": "How Michigan’s medical marijuana card program works, as of October 2026. This is general information, not medical or legal advice.",
+  "note": "The House of Zen live menu mentions valid medical patients. Please call us to confirm whether and how we can serve medical card holders today.",
+  "sections": [
+    {
+      "id": "the-program",
+      "heading": "The program",
+      "blocks": [
+        { "type": "p", "html": "Michigan’s medical marijuana card program, known as the MMMP, was created by voters in 2008 and is run by the state’s Cannabis Regulatory Agency. Its own pages are the place to confirm anything below before you apply." }
+      ]
+    },
+    {
+      "id": "who-qualifies",
+      "heading": "Who qualifies",
+      "blocks": [
+        { "type": "p", "html": "Only Michigan residents can get a Michigan card. Adults 18 and older can register on their own. A minor under 18 needs two physician certifications and a parent or legal guardian who serves as caregiver." },
+        { "type": "p", "html": "The state publishes a list of qualifying conditions. It includes cancer, glaucoma, HIV/AIDS, hepatitis C, ALS, Crohn’s disease, Alzheimer’s agitation, nail patella, PTSD, OCD, arthritis, rheumatoid arthritis, spinal cord injury, colitis, inflammatory bowel disease, ulcerative colitis, Parkinson’s disease, Tourette’s Disease, autism, chronic pain and cerebral palsy." },
+        { "type": "p", "html": "The list also covers any chronic or debilitating disease or medical condition, or the medical care for it, that produces cachexia or wasting syndrome, severe and chronic pain, severe nausea, seizures (including epilepsy), or severe and persistent muscle spasms (including multiple sclerosis)." },
+        { "type": "callout", "html": "This is the state’s list, repeated so you can see how the rules read. It is one part of who can get a card. It says nothing about what cannabis does, and neither do we. Questions about your health belong with your physician." }
+      ]
+    },
+    {
+      "id": "physician",
+      "heading": "The physician step",
+      "blocks": [
+        { "type": "p", "html": "A Michigan-licensed MD or DO, or an Expedited Medical Compact physician licensed by Michigan, must certify you. The agency’s application instructions call for a medical evaluation by an active Michigan physician within the last six months, and one of its pages describes that evaluation as in person." }
+      ]
+    },
+    {
+      "id": "applying",
+      "heading": "Applying and the fee",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>No caregiver:</strong> you can apply online through the agency’s portal, paying by credit card or electronic check.",
+            "<strong>With a caregiver:</strong> you use the paper application packet, paid by check or money order.",
+            "<strong>The fee:</strong> $40, with or without a caregiver."
+          ]
+        },
+        { "type": "p", "html": "A paper application includes the physician certification and proof of Michigan residency: a Michigan driver license, state ID, or voter registration plus proof of identity. The packet warns that white-out or changes on the application or physician form lead to denial, and the agency asks you to send one complete application only." }
+      ]
+    },
+    {
+      "id": "timing",
+      "heading": "How long it takes",
+      "blocks": [
+        { "type": "p", "html": "The state must approve or deny an application within 15 business days and mail the card or denial within 5 more, so up to 20 business days plus mail time. The agency suggests allowing 7 to 10 business days for mail, and calling 517-284-8599 if nothing arrives after 5 weeks." },
+        { "type": "p", "html": "Online applicants may receive a temporary registry card by email. An application or physician form is not a temporary card, and to be protected from arrest, a patient or caregiver must show police a valid registry card plus photo ID." }
+      ]
+    },
+    {
+      "id": "renewing",
+      "heading": "Renewing",
+      "blocks": [
+        { "type": "p", "html": "A patient card is valid for two years. You can submit a renewal starting 90 days before it expires, using the same application and the $40 fee." }
+      ]
+    },
+    {
+      "id": "caregivers",
+      "heading": "Caregivers",
+      "blocks": [
+        { "type": "p", "html": "A caregiver must be at least 21, consent to a criminal background check and have no disqualifying convictions. Under the statute, each patient may have only one caregiver, and a caregiver may assist no more than 5 registered patients. A caregiver receives a separate card for each patient served, and it expires on the same date as that patient’s card." },
+        { "type": "p", "html": "Already hold a card? See our <a href=\"/patient-guide/\">Patient Guide</a>." }
+      ]
+    }
+  ],
+  "sources": [
+    {"label":"MMMP Patients & Caregivers","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/sections/mmp"},
+    {"label":"MMMP FAQ: Should I go to a third-party business to get/renew my registry identification card? Can my application and physician certification serve as a temporary registration card?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/im-a-current-prospective-medical-marijuana-patient--should-i-go-to-a-third-party-business-to-get-re"},
+    {"label":"MMMP FAQ: Do I have to be a resident of Michigan to obtain a patient registry identification card?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/do-i-have-to-be-a-resident-of-the-state-of-michigan-to-obtain-a-patient-registry-identification-car"},
+    {"label":"Controlled Substances Benchbook, sec. 8.3: Immunity Under sec. 4 of the MMMA (quotes MCL 333.26424)","publisher":"Michigan Judicial Institute (Michigan Supreme Court)","url":"https://www.courts.michigan.gov/4a8168/siteassets/publications/benchbooks/csbb/csbbresponsivehtml5.zip/CSBB/Ch_8_Marijuana/Immunity_Under__4-rua.htm"},
+    {"label":"MMMP FAQ: Do I have to designate a primary caregiver?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/do-i-have-to-designate-a-primary-caregiver"},
+    {"label":"MMMP FAQ: How do I register a minor (under the age of 18)?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/how-do-i-register-a-minor-under-the-age-of-18-with-the-michigan-medical-marijuana-program-mmmp"},
+    {"label":"MMMP Minor Application/Renewal Packet (PDF)","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/-/media/Project/Websites/cra/mmmp-application/mmmp-applicationMMP_MINOR_Application_Pkt.pdf"},
+    {"label":"MMMP FAQ: What medical conditions are eligible?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/what-medical-conditions-are-eligible"},
+    {"label":"MMMP FAQ: Who can certify a patient's medical use of marijuana?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/physicians-questions/who-can-certify-a-patients-medical-use-of-marijuana"},
+    {"label":"MMMP FAQ: How do I register as a patient (over age 18)?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/how-do-i-register-as-a-patient-over-age-18-with-the-michigan-medical-marijuana-program-mmmp"},
+    {"label":"MMMP FAQ: Can I rescind a physician certification that I already completed for a patient?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/physicians-questions/can-i-rescind-a-physician-certification-that-i-already-completed-for-a-patient"},
+    {"label":"MMMP FAQ: How much is the application fee?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/how-much-is-the-application-fee"},
+    {"label":"MMMP FAQ: Is there a separate fee for the caregiver?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/is-there-a-separate-fee-for-the-caregiver"},
+    {"label":"MMMP Application/Renewal Packet (PDF)","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/-/media/Project/Websites/cra/mmmp-application/MMMP_Application_Pkt.pdf"},
+    {"label":"MMMP FAQ: How long does it take to receive a registry identification card?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/how-long-does-it-take-to-receive-a-registry-identification-card"},
+    {"label":"MMMP FAQ: Can my application and physician certification serve as a temporary registration card?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/can-my-application-and-physician-certification-serve-as-a-temporary-registration-card"},
+    {"label":"MMMP FAQ: When does a patient registry identification card expire?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/applicant-questions/when-does-a-patient-registry-identification-card-expire"},
+    {"label":"MMMP FAQ: When do I renew my registry identification card?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/renewal-questions/when-do-i-renew-my-registry-identification-card"},
+    {"label":"MMMP FAQ: When will my caregiver registry identification card expire?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/caregiver-questions/when-will-my-caregiver-registry-identification-card-expire"},
+    {"label":"MMMP FAQ: Will I receive a caregiver registry identification card for each qualifying patient that designates me as his or her caregiver?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/caregiver-questions/will-i-receive-a-caregiver-registry-identification-card-for-each-qualifying-patient-that-designates"},
+    {"label":"Michigan Compiled Laws, MCL 333.26423, Michigan Medical Marihuana Act definitions","publisher":"Michigan Legislature","url":"https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-26423"},
+    {"label":"MMMP FAQ: How do I become a caregiver?","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/faq/program-list/caregiver-questions/how-do-i-become-a-caregiver"},
+    {"label":"Michigan Compiled Laws, MCL 333.26426, Michigan Medical Marihuana Act section 6","publisher":"Michigan Legislature","url":"https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-26426"}
+  ],
+  "_claims": ["mi-med-program", "mi-med-residency", "mi-med-ages", "mi-med-conditions", "mi-med-physician", "mi-med-apply", "mi-med-timing", "mi-med-validity", "mi-med-caregiver", "mi-med-caregiver-cap", "mi-med-arrest-protection"],
+  "_confirm": [
+    "Client counsel reviews this page before it goes live (docs/OPEN-DECISIONS.md C6).",
+    "The one-caregiver and five-patient limits come from mi-med-caregiver-cap (confidence medium): statute text read on an unofficial mirror and in a search extraction of the Legislature's PDF, and no agency page states the number. The canonical legislature.mi.gov link timed out from this network, so counsel should read the statute itself.",
+    "Whether the store holds a medical provisioning center license is not stated by the client. This page does not claim it; the note asks people to call.",
+    "The conditions list follows mi-med-conditions in facts/mi-law-facts.json. Where the details of that claim use the agency's own word for medical care, this page says 'or the medical care for it'. Counsel may prefer the agency's exact word."
+  ]
+}

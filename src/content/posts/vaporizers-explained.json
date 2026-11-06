@@ -1,0 +1,68 @@
+{
+  "order": 9,
+  "slug": "vaporizers-explained",
+  "path": "/blog/vaporizers-explained/",
+  "title": "Vaporizers: Cartridges, Disposables, Batteries | House of Zen",
+  "h1": "Vaporizers, Explained: Cartridges, Disposables and Batteries",
+  "description": "How cannabis vaporizers work, the difference between cartridges, disposables and batteries, the oils inside them, and how to use and store one with care.",
+  "categories": [{ "name": "Shopping & Reviews", "slug": "shopping-and-reviews" }],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-cat-vaporizers",
+  "imageAlt": "",
+  "excerpt": "The vocabulary is the hardest part. Here is what each piece does, how they fit together and what to check on the package.",
+  "pull": "There is nothing to light and nothing to put out, which makes it very easy to take one more draw than you meant to.",
+  "relatedCategories": ["vaporizers", "concentrates"],
+  "related": ["what-are-terpenes", "how-to-read-a-dispensary-menu", "traveling-with-cannabis"],
+  "sections": [
+    {
+      "id": "what-a-vaporizer-does",
+      "heading": "What a vaporizer does",
+      "blocks": [
+        { "type": "p", "html": "A vaporizer heats cannabis oil or flower until its active compounds and aromas turn to vapor, without burning it the way a flame does. Most of what people call a vape runs on oil and comes in one of two forms: a cartridge you attach to a separate battery, or a disposable with both built in. Flower vaporizers exist too, but they’re a different kind of device, so we’ll keep to oil here." }
+      ]
+    },
+    {
+      "id": "cartridges-and-batteries",
+      "heading": "Cartridges and batteries",
+      "blocks": [
+        { "type": "p", "html": "A cartridge is a small tank of oil with a heating element and a mouthpiece. It screws onto a battery, and a gentle turn is enough, since overtightening can damage both parts. When it’s empty, you replace the cartridge and keep the battery. Many cartridges and batteries share a common thread, known as 510, so they fit one another. Not all do, since some systems use their own pods that fit only their own battery." },
+        { "type": "p", "html": "Batteries range from a simple button to draw-activated models and ones with adjustable voltage. If yours can be adjusted, start at the lowest setting. Lower heat tends to bring out more flavor, and too much can taste burnt. Charge it with the charger made for it, and keep it away from high heat." }
+      ]
+    },
+    {
+      "id": "disposables",
+      "heading": "Disposables",
+      "blocks": [
+        { "type": "p", "html": "A disposable is a battery and oil sealed together. There’s nothing to attach or set up, which makes it a simple place to begin, and when the oil runs out the whole device is finished. Some can be recharged if the battery gives out before the oil does, and others can’t. You give up the choice of battery, and you have more to throw away. The battery inside is usually lithium, so ask your city or waste service how to dispose of it before you drop it in the trash." }
+      ]
+    },
+    {
+      "id": "whats-in-the-oil",
+      "heading": "What’s in the oil",
+      "blocks": [
+        { "type": "p", "html": "The oil is a <a href=\"/products/concentrates/\">concentrate</a>, and the words on the package describe how it was made." },
+        { "type": "ul", "items": [
+          "<strong>Distillate</strong> is highly refined, often with <a href=\"/blog/what-are-terpenes/\">terpenes</a> added back for flavor.",
+          "<strong>Live resin</strong> comes from freshly frozen plants, made with the aim of keeping more of the original aroma.",
+          "<strong>Rosin</strong> is pressed out with heat and pressure, using no solvents."
+        ] },
+        { "type": "p", "html": "Whichever you choose, read the label. Every marijuana product sold in Michigan must be sealed and labeled with its THC and CBD content and the lab that tested it, and the net weight tells you how much oil you’re getting. Vape oil holds much more THC than flower does, so expect to see a high percentage, and take it slowly." }
+      ]
+    },
+    {
+      "id": "using-one-with-care",
+      "heading": "Using one with care",
+      "blocks": [
+        { "type": "p", "html": "There is nothing to light and nothing to put out, which makes it very easy to take one more draw than you meant to. Take one short draw and wait several minutes before deciding on another." },
+        { "type": "p", "html": "Keep your vaporizer upright, away from heat and out of reach of children. Using one in a public place is still using marijuana, and that isn’t allowed in Michigan. Nor is using it while driving." },
+        { "type": "callout", "html": "<strong>A word on health.</strong> We don’t compare vaping with smoking on health grounds, and Michigan’s marketing rules don’t allow health claims. If that comparison matters to your decision, please ask a doctor." },
+        { "type": "p", "html": "If you already own a battery, tell us what it is and we’ll work out together what fits. You can see the range under <a href=\"/products/vaporizers/\">vaporizers</a>, and <a href=\"/blog/how-to-read-a-dispensary-menu/\">how to read a menu</a> covers the rest of a listing." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Do all cartridges fit all batteries?", "a_html": "No. Many share the 510 thread, but some systems use their own pods. If you’re unsure, tell us what you have." },
+    { "q": "Why does my cartridge taste burnt?", "a_html": "Often it’s too much heat, or the oil is running low. Try the lowest setting if your battery has one. If the taste stays, stop using it and ask us." }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "michigan-cannabis-laws",
+  "path": "/michigan-cannabis-laws/",
+  "title": "Michigan Cannabis Laws | House of Zen",
+  "description": "Michigan’s adult-use cannabis rules in plain English: who can buy, how much, where to use it, driving, home, work, renting and taxes. As of October 2026.",
+  "kicker": "Michigan",
+  "h1": "Michigan Cannabis Laws",
+  "lede": "Adult-use rules in plain English. As of October 2026. General information, not legal advice.",
+  "sections": [
+    {
+      "id": "who-can-buy",
+      "heading": "Who can buy",
+      "blocks": [
+        { "type": "p", "html": "Adults 21 and older may legally buy, possess and use marijuana. The 2018 voter law does not cover anyone under 21. Before any sale, a licensed store must check a valid driver’s license or government-issued photo ID showing you are 21 or older." }
+      ]
+    },
+    {
+      "id": "how-much",
+      "heading": "How much",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Carrying:</strong> up to 2.5 ounces, of which no more than 15 grams may be concentrate.",
+            "<strong>Buying:</strong> in a single transaction, a licensed store may sell no more than 2.5 ounces, no more than 15 grams of it as concentrate, and no more than 3 immature plants."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "where-you-can-use-it",
+      "heading": "Where you can use it",
+      "blocks": [
+        { "type": "p", "html": "Using marijuana in a public place is not allowed, and property owners may ban smoking or use on their property. The exception is an area designated for consumption, in a municipality that has authorized it, not accessible to anyone under 21." },
+        { "type": "p", "html": "Marijuana and accessories are not allowed on the grounds of any public or private preschool through 12th-grade school or correctional facility, or on a school bus." },
+        { "type": "p", "html": "Michigan’s law does not protect anyone on federal land such as Sleeping Bear Dunes or a national forest. Federal law, under which adult-use marijuana is still a Schedule I drug, applies there, so please do not bring it." }
+      ]
+    },
+    {
+      "id": "driving",
+      "heading": "Driving",
+      "blocks": [
+        { "type": "p", "html": "No one may use marijuana while driving or in control of a motor vehicle, motorboat, snowmobile, off-road vehicle or aircraft, and smoking is not allowed in a vehicle’s passenger area on a public road." },
+        { "type": "p", "html": "Michigan has no numeric THC limit like the 0.08 alcohol limit. It bans driving while under the influence, and a separate zero-tolerance law bars driving with any amount of a Schedule 1 drug, a list that includes marijuana. For adults 21 and older who are not patients, the Michigan Judicial Institute’s traffic benchbook says it is unclear whether violations of the adult-use law’s limits will be pursued under the vehicle code, or whether a ruling protecting patients will extend to them." },
+        { "type": "p", "html": "You may transport up to 2.5 ounces, but not use it on the road. Keeping it sealed and out of reach is the cautious practice. An older statute calls for a case in the trunk; we could not confirm whether it can still be enforced against adult-use drivers." }
+      ]
+    },
+    {
+      "id": "at-home",
+      "heading": "At home",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Storing:</strong> up to 10 ounces, plus whatever your own plants produce. Anything over 2.5 ounces must be locked up.",
+            "<strong>Growing:</strong> up to 12 plants for personal use, with no more than 12 on the premises at once, kept out of public view and behind a lock.",
+            "<strong>Extracting:</strong> the adult-use law does not authorize separating plant resin with butane or any other substance with a flash point below 100°F in a public place, a motor vehicle, or at or around a home. High-proof drinking alcohol is such a substance. We found no case testing a home alcohol tincture, so the careful choice is no solvent or alcohol extracts at home."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "at-work",
+      "heading": "At work",
+      "blocks": [
+        { "type": "p", "html": "Michigan employers do not have to allow marijuana at work. They may still enforce drug policies, discipline workers, or refuse to hire someone over a policy violation." }
+      ]
+    },
+    {
+      "id": "renting",
+      "heading": "Renting",
+      "blocks": [
+        { "type": "p", "html": "Landlords and property owners may ban or limit marijuana on their property, but a lease may not forbid a tenant from lawfully possessing and consuming marijuana by means other than smoking." }
+      ]
+    },
+    {
+      "id": "leaving-the-state",
+      "heading": "Leaving the state",
+      "blocks": [
+        { "type": "p", "html": "Taking cannabis across a state line is not protected by Michigan law and remains illegal under federal law, even between two states where it is legal. At the airport, TSA officers do not search for drugs, but anything illegal they find is referred to law enforcement, and adult-use marijuana remains federally illegal." }
+      ]
+    },
+    {
+      "id": "taxes",
+      "heading": "Taxes",
+      "blocks": [
+        { "type": "p", "html": "Adult-use purchases carry a 10% excise tax plus the 6% sales tax, and the sales tax is figured on the price including the excise. On a $100 sale, that is $10 of excise and $6.60 of sales tax." },
+        { "type": "p", "html": "Since January 1, 2026, Michigan also levies a 24% wholesale tax on adult-use marijuana, paid by the grower, processor or other business that makes the first sale to a retailer, with the money going to road repair. It is not a separate line on your receipt. Industry lawsuits against it were still in the courts in 2026, with no final outcome confirmed as of October 2026." }
+      ]
+    },
+    {
+      "id": "labels-and-edibles",
+      "heading": "Labels and edibles",
+      "blocks": [
+        { "type": "p", "html": "Every marijuana product sold in Michigan must be sealed and labeled with its THC and CBD content, the testing lab, the state’s universal THC symbol and required warnings, including that driving under the influence is illegal and the Poison Control number." },
+        { "type": "p", "html": "Edibles must come in opaque, child-resistant packaging, may not be shaped like people, animals or fruit, and may not use the word “candy.” Adult-use edibles are capped at 10 mg THC per dose and 200 mg per package." }
+      ]
+    }
+  ],
+  "sources": [
+    {"label":"Controlled Substances Benchbook, sec. 8.14: Scope of the MRTMA (quotes MCL 333.27952, 27954, 27955, 27956, 27960)","publisher":"Michigan Judicial Institute (Michigan Supreme Court)","url":"https://www.courts.michigan.gov/4a8168/siteassets/publications/benchbooks/csbb/csbbresponsivehtml5.zip/CSBB/Ch_8_Marijuana/Scope_of_Michigan_Regulation_and_Taxation_of_Marihuana_Act_(MRTMA).htm"},
+    {"label":"Revenue Administrative Bulletin 2023-25: Taxation of Adult-Use (Recreational) Marihuana (approved Dec. 19, 2023)","publisher":"Michigan Department of Treasury","url":"https://www.michigan.gov/taxes/rep-legal/rab/2023-revenue-administrative-bulletins/revenue-administrative-bulletin-2023-25"},
+    {"label":"Michigan Compiled Laws, Initiated Law 1 of 2018, Michigan Regulation and Taxation of Marihuana Act","publisher":"Michigan Legislature","url":"https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-Initiated-Law-1-of-2018"},
+    {"label":"Marihuana Rules, R 420.1 to R 420.1004 (PDF compilation; latest rule history Eff. Mar. 7, 2022, editorial corrections 2023)","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/-/media/Project/Websites/cra/Laws-Rules-Other-Resources/Marihuana-Rules---R-4201-to-R-4201004.pdf"},
+    {"label":"Controlled Substances Benchbook, sec. 8.17: Other Sections of the MRTMA (MCL 333.27957, 27963, 27967)","publisher":"Michigan Judicial Institute (Michigan Supreme Court)","url":"https://www.courts.michigan.gov/4a8168/siteassets/publications/benchbooks/csbb/csbbresponsivehtml5.zip/CSBB/Ch_8_Marijuana/Other_Sections_of_the_MRTMA.htm"},
+    {"label":"21 U.S.C. 844, Penalties for simple possession (U.S. Code, 2024 edition)","publisher":"U.S. Government Publishing Office (govinfo)","url":"https://www.govinfo.gov/content/pkg/USCODE-2024-title21/html/USCODE-2024-title21-chap13-subchapI-partD-sec844.htm"},
+    {"label":"Traffic Benchbook, sec. 9.11: Operating with the Presence of Certain Controlled Substances in Body (MCL 257.625(8))","publisher":"Michigan Judicial Institute (Michigan Supreme Court)","url":"https://www.courts.michigan.gov/4a816c/siteassets/publications/benchbooks/tbb/tbbresponsivehtml5.zip/TBB/Ch_9_Section_625_Offenses/Operating_with_the_Presence_of_Certain_Controlled_Substances_in_BodySection_625(8)-u116c.htm"},
+    {"label":"Controlled Substances Benchbook, sec. 8.18: Operating a Motor Vehicle (People v Perry)","publisher":"Michigan Judicial Institute (Michigan Supreme Court)","url":"https://www.courts.michigan.gov/4a8168/siteassets/publications/benchbooks/csbb/csbbresponsivehtml5.zip/CSBB/Ch_8_Marijuana/Operating_a_Motor_Vehicle.htm"},
+    {"label":"Controlled Substances Benchbook, sec. 8.7: Other Issues Arising Under the MMMA (employment, MCL 750.474, driving, public place, odor searches)","publisher":"Michigan Judicial Institute (Michigan Supreme Court)","url":"https://www.courts.michigan.gov/4a8168/siteassets/publications/benchbooks/csbb/csbbresponsivehtml5.zip/CSBB/Ch_8_Marijuana/Other_Issues_Arising_Under_the_MMMA.htm"},
+    {"label":"PubChem: Ethanol (CID 702), Flash Point","publisher":"National Library of Medicine (NIH)","url":"https://pubchem.ncbi.nlm.nih.gov/compound/702#section=Flash-Point"},
+    {"label":"What Can I Bring? Medical Marijuana (last updated April 27, 2026)","publisher":"Transportation Security Administration","url":"https://www.tsa.gov/travel/security-screening/whatcanibring/items/medical-marijuana"},
+    {"label":"About the Marijuana Retailers Excise (MRE) Tax","publisher":"Michigan Department of Treasury","url":"https://www.michigan.gov/taxes/business-taxes/mret/about"},
+    {"label":"Taxpayer notice: Wholesale Tax on Adult-Use Marihuana (Nov. 25, 2025)","publisher":"Michigan Department of Treasury","url":"https://www.michigan.gov/treasury/reference/taxpayer-notices/2025/11/25/wholesale-tax-on-adult-use-marihuana"},
+    {"label":"Wholesale Marijuana Tax","publisher":"Michigan Department of Treasury","url":"https://www.michigan.gov/taxes/business-taxes/wholesale-marijuana-tax"},
+    {"label":"Advisory Bulletin: Wholesale Marijuana Tax and Metrc Reporting Clarification (January 14, 2026)","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/-/media/Project/Websites/cra/bulletin/3Adult-Use-Rec/Advisory-Bulletin---Wholesale-Marijuana-Tax-and-Metrc-Reporting-Clarification.pdf"},
+    {"label":"Michigan Treasury Releases Guidance on New 24% Wholesale Marijuana Tax (Mar. 17, 2026)","publisher":"Michigan Department of Treasury","url":"https://www.michigan.gov/treasury/news/2026/03/17/michigan-treasury-releases-guidance"},
+    {"label":"Revenue Administrative Bulletin 2026-3: Wholesale Marihuana Tax (approved Mar. 17, 2026; updated Mar. 24, 2026)","publisher":"Michigan Department of Treasury","url":"https://www.michigan.gov/taxes/rep-legal/rab/2026-revenue-administrative-bulletins/revenue-administrative-bulletin-2026-3"},
+    {"label":"Holistic Research Group v Dept of Treasury; Michigan Cannabis Industry Ass'n v State of Michigan, Court of Claims Nos. 25-000159-MT and 25-000160-MM, opinion and order of Dec. 8, 2025","publisher":"Michigan Court of Claims","url":"https://www.courts.michigan.gov/4a59e2/siteassets/case-documents/uploads/coc/2025/25-000159-mt/2025-12-08-25-000159-mt-31-order-20251208-ord-and-opin.pdf"},
+    {"label":"Updated Universal Symbol","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/laws-rules-other/updated-universal-symbol"},
+    {"label":"Technical Bulletin: Maximum THC Concentrations for Marijuana-Infused Products (April 24, 2025; supersedes April 13, 2022)","publisher":"Michigan Cannabis Regulatory Agency (LARA)","url":"https://www.michigan.gov/cra/-/media/Project/Websites/cra/bulletin/5Technical/Marihuana-Infused-Products-and-Edible-Marihuana-Product---Maximum-THC-limits-revised-42425.pdf"}
+  ],
+  "_claims": ["mi-au-age", "mi-au-purchase-limit", "mi-au-possession", "mi-au-public-use", "mi-au-schools", "mi-au-federal-land", "mi-au-vehicles-use", "mi-au-impaired-driving", "mi-au-vehicle-transport", "mi-au-home-storage", "mi-au-home-grow", "mi-au-home-extraction", "mi-au-employers", "mi-au-landlords", "us-interstate", "us-flying", "mi-tax-retail", "mi-tax-wholesale", "mi-tax-wholesale-litigation", "mi-labeling", "mi-edibles", "mi-thc-limits"],
+  "_confirm": [
+    "Client counsel reviews this page before it goes live (docs/OPEN-DECISIONS.md C6).",
+    "Hedged on purpose: the trunk statute for adult-use drivers (mi-au-vehicle-transport), zero tolerance for adults 21 and older who are not patients (mi-au-impaired-driving), home alcohol tinctures (mi-au-home-extraction), the wholesale tax lawsuits (mi-tax-wholesale-litigation)."
+  ]
+}

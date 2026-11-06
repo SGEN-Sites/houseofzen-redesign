@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cat-accessories",
+  "file": "assets/generated/g-cat-accessories.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A vertical still life. A small hand-blown glass spoon pipe for smoking cannabis, clear glass with a subtle smoky grey-green swirl, a round bowl and a short curved stem, resting on a low cushion of deep green moss on a flat grey stone. The group sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4"
+  },
+  "seed": 2130643116,
+  "requestId": "01a1b233-ec9c-7813-bc08-e1516d6b014d",
+  "cutout": null,
+  "width": 1792,
+  "height": 2240,
+  "sha256": "c620c1013f39939b7ea415d33dd17609715b82ea925b7cdbfe93290e19ece99d",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:51:58.203Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted; the lime moss and orange table calmed; cropped to 4:5",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, graded"
+}

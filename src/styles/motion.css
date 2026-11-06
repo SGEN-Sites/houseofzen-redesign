@@ -1,0 +1,78 @@
+/* motion.css (FOUNDATION): reveals, brush paint-on, depth, float, spin, scale, pin, tilt, marquee, footer light. site.js adds state classes and sets vars.
+   House rules:
+   - a reveal is an animation with fill-mode BACKWARDS: once it ends nothing of it stays applied, so the element ends at filter:none, opacity:1, transform:none
+     and every glass pane inside can blur again. The hidden pre-state only applies with JS (html.js), and a CSS safety un-hides it even if site.js never runs.
+   - [data-depth] uses the individual `translate` property, [data-spin] `rotate`, [data-scale-scroll] `scale`; [data-float] animates `transform`; so they all compose on one element.
+   - everything here is off under prefers-reduced-motion.
+
+   [data-pin], the scroll-through engine. Structure:
+     <section data-pin style="--pin-h:180vh"> <div class="pin-stage"> ...content... </div> </section>
+   From 1024px wide and 560px tall (and no reduced motion) the section is --pin-h tall and .pin-stage sticks at the top, 100vh high; site.js sets --p (0 to 1) on the section every
+   frame; compute transforms in CSS: transform: translateY(calc(var(--p, 0) * -40vh)). Outside that range --p is absent, the section is normal flow: write your transforms with var(--p, 0).
+   [data-pin="track"]: a child [data-track] (flex row) moves horizontally: site.js measures it, sets the section's height (100vh + the overflow) and --track-x (px). Below the range the
+   track is a swipe row. Use the media query @media (min-width: 1024px) and (min-height: 560px) and (prefers-reduced-motion: no-preference) for your own pinned-only CSS. */
+@keyframes reveal-up { from { opacity: 0; transform: translateY(26px); filter: blur(7px); } to { opacity: 1; transform: none; filter: none; } }
+@keyframes reveal-wipe { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes line-rise { from { transform: translateY(108%); } to { transform: none; } }
+@keyframes reveal-safety { to { opacity: 1; clip-path: none; } }
+@keyframes float-y { 0%, 100% { transform: translateY(0) rotate(var(--float-r, -1.6deg)); } 50% { transform: translateY(calc(-1 * var(--float-d, 14px))) rotate(calc(var(--float-r, -1.6deg) * -1)); } }
+@keyframes marquee { to { transform: translateX(-50%); } }
+@keyframes wordmark-sweep { from { background-position: 200% 0; } to { background-position: 0% 0; } }
+@keyframes panel-in { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  html.js [data-reveal]:not(.is-in) { opacity: 0; animation: reveal-safety 1ms linear 5s forwards; }
+  html.js [data-reveal].is-in { animation: reveal-up var(--dur-3) var(--ease) backwards; animation-delay: calc(var(--i, 0) * 90ms); }
+  html.js [data-reveal="wipe"].is-in { animation: reveal-wipe 1.15s var(--ease-in-out) backwards; animation-delay: calc(var(--i, 0) * 110ms); }
+  html.js [data-reveal="lines"].is-in { animation: none; }
+  html.reveal-all [data-reveal]:not(.is-in) { opacity: 1; clip-path: none; }
+  .line { display: block; overflow: hidden; padding-block: 0.06em 0.12em; margin-block: -0.06em -0.12em; }
+  .line__in { display: block; animation: line-rise 1.05s var(--ease) backwards; animation-delay: calc(var(--l, 0) * 110ms + var(--i, 0) * 90ms); }
+
+  /* brush lettering paints on, left to right, by a transition, so moving the element never replays it. site.js watches the parent and adds .is-painted when it enters;
+     the safety un-clips by itself if site.js never runs, and html.brush-live (set by site.js) cancels it, so an off-screen brush waits for the viewport. */
+  html.js [data-brush] { transition: clip-path 1.25s var(--ease-in-out); transition-delay: calc(var(--i, 0) * 90ms + 0.12s); }
+  html.js [data-brush]:not(.is-painted) { clip-path: inset(-12% 100% -12% -2%); animation: reveal-safety 1ms linear 6s forwards; }
+  html.brush-live [data-brush]:not(.is-painted) { animation: none; }
+  html.js [data-brush].is-painted { clip-path: inset(-12% -3% -12% -2%); }
+
+  [data-depth] { translate: 0 var(--py, 0px); }
+  [data-depth].is-moving { will-change: translate; }
+  [data-spin] { rotate: var(--spin, 0deg); }
+  [data-scale-scroll] { scale: var(--ss, 1); }
+  [data-float] { animation: float-y var(--float-dur, 8s) var(--ease-in-out) infinite; animation-delay: var(--float-delay, 0s); }
+  [data-float].is-still { animation-play-state: paused; }
+
+  [data-tilt] { transition: transform 0.6s var(--ease); }
+  [data-tilt].is-tilting { transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform 120ms linear; }
+
+  .marquee__track { display: flex; width: max-content; animation: marquee var(--marquee-dur, 46s) linear infinite; }
+  .marquee__group { display: flex; flex: none; padding-right: 2.6em; }
+  .marquee:hover .marquee__track, .marquee:focus-within .marquee__track, .marquee.is-paused .marquee__track { animation-play-state: paused; }
+
+  .age-gate:not([hidden]) .age-gate__dialog, html.gate-pending .age-gate__dialog { animation: reveal-up var(--dur-3) var(--ease) backwards; }
+  .nav-scrim:not([hidden]) { animation: fade-in var(--dur-2) var(--ease); }
+}
+
+/* the pin engine: only with JS, from 1024 x 560, without reduced motion */
+@media (min-width: 1024px) and (min-height: 560px) and (prefers-reduced-motion: no-preference) {
+  html.js [data-pin] { position: relative; height: var(--pin-h, 180vh); }
+  html.js [data-pin] > .pin-stage { position: sticky; top: 0; height: 100vh; }
+  html.js [data-pin="track"] > .pin-stage { overflow-x: clip; }
+  html.js [data-pin="track"] [data-track] { display: flex; width: max-content; max-width: none; transform: translate3d(var(--track-x, 0px), 0, 0); will-change: transform; }
+}
+/* below the range a track is a swipe row, with no page overflow */
+[data-track] { max-width: 100%; }
+@media (max-width: 1023.98px), (max-height: 559.98px), (prefers-reduced-motion: reduce) {
+  [data-pin="track"] [data-track], html:not(.js) [data-track] { display: flex; width: auto; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
+  [data-track] > * { scroll-snap-align: start; flex: none; }
+}
+html:not(.js) [data-track] { display: flex; overflow-x: auto; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  [data-depth] { translate: none; }
+  [data-float] { animation: none; }
+  video[autoplay], video[data-after-load], video[data-inview-play], .hero-video { display: none; }
+}

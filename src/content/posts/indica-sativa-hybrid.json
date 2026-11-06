@@ -1,0 +1,74 @@
+{
+  "order": 3,
+  "slug": "indica-sativa-hybrid",
+  "path": "/blog/indica-sativa-hybrid/",
+  "title": "Indica, Sativa and Hybrid, Explained | House of Zen",
+  "h1": "Indica, Sativa, Hybrid: What Those Words Can and Can’t Tell You",
+  "description": "Indica, sativa and hybrid began as plant terms. What those words can tell you about cannabis, where they fall short, and what to read on a label instead.",
+  "categories": [{ "name": "Cannabis 101", "slug": "cannabis-101" }],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-cat-flower",
+  "imageAlt": "",
+  "excerpt": "These are the first three words most people learn, and they explain less than you might expect. Here is how we use them, and what we look at next.",
+  "pull": "We think of these words as a good way to start a conversation and a poor way to finish one.",
+  "relatedCategories": ["flower", "pre-rolls"],
+  "related": ["what-are-terpenes", "thc-vs-thca", "how-to-read-a-dispensary-menu"],
+  "sections": [
+    {
+      "id": "where-the-words-came-from",
+      "heading": "Where the words came from",
+      "blocks": [
+        { "type": "p", "html": "Indica and sativa started out as botany. Naturalists in the 1700s used them to name cannabis plants they had studied, and over time growers came to use them for plant shape: shorter plants with broad leaves on one side, taller plants with narrow leaves on the other. Botanists still debate whether these are truly separate species." },
+        { "type": "p", "html": "Then came generations of crossbreeding. Growers mixed these lines for decades, and most cannabis on a shelf today has both in its family tree, whichever word is on the label. “Hybrid” is the honest word for a great deal of what’s out there, including plenty of products that aren’t called one." }
+      ]
+    },
+    {
+      "id": "what-they-have-come-to-mean",
+      "heading": "What the words have come to mean",
+      "blocks": [
+        { "type": "p", "html": "Somewhere along the way, the labels picked up a second meaning. Indica came to suggest something heavy and settled, sativa something bright and lively, and hybrid a point between the two. You’ll hear this shorthand all over, often from people with years of experience." },
+        { "type": "p", "html": "It’s less reliable than it sounds. Researchers who have compared the chemistry of commercial cannabis have found that those labels are a weak guide to what’s inside the plant. We think of these words as a good way to start a conversation and a poor way to finish one." }
+      ]
+    },
+    {
+      "id": "can-and-cant",
+      "heading": "What they can and can’t tell you",
+      "blocks": [
+        { "type": "h3", "text": "What they can tell you" },
+        { "type": "ul", "items": [
+          "Something about a plant’s family and how it tends to grow.",
+          "How a grower or brand thinks of a product, which gives us a shared place to begin."
+        ] },
+        { "type": "h3", "text": "What they can’t tell you" },
+        { "type": "ul", "items": [
+          "How a product will feel to you. Everyone responds differently, and no single word can predict that.",
+          "How strong it is. Potency is a separate matter, and you can read it on the label.",
+          "Whether it’s any good. A word says nothing about how carefully the flower was grown or how fresh it is."
+        ] }
+      ]
+    },
+    {
+      "id": "what-to-look-at-instead",
+      "heading": "What to look at instead",
+      "blocks": [
+        { "type": "p", "html": "Start with the numbers. Every marijuana product sold in Michigan is labeled with its THC and CBD content, and our article on <a href=\"/blog/thc-vs-thca/\">THC and THCa</a> explains how to read them on flower." },
+        { "type": "p", "html": "Then think about aroma. A plant’s <a href=\"/blog/what-are-terpenes/\">terpenes</a> shape how it smells and tastes, and many people find they keep returning to certain smells." },
+        { "type": "p", "html": "Hold strain names a little loosely too. A name is a useful clue, but the same name from two growers won’t necessarily match, because seed stock and growing conditions can differ. Michigan labels list the strain where it applies, along with the producer, so you can note who grew what." },
+        { "type": "callout", "html": "<strong>Keep a few notes.</strong> When you find something you enjoy, write down its name, the grower, the numbers on the label, how much you used and how it went. A handful of notes like that will tell you more about your own preferences than any category can." }
+      ]
+    },
+    {
+      "id": "at-the-counter",
+      "heading": "How we use these words at the counter",
+      "blocks": [
+        { "type": "p", "html": "We still use them, because everyone does and they’re a fair place to begin. If you tell us you’ve always thought of yourself as an indica person, we’ll take that seriously, and then we’ll ask what you actually liked about the last thing you tried. That answer usually takes us further." },
+        { "type": "p", "html": "You can look through our <a href=\"/products/flower/\">flower</a> and <a href=\"/products/pre-rolls/\">pre rolls</a> by category, and our guide to <a href=\"/blog/how-to-read-a-dispensary-menu/\">reading a menu</a> covers the rest of the page. When you’d like a second opinion, ask the team." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Is indica stronger than sativa?", "a_html": "Not by definition. Strength comes down to how much THC a particular product contains, and either word can appear on a mild product or a strong one. The label is the place to check." },
+    { "q": "Is a hybrid half and half?", "a_html": "Rarely in any exact way. A hybrid is a cross of different lines, and the balance varies from plant to plant. Some growers describe theirs as leaning one way or the other, which is a description and not a measurement." }
+  ]
+}

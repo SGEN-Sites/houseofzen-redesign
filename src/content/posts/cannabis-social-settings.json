@@ -1,0 +1,47 @@
+{
+ "order": 17,
+ "slug": "cannabis-social-settings",
+ "path": "/blog/cannabis-social-settings/",
+ "title": "Cannabis in Social Settings | House of Zen",
+ "h1": "Cannabis in Social Settings: A Little Etiquette",
+ "description": "Good manners for cannabis among friends: asking the host, offering without pressure, marking edibles, getting home safely and what Michigan law says.",
+ "categories": [{ "name": "Health & Lifestyle", "slug": "health-and-lifestyle" }],
+ "popular": false,
+ "readTime": "3 min read",
+ "image": "g-art-social",
+ "imageAlt": "",
+ "excerpt": "Manners around cannabis are mostly ordinary manners. Ask first, offer once, mark the food and settle the ride home early.",
+ "pull": "A no is a complete answer, and it does not need a follow-up question.",
+ "relatedCategories": ["pre-rolls", "edibles"],
+ "related": ["edibles-start-low", "pre-rolls-vs-flower", "michigan-cannabis-rules-plain-english"],
+ "sections": [
+  { "id": "ask-the-host", "heading": "Ask the host first", "blocks": [
+   { "type": "p", "html": "Manners around cannabis are mostly ordinary manners. You would not light a cigarette in someone’s living room without asking, and the same goes here, even if you have known them for twenty years." },
+   { "type": "p", "html": "Ask early and privately, so the answer costs nobody anything. If the answer is no, put it away and enjoy the evening." },
+   { "type": "p", "html": "The law is on the host’s side. Using marijuana in a public place is not allowed in Michigan, and property owners may ban smoking or use on their property. Landlords may ban or limit it too, although a lease may not forbid a tenant from lawfully possessing and consuming it by means other than smoking. So “let’s step outside” has to mean somewhere private where the owner is fine with it, not the sidewalk." }
+  ] },
+  { "id": "offering", "heading": "Offering, and saying no", "blocks": [
+   { "type": "p", "html": "Offer once, in a plain voice, and move on. A no is a complete answer, and it does not need a follow-up question. If you are the one declining, “not tonight, thanks” is all you owe anyone." },
+   { "type": "p", "html": "Never offer to anyone under 21, because Michigan’s law does not cover them. If you are unsure of someone’s age, do not offer." },
+   { "type": "p", "html": "Smoke travels, so stand downwind of people who are not joining in, and well away from children. A <a href=\"/products/pre-rolls/\">pre-roll</a> is easy to pass around, and it is equally fine to bring your own and keep it to yourself." },
+   { "type": "p", "html": "Gifts are allowed. Adults may give up to 2.5 ounces, no more than 15 grams of it concentrate, to another adult 21 or older, as long as nothing is received in return and the gift is not advertised or promoted to the public. If a friend pays you back, it is no longer a gift." }
+  ] },
+  { "id": "edibles", "heading": "Edibles at a gathering", "blocks": [
+   { "type": "callout", "html": "Never put cannabis in someone’s food or drink without telling them first. It is the one rule in this article with no exceptions." },
+   { "type": "p", "html": "Keep infused food apart from everything else, clearly marked and out of reach of children. A plate of infused cookies beside a plate of plain ones is asking for a mistake." },
+   { "type": "p", "html": "Tell people the dose, and tell them that an <a href=\"/products/edibles/\">edible</a> can take two hours or more to arrive. If you made it yourself, say so, and say that you cannot know its strength exactly. Guests who are new to edibles may want our guide to <a href=\"/blog/edibles-start-low/\">starting low</a>." }
+  ] },
+  { "id": "getting-home", "heading": "Getting home", "blocks": [
+   { "type": "p", "html": "Settle this before the first draw, not at midnight. No one may use marijuana while driving or in control of a vehicle, smoking is not allowed in a vehicle’s passenger area on a public road, and it is illegal to drive under the influence, however short the trip." },
+   { "type": "p", "html": "A good host offers the couch or calls a ride. A good guest accepts. If a friend has had more than they wanted, keep them company somewhere quiet, offer water and give it time. If you are worried, call for medical help, and do not let embarrassment slow you down." },
+   { "type": "p", "html": "The Michigan points in this article are general information, not legal advice, as of October 2026. Our <a href=\"/blog/michigan-cannabis-rules-plain-english/\">plain-English summary of the rules</a> has more." }
+  ] },
+  { "id": "before-your-next-gathering", "heading": "Before your next gathering", "blocks": [
+   { "type": "p", "html": "If you are hosting for the first time, or you are not sure what would be easy to bring along, talk to us. A judgment-free conversation is one of the things we are here for." }
+  ] }
+ ],
+ "faq": [
+  { "q": "Can I bring cannabis to a friend’s house as a gift?", "a_html": "Yes, if your friend is 21 or older, you stay within the limit above and nothing is received in return. Ask first whether they want it in their home." },
+  { "q": "What if my host does not allow it?", "a_html": "Then it stays put away. Property owners may ban smoking or use on their property, and it is their home. There will be other evenings." }
+ ]
+}

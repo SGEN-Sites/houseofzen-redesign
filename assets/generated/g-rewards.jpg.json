@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-rewards",
+  "file": "assets/generated/g-rewards.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A hand-thrown tea bowl with a deep indigo glaze, visibly mended with fine irregular gold kintsugi seams, holding a few small smooth pale river pebbles, on a weathered wood surface, soft window light from the left, the bowl right of centre with empty space around it, a pale limewash plaster wall behind",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 778221366,
+  "requestId": "01a1b236-7f9c-7221-9459-2471bd92dfd5",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "c27f185fbb1c2ee118ba85efe514a9b7fb2eff3c104bdac5bea55a5cc911208a",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:54:50.773Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "FLUX drew an unmended bowl with the pebbles beside it; the g-cut-bowl mended bowl laid over it. The pebbles stay beside the bowl, not in it, and the alt says so",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, composited"
+}

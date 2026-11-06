@@ -1,0 +1,66 @@
+{
+  "slug": "dispensary-guides",
+  "path": "/dispensary-guides/",
+  "title": "Dispensary Guide | House of Zen",
+  "description": "New to dispensaries? A calm walk through a first visit to House of Zen in Detroit: what to bring, what to expect, and how to choose by format and comfort.",
+  "kicker": "Start here",
+  "h1": "Dispensary Guide",
+  "lede": "Walking into cannabis for the first time shouldn’t feel overwhelming. Here is how a first visit goes, and how to choose once you are here.",
+  "sections": [
+    {
+      "id": "first-visit",
+      "heading": "Your first visit, step by step",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            { "title": "Bring your ID", "text": "You need to be 21 or older. Please bring a valid driver’s license or government-issued photo ID. In Michigan, a licensed adult-use store must check it before any sale." },
+            { "title": "Look ahead, if you like", "text": "Our live menu is there if you want to browse at home first. If you would rather just come in and ask, that is every bit as welcome." },
+            { "title": "Tell us it is your first time", "text": "There is nothing you need to know in advance. We specialize in guiding first-time customers, and ours is a judgment-free environment." },
+            { "title": "Talk it through", "text": "We will ask about your comfort level, your preferences and the experience you have in mind, then offer clear, honest recommendations. Take all the time you need." },
+            { "title": "Check out and head home", "text": "We guide you through checkout, including any state taxes that apply. On the way home, sealed and out of reach is the cautious way to carry it, and driving under the influence of marijuana is illegal." }
+          ]
+        },
+        { "type": "p", "html": "Want a little more first? Read <a href=\"/blog/first-dispensary-visit/\">Your First Dispensary Visit, Step by Step</a>, or <a href=\"/blog/how-to-read-a-dispensary-menu/\">How to Read a Dispensary Menu</a> before you look at ours." }
+      ]
+    },
+    {
+      "id": "how-to-choose",
+      "heading": "How to choose",
+      "kicker": "By format, by comfort",
+      "blocks": [
+        { "type": "h3", "text": "By format" },
+        { "type": "p", "html": "Start with how you would like to use it. Each format has its own page if you want to read more." },
+        {
+          "type": "ul",
+          "items": [
+            "<a href=\"/products/flower/\">Premium Flower</a> and <a href=\"/products/pre-rolls/\">Pre Rolls</a> are the dried plant, loose or already rolled, and are usually smoked.",
+            "<a href=\"/products/vaporizers/\">Vaporizers</a> heat cannabis oil or flower into a vapor you inhale.",
+            "<a href=\"/products/edibles/\">Edibles</a> are eaten. They can take longer to begin than anything inhaled, and the label lists an activation time.",
+            "<a href=\"/products/concentrates/\">Concentrates</a> hold a lot in a small amount, and most people come to them with some experience.",
+            "<a href=\"/products/topicals/\">Topicals</a> go on the skin.",
+            "<a href=\"/products/cbd/\">CBD Products</a> are built around CBD, one of the plant’s compounds. Check the label for THC as well."
+          ]
+        },
+        { "type": "h3", "text": "By comfort level" },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>New, or back after a long time.</strong> Start with a small amount, wait, and see how you feel before having more. <a href=\"/blog/cannabis-for-beginners/\">A Calm Beginner’s Guide to Cannabis</a> is a good first read, and <a href=\"/blog/edibles-start-low/\">Edibles: Start Low, Wait Long</a> explains the waiting.",
+            "<strong>Some experience.</strong> Tell us what you liked and what you did not, and we will compare labels with you.",
+            "<strong>You know what you like.</strong> Tell us, and ask about anything you have been curious about."
+          ]
+        },
+        { "type": "p", "html": "Everyone responds differently, so we talk about formats and labels, not promises. Our team will help you based on your comfort level, preferences, and desired experience." }
+      ]
+    },
+    {
+      "id": "first-customer",
+      "heading": "A welcome for new customers",
+      "blocks": [
+        { "type": "p", "html": "Our welcome is simple: <strong>first customer deals: 30% OFF the purchase</strong>. See <a href=\"/deals/\">Deals</a> for where to find current specials and the terms that may apply." }
+      ]
+    }
+  ],
+  "_claims": ["mi-au-purchase-limit", "mi-au-vehicle-transport", "mi-labeling", "mi-tax-retail"]
+}

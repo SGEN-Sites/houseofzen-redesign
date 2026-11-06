@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-law",
+  "file": "assets/generated/g-law.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "An old brass balance scale with two small shallow pans hanging perfectly level, plain unmarked aged brass, standing on a limewash plaster ledge against a pale limewash plaster wall, soft window light from the left, the scale right of centre with empty wall around it, perfectly quiet",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 1196033655,
+  "requestId": "01a1b236-ae15-7c93-8002-d4df19137acb",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "38cc1477f8ccb50ffc8da4b58146565a36e902ec6e16061b530001a73451a64e",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:54:59.251Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

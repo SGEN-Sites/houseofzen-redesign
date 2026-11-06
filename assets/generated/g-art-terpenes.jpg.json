@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-terpenes",
+  "file": "assets/generated/g-art-terpenes.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Twists of fresh citrus peel, a small sprig of pine needles, a few stems of dried lavender and a small scatter of black peppercorns arranged sparsely on a rough dark slate slab, seen from above, soft window light from the left",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 3248986816,
+  "requestId": "01a1b236-c622-7661-aa57-c76ae34e4da2",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "14d89eb1862633c2f011c322c68c0509f272240169e7245a940efbc0cf186590",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:55:06.518Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

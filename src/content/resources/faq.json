@@ -1,0 +1,58 @@
+{
+  "slug": "faq",
+  "path": "/faq/",
+  "title": "Frequently Asked Questions | House of Zen",
+  "description": "Answers from House of Zen in Detroit: what we carry, first-time help, hours, ID, the first customer offer, the live menu and Michigan cannabis basics.",
+  "kicker": "Questions",
+  "h1": "Frequently Asked Questions",
+  "lede": "Everything you need to know, explained clearly and simply.",
+  "sections": [
+    {
+      "id": "house-of-zen",
+      "heading": "House of Zen",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            { "q": "What products do you carry?", "a_html": "We offer flower, pre-rolls, edibles, concentrates, topicals, CBD products, and glass accessories." },
+            { "q": "Do you help first-time customers?", "a_html": "Absolutely. We specialize in guiding first-time customers with clear education and recommendations." },
+            { "q": "All products are licensed and tested?", "a_html": "Yes. All products are fully licensed, lab-tested, and compliant with state regulations." },
+            { "q": "How do I choose the right product?", "a_html": "Our team will help you based on your comfort level, preferences, and desired experience." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visiting",
+      "heading": "Visiting",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            { "q": "What are your hours, and where are you?", "a_html": "We are open Mon-Sun: 9 am to 9 pm, at 14501 Mack Ave, Detroit, MI 48215. Our <a href=\"/detroit-dispensary/\">Detroit dispensary page</a> has the details, and you can call us at <a href=\"tel:+13133321733\">(313) 332-1733</a>." },
+            { "q": "How old do I need to be, and what ID do I bring?", "a_html": "You need to be 21 or older, and Michigan requires a licensed adult-use store to check a valid driver’s license or government-issued photo ID before any sale. If you hold a medical card, please call us to confirm whether and how we can serve medical card holders today." },
+            { "q": "Is there an offer for first-time customers?", "a_html": "Yes: first customer deals: 30% OFF the purchase. Promotional offers may be subject to additional terms, and our <a href=\"/deals/\">Deals</a> page explains where to read them." },
+            { "q": "Is there a menu online?", "a_html": "Yes. Our <a href=\"https://www.houseofzendetroit.com/stores/house-of-zen\" target=\"_blank\" rel=\"noopener\">live menu</a> lists products by category, and it is the place to check current specials. You can also read about each category under <a href=\"/shop/\">Products</a>." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cannabis-basics",
+      "heading": "Cannabis basics, Michigan",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            { "q": "Where can I use cannabis?", "a_html": "Using marijuana in a public place is not allowed in Michigan, and property owners may ban smoking or use on their property. <a href=\"/michigan-cannabis-laws/\">Michigan Cannabis Laws</a> has more, including areas a municipality may designate for consumption." },
+            { "q": "How much can I buy?", "a_html": "A licensed adult-use store may sell no more than 2.5 ounces in a single transaction, with no more than 15 grams of it as concentrate. Adults 21 and older may carry up to that same amount." },
+            { "q": "Why does the price change at checkout?", "a_html": "Michigan adds a 10% excise tax and a 6% sales tax to adult-use purchases, and the sales tax is figured on the price including the excise. On a $100 sale, that comes to $10 of excise tax and $6.60 of sales tax." },
+            { "q": "What if I am new?", "a_html": "Start with a small amount, give it plenty of time, and only then decide whether you want more. Everyone responds differently, so there is no hurry, and our <a href=\"/dispensary-guides/\">Dispensary Guide</a> and <a href=\"/blog/edibles-start-low/\">Edibles: Start Low, Wait Long</a> are good places to begin." }
+          ]
+        },
+        { "type": "callout", "html": "Michigan details are as of October 2026. General information, not legal advice." }
+      ]
+    }
+  ],
+  "_claims": ["mi-au-purchase-limit", "mi-au-possession", "mi-au-public-use", "mi-tax-retail"]
+}

@@ -1,0 +1,33 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cut-bowl",
+  "file": "assets/generated/g-cut-bowl.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A single hand-thrown tea bowl with a deep indigo glaze, an uneven rim and a small foot, visibly mended with fine irregular gold kintsugi seams, seen from slightly above. The whole bowl is inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface, product photograph",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 2468963762,
+  "requestId": "01a1b234-0f0b-7ee0-8ea1-6d34739cebff",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1b234-3fd7-76a1-b089-aeaf87aeb654"
+  },
+  "width": 2496,
+  "height": 1664,
+  "sha256": "7752df92106b69ae4697e86cfa49ce3a7b8e85c2f4896c507c9a6a5e555c81f2",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:52:12.750Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra + BiRefNet v2 matting"
+}

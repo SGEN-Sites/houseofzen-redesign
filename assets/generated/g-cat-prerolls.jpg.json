@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cat-prerolls",
+  "file": "assets/generated/g-cat-prerolls.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A vertical still life. Two hand-rolled cannabis joints lying side by side at a slight angle on a rough dark slate slab. Each joint is a slim cone of plain thin unbleached rolling paper, visibly and tightly packed with ground green cannabis flower showing faintly through the paper, wide at one end where the paper is neatly twisted closed into a small soft twisted tip, tapering evenly down to a narrow end of plain rolled paper. All paper, entirely paper from end to end, handmade and slightly uneven. The slate sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4"
+  },
+  "seed": 1370479469,
+  "requestId": "01a1b233-b721-75b0-9124-f79dacb83f15",
+  "cutout": null,
+  "width": 1792,
+  "height": 2240,
+  "sha256": "2676ac90c09af720a8816a417dc4b618530323ef6281e8e2a7be96aabe5c6a63",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:51:45.370Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "attempt 2 rejected (a large open paper tube with spilled flower). Attempt 1 retouched: filter-like band removed, tapered into true cones, a twist drawn at each narrow end, the slate rebuilt from its own texture (tmp/img/post2.py). The twist is a drawn retouch, not a generated one. A further isolated-joint source (crayon-like) was rejected",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, retouched"
+}

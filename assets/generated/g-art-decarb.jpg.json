@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-decarb",
+  "file": "assets/generated/g-art-decarb.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A rustic dark worn metal baking tray lined with crinkled unbleached parchment paper, holding a small loose single layer of broken-up cured cannabis flower, real cannabis buds in frosty muted green with fine orange hairs, on a weathered wood counter, seen from above at an angle, soft window light from the left",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 3165566625,
+  "requestId": "01a1b237-1b02-7a61-889e-bd3e60c977ac",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "92dcc00214cf507dc79a2911b17eee7a6c0303eba473ea88cb8e0cbedc625829",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:55:42.607Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

@@ -1,0 +1,59 @@
+{
+ "order": 11,
+ "slug": "michigan-cannabis-label",
+ "path": "/blog/michigan-cannabis-label/",
+ "title": "How to Read a Michigan Cannabis Label | House of Zen",
+ "h1": "How to Read a Michigan Cannabis Label",
+ "description": "What each line on a Michigan cannabis label means: THC and CBD content, activation time, the testing lab, required warnings and the rules for edibles.",
+ "categories": [{ "name": "Resources", "slug": "resources" }],
+ "popular": false,
+ "readTime": "4 min read",
+ "image": "g-art-label",
+ "imageAlt": "",
+ "excerpt": "A Michigan cannabis package carries a good deal of small print. Here is what each part tells you, and how we read it ourselves.",
+ "pull": "A label cannot tell you how a product will feel, but it can tell you what you are holding and who stands behind it.",
+ "relatedCategories": ["flower", "edibles"],
+ "related": ["how-to-read-a-dispensary-menu", "thc-vs-thca", "edibles-start-low"],
+ "sections": [
+  { "id": "why-read-it", "heading": "Why the small print deserves a minute", "blocks": [
+   { "type": "p", "html": "Most people pick up a cannabis package, glance at the big number on the front and turn it over, unsure what else to look for. That is a very ordinary moment. A Michigan label holds more than most people expect, and once you know the order of it, reading one takes about a minute." },
+   { "type": "p", "html": "Every marijuana product sold in Michigan must be sealed and labeled, and the state decides what the label has to say. A label cannot tell you how a product will feel, but it can tell you what you are holding and who stands behind it." }
+  ] },
+  { "id": "what-it-tells-you", "heading": "What the label tells you", "blocks": [
+   { "type": "h3", "text": "Who made it" },
+   { "type": "p", "html": "Look for the name and license number of the producer, and of the packager too, along with a package tag for that particular package." },
+   { "type": "h3", "text": "What is inside" },
+   { "type": "p", "html": "You will see the net weight and, where they apply, the harvest date and the strain." },
+   { "type": "h3", "text": "How much THC and CBD" },
+   { "type": "p", "html": "The label gives the THC and CBD concentration, and it must also say that actual values may vary by 10 percent. Read the number as a close estimate. If your flower label also mentions THCA, our piece on <a href=\"/blog/thc-vs-thca/\">THC and THCA</a> explains the difference." },
+   { "type": "h3", "text": "When it may begin" },
+   { "type": "p", "html": "You will also find an activation time, a guide to how long a product may take before you feel it. People differ, so be patient with it." },
+   { "type": "h3", "text": "Who tested it" },
+   { "type": "p", "html": "The testing lab and the test date are both printed. All of our products are fully licensed, lab-tested and compliant with state regulations, and we are glad to point these lines out." }
+  ] },
+  { "id": "symbol-and-warnings", "heading": "The symbol and the warnings", "blocks": [
+   { "type": "p", "html": "Then comes the state’s universal THC symbol and a set of required warnings. They are worth reading once, slowly, even if you never read them again:" },
+   { "type": "ul", "items": [
+    "“It is illegal to drive a motor vehicle while under the influence of marihuana.” The unusual spelling is the law’s own.",
+    "“National Poison Control Center 1-800-222-1222.” We suggest saving that number in your phone.",
+    "A statement that the product is for adults 21 and older or for registered patients only, with “Keep out of reach of children.”",
+    "A boxed warning about pregnancy and breastfeeding."
+   ] },
+   { "type": "p", "html": "Stores must also offer every customer a pamphlet with the Poison Control hotline and at least two statements on the risks of adolescent use. If you would like one, just ask." }
+  ] },
+  { "id": "edibles", "heading": "What changes with edibles", "blocks": [
+   { "type": "p", "html": "Edibles carry extra rules. The package must be opaque and child-resistant, and resealable if it holds more than one serving. Pieces may not be shaped like people, animals or fruit, and the word “candy” may not appear." },
+   { "type": "p", "html": "Adult-use edibles in Michigan are capped at 10 mg of THC per dose and 200 mg per package. Medical edibles may contain up to 50 mg per dose, with the same 200 mg package limit." },
+   { "type": "p", "html": "So find two numbers: the milligrams in the whole package and the milligrams in one piece. If only the total is printed, divide: a package that says 100 mg and holds ten pieces comes to about 10 mg a piece. The cap is a ceiling, not a suggested serving, and our guide to <a href=\"/blog/edibles-start-low/\">starting low with edibles</a> explains why we think smaller is the better place to begin." },
+   { "type": "callout", "html": "These summaries are general information, not legal advice, as of October 2026. For a wider look at the state’s rules, see our <a href=\"/michigan-cannabis-laws/\">Michigan cannabis laws</a> page." }
+  ] },
+  { "id": "read-one-with-us", "heading": "Read one with us", "blocks": [
+   { "type": "p", "html": "If a line on a package puzzles you, bring it to the counter. We would much rather spend five minutes reading a label with you than have you guess at home. Clear, honest recommendations begin with knowing what is in your hand." }
+  ] }
+ ],
+ "faq": [
+  { "q": "Is the THC number on a label exact?", "a_html": "Not quite. Michigan labels must state that actual values may vary by 10 percent, so read the number as a close estimate." },
+  { "q": "What does activation time mean?", "a_html": "It is a guide to how long a product may take before you feel it. People differ, so give it time before deciding whether to have more." },
+  { "q": "What should I do if a child gets into a cannabis product?", "a_html": "Call the National Poison Control Center at 1-800-222-1222, the number printed on the label. In an emergency, call 911." }
+ ]
+}

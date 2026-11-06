@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-moss-garden",
+  "file": "assets/generated/g-moss-garden.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A moss garden at dawn in dim blue-green light and low mist, seen from slightly above. In the lower third a sweep of raked pale gravel with fine parallel lines and a few weathered dark stones placed asymmetrically, edged by soft cushions of deep green moss. The upper middle of the frame is a wide calm slope of deep moss receding softly into dim mist, dark and even and out of focus, completely open and empty, room for huge pale lettering. Low-key, moody, quiet, muted deep greens",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2745331351,
+  "requestId": "01a1b236-399a-7a41-af27-bc2e3c901f0b",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "56e7280a38247ff340e3454c1bc9cea9f3b097f0cad7aaa364089ec91251389b",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:54:36.529Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "attempt 2 rejected (lime moss, letterbox bars, hard gravel band). Attempt 1 regraded: its flat teal backdrop became dim moss-green mist, moss muted, gravel warmed",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, graded"
+}

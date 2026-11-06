@@ -1,0 +1,24 @@
+{
+ "photos": {},
+ "media": {
+  "hero-loop": {
+   "mp4": "/assets/media/hero-loop.mp4",
+   "mp4Small": "/assets/media/hero-loop-small.mp4",
+   "poster": "/assets/media/hero-loop.webp",
+   "posterSmall": "/assets/media/hero-loop-small.webp",
+   "posterJpg": "/assets/media/hero-loop.jpg",
+   "posterSmallJpg": "/assets/media/hero-loop-small.jpg",
+   "w": 1920,
+   "h": 1072,
+   "wSmall": 720,
+   "hSmall": 1280,
+   "duration": 20.0,
+   "fps": 24,
+   "frames": 480,
+   "audio": false,
+   "alt": "",
+   "use": "Home hero: muted autoplay loop, playsinline, aria-hidden, the poster (frame 0) under it first, hidden under reduced motion, a visible pause toggle, start after window load. The small cut is 9:16 with the vase centre about 62% across.",
+   "note": "AI-generated motion: fal Kling 3.0 pro animated the AI-generated still g-hero-vessel (the leaves and their shadows move, the window light drifts); forward then reverse makes the loop seamless. Not footage of House of Zen, its store, staff, customers, products or brands."
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "deals",
+  "path": "/deals/",
+  "title": "Deals | House of Zen",
+  "description": "A welcome from House of Zen in Detroit: first customer deals: 30% OFF the purchase. Check our live menu for current specials, or simply call and ask us.",
+  "kicker": "Deals",
+  "h1": "Deals",
+  "offer": "first customer deals: 30% OFF the purchase",
+  "lede": "A simple welcome for new customers, and one place to check for anything current.",
+  "sections": [
+    {
+      "id": "first-customer",
+      "heading": "A welcome for new customers",
+      "kicker": "The offer",
+      "blocks": [
+        { "type": "p", "html": "If you are new to The House of Zen, here is our welcome, in our own words: <strong>first customer deals: 30% OFF the purchase</strong>." },
+        { "type": "p", "html": "A first visit can feel like a lot, so we keep this part simple. Please tell us it is your first time, and ask how the offer applies to what you are choosing. There is no rush, and no question is too small." },
+        { "type": "p", "html": "Not sure where to begin? Our <a href=\"/dispensary-guides/\">Dispensary Guide</a> walks through a first visit one calm step at a time." }
+      ]
+    },
+    {
+      "id": "current-specials",
+      "heading": "What is on special right now",
+      "kicker": "Live menu",
+      "blocks": [
+        { "type": "p", "html": "For current specials, please look at our <a href=\"https://www.houseofzendetroit.com/stores/house-of-zen\" target=\"_blank\" rel=\"noopener\">live menu</a>. What is on offer can change, so we would rather point you to the place that shows today’s products than print something here that may fall behind." },
+        { "type": "p", "html": "If you would rather ask a person, call us at <a href=\"tel:+13133321733\">(313) 332-1733</a>, or stop by 14501 Mack Ave. Our hours are Mon-Sun: 9 am to 9 pm." }
+      ]
+    },
+    {
+      "id": "terms",
+      "heading": "The fine print, plainly",
+      "kicker": "Terms",
+      "blocks": [
+        { "type": "callout", "html": "Promotional offers may be subject to additional terms. Our <a href=\"/terms-of-use/\">Terms of Use</a> explain that promotions can carry eligibility requirements, purchase limits, product restrictions and expiration dates, and that we may modify, suspend or end a promotion, subject to applicable law." },
+        { "type": "p", "html": "House of Zen is for adults 21 and older, so please bring a valid driver’s license or government-issued photo ID." }
+      ]
+    }
+  ],
+  "_claims": ["mi-au-purchase-limit"],
+  "_confirm": [
+    "How the first customer offer is applied: eligibility, exclusions, end date. The client states only the quoted line.",
+    "R 420.507 (mi-advertising) says ads must carry the R 420.504(1)(j) warnings. The footer's legal line has the 21+, children and driving lines, but not the Poison Control line or the boxed pregnancy and breastfeeding warning, and the facts file does not hold that warning's text. Counsel should decide whether this page counts as an ad.",
+    "Whether the live menu shows specials today. docs/OPEN-DECISIONS.md A2 records its header as 'Coming soon / Online ordering'."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-brick-dawn",
+  "file": "assets/generated/g-brick-dawn.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A weathered warm red-brown brick wall seen straight on in soft dawn light, old hand-made bricks with worn pale lime mortar, soft blurred shadows of leaves falling across it. A narrow rough stone ledge runs low along the bottom of the frame, and on it, towards the right, stands one small hand-thrown indigo-glazed stoneware bowl. A large calm stretch of plain wall fills the left two thirds. Bare brick with nothing on it, very quiet",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 2243678431,
+  "requestId": "01a1b236-399b-7292-aaa1-36c1c2757f32",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "ed6552397df22adb823d136c07a028fa05074388abb55b23405ee617ccaac70f",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:54:36.761Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted; the orange calmed",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, graded"
+}

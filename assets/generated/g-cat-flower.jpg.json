@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cat-flower",
+  "file": "assets/generated/g-cat-flower.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A vertical still life. Three real cured cannabis buds, irregular knobby tapered nugs as seen in a dispensary jar, not round: dense clusters of small calyxes in muted sage and olive green, frosted all over with fine white crystal trichomes, with short thin rust-orange hairs like fine threads lying close to the surface. They rest in a shallow hand-thrown stoneware dish with a speckled pale grey-green ash glaze, on a rough weathered wood table. The dish sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow. Wabi sabi still life photographed on medium format film in soft natural window light, muted warm airy palette of warm off-white, sage and moss green, deep indigo and soft gold, raw natural materials, handmade and imperfect, lots of empty space, luxurious and quiet, true-to-life textures, matte finish, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no characters of any script anywhere in the image. No people, no faces, no hands, no animals.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4"
+  },
+  "seed": 1616351058,
+  "requestId": "01a1b23b-94c8-76d2-a28a-c8120807740c",
+  "cutout": null,
+  "width": 1792,
+  "height": 2240,
+  "sha256": "b8d6854e9a558e3a0ab749ae85f5612f4a122095e4f4cc80be5ebd6cb51fcf6f",
+  "attempt": 2,
+  "generatedAt": "2026-11-06T19:00:22.582Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "attempt 1 rejected (round balls with noodle-like pistils); attempt 2 accepted; generated at 3:4, cropped to 4:5, mid tones lifted to the family wall",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

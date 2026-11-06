@@ -1,0 +1,37 @@
+{
+  "slug": "accessibility-statement",
+  "path": "/accessibility-statement/",
+  "title": "Accessibility Statement | House of Zen",
+  "description": "Everyone deserves to use this site comfortably. Here is what the House of Zen site is built to do, and how to tell us about a barrier by phone or by email.",
+  "kicker": "Accessibility",
+  "h1": "Accessibility Statement",
+  "lede": "Everyone deserves to use this site comfortably.",
+  "sections": [
+    {
+      "id": "what-the-site-does",
+      "heading": "What this site is built to do",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Keyboard navigation:</strong> you can move through the site with a keyboard.",
+            "<strong>Text alternatives:</strong> images that carry meaning have a text alternative.",
+            "<strong>Reduced motion:</strong> if your device asks for reduced motion, the site respects it."
+          ]
+        },
+        { "type": "p", "html": "That is the honest list. We make no claim that every page works perfectly for every person, and we would rather hear about a problem than assume there is none." }
+      ]
+    },
+    {
+      "id": "tell-us",
+      "heading": "Tell us about a barrier",
+      "blocks": [
+        { "type": "p", "html": "If something on this site gets in your way, please tell us which page you were on and what happened. You can call us at <a href=\"tel:+13133321733\">(313) 332-1733</a> or email <a href=\"mailto:hello@houseofzendetroit.com\">hello@houseofzendetroit.com</a>." }
+      ]
+    }
+  ],
+  "_confirm": [
+    "For counsel: review this statement before it goes live. It makes no conformance claim and names no standard, on purpose. Adding a named standard or an audit date is a decision for the owners and counsel.",
+    "For the owners: the phone and email here are the store's general contacts. Confirm they are the right place for accessibility reports."
+  ]
+}

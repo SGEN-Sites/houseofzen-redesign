@@ -1,0 +1,22 @@
+{
+  "tool": "tools/fal-gen.mjs, then tmp/img (composite or conversion)",
+  "slot": "g-enso",
+  "file": "assets/generated/g-enso.png",
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, converted",
+  "sha256": "b7ea48b71ccf751071cc93a1039954da0f08c9ebe286f54351e88ad03034c2e8",
+  "width": 2017,
+  "height": 2048,
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "prompt": "Traditional Zen calligraphy on paper: a single enso circle painted in one continuous stroke with a big goat-hair brush and black sumi ink, on plain bright white paper, photographed flat from directly above. Black ink only, monochrome. The stroke starts wet and heavy at the lower left, runs clockwise, gets drier and splits into fine streaked bristle lines of dry brush texture towards its tail, and one clear open gap remains in the ring at the upper right. Natural ink edges with a few tiny splatters. The ring fills most of the frame, centred. Nothing else on the paper. Absolutely no text, no letters, no seal, no stamp, no signature, no colour.",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "attempt 1 rejected (blocky digital strokes with gold in them). Attempt 2 accepted; luminance to alpha, a dry-brush open gap cut at the upper right in python (the generated ring was closed), tinted with the gold tokens",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "seed": 345425131,
+  "requestId": "01a1b23b-94c7-7780-867d-2cdbbfdb78a5",
+  "model": "fal-ai/flux-pro/v1.1-ultra"
+}

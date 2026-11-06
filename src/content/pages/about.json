@@ -1,0 +1,149 @@
+{
+ "slug": "about",
+ "path": "/about/",
+ "url": "https://houseofzendetroit.com/about/",
+ "title": "About | Family-Owned Detroit Dispensary",
+ "description": "Learn about House of Zen, a family-owned Detroit cannabis dispensary built on education, quality, community and personalized customer care.",
+ "h1": "About The House of Zen",
+ "sections": [
+  {
+   "id": "intro",
+   "heading": "About The House of Zen",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "About The House of Zen",
+     "lead": "About",
+     "accent": "The House of Zen"
+    },
+    {
+     "type": "p",
+     "html": "The House of Zen offers a curated cannabis experience focused on balance, education, and quality. Explore premium products selected with care to support mindful choices and everyday wellness naturally."
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "heading": "Built on Family. Guided by Purpose.",
+   "blocks": [
+    {
+     "type": "tag",
+     "text": "Our Story"
+    },
+    {
+     "type": "h2",
+     "text": "Built on Family. Guided by Purpose."
+    },
+    {
+     "type": "p",
+     "html": "House of Zen began as a family vision—to create a dispensary experience that feels calm, welcoming, and intentional."
+    },
+    {
+     "type": "p",
+     "html": "In an industry that can often feel overwhelming, we set out to create something different:"
+    },
+    {
+     "type": "p",
+     "html": "A space where education comes first, quality is non-negotiable, and every customer is treated like family."
+    },
+    {
+     "type": "p",
+     "html": "Today, House of Zen continues to grow with the same foundation it started with—trust, care, and community.Our team is here to guide you through:"
+    }
+   ]
+  },
+  {
+   "id": "team",
+   "heading": "Our Team",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Our Team"
+    },
+    {
+     "type": "p",
+     "html": "Our team is made up of knowledgeable, approachable professionals who are here to help you navigate your experience confidently."
+    },
+    {
+     "type": "team",
+     "items": [
+      {
+       "name": "Teri Hargrave",
+       "role": "Owner"
+      },
+      {
+       "name": "Jacquline Weathersby",
+       "role": "Owner"
+      },
+      {
+       "name": "Robin Weathersby"
+      },
+      {
+       "name": "Diamond Weathersby"
+      },
+      {
+       "name": "Alexandria Weathersby"
+      },
+      {
+       "name": "Rodney Hargrave"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "heading": "Find your Balance",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Find your Balance"
+    },
+    {
+     "type": "p",
+     "html": "Shop thoughtfully curated cannabis products designed to support your lifestyle."
+    },
+    {
+     "type": "button",
+     "text": "Shop now",
+     "href": "menu"
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "heading": "FREQUENTLY ASKED QUESTIONS",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "FREQUENTLY ASKED QUESTIONS"
+    },
+    {
+     "type": "p",
+     "html": "Everything you need to know, explained clearly and simply."
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What products do you carry?",
+       "a_html": "We offer flower, pre-rolls, edibles, concentrates, topicals, CBD products, and glass accessories."
+      },
+      {
+       "q": "Do you help first-time customers?",
+       "a_html": "Absolutely. We specialize in guiding first-time customers with clear education and recommendations."
+      },
+      {
+       "q": "All products are licensed and tested?",
+       "a_html": "Yes. All products are fully licensed, lab-tested, and compliant with state regulations."
+      },
+      {
+       "q": "How do I choose the right product?",
+       "a_html": "Our team will help you based on your comfort level, preferences, and desired experience."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "order": 21,
+ "slug": "how-to-decarb-cannabis",
+ "path": "/blog/how-to-decarb-cannabis/",
+ "title": "Decarboxylation for Infused Recipes | House of Zen",
+ "h1": "Decarboxylation: The Step Every Infused Recipe Starts With",
+ "description": "How to decarboxylate cannabis in a home oven: why heat matters, a common low-temperature starting point, and why homemade potency is never exact.",
+ "categories": [{ "name": "Recipes", "slug": "recipes" }],
+ "popular": false,
+ "readTime": "3 min read",
+ "image": "g-art-decarb",
+ "imageAlt": "",
+ "excerpt": "Before flower goes into a recipe, it needs a slow stretch in a low oven. Here is what that step does, a common starting point and what you cannot know afterward.",
+ "pull": "Your kitchen is not a lab, so homemade potency can never be known exactly.",
+ "relatedCategories": ["flower"],
+ "related": ["infused-honey", "thc-vs-thca", "edibles-start-low"],
+ "sections": [
+  { "id": "what-it-is", "heading": "What decarboxylation is", "blocks": [
+   { "type": "p", "html": "Raw cannabis flower holds most of its THC in an acid form called THCA. Heat changes THCA into THC, and that change is called decarboxylation. A lighter or a vaporizer does it in a moment. Stirring raw flower into a batter does not do it reliably, which is why infused cooking usually begins with a separate step in the oven. Our piece on <a href=\"/blog/thc-vs-thca/\">THC and THCA</a> explains the chemistry a little further." },
+   { "type": "p", "html": "Think of it as toasting spices before they go into a dish. The heat stays low, and the kitchen will smell strongly of what you are making, so open a window and warn the household." }
+  ] },
+  { "id": "what-you-need", "heading": "What you need", "blocks": [
+   { "type": "ul", "items": [
+    "<a href=\"/products/flower/\">Flower</a> from a licensed store, with its label kept for reference",
+    "A baking sheet lined with parchment, or an oven-safe dish with a lid, which holds in some of the smell",
+    "An oven thermometer, because home ovens often run hotter or cooler than their dials say",
+    "A timer, an airtight jar and something to label it with"
+   ] }
+  ] },
+  { "id": "starting-point", "heading": "A starting point in the oven", "blocks": [
+   { "type": "p", "html": "These numbers are common low-oven guidance, given here as a starting point rather than a rule. Ovens differ, and so does flower." },
+   { "type": "ol", "items": [
+    "Heat the oven to about 240°F (115°C).",
+    "Break the flower into small pieces by hand. Keep it coarse, because powder is harder to strain later.",
+    "Spread it in a single layer and cover it loosely with foil, or close the dish.",
+    "Bake for 30 to 40 minutes, stirring gently once about halfway through. It should darken slightly, from green toward light brown.",
+    "Let it cool fully before you uncover it.",
+    "Move it to the airtight jar, label it with what it is and the date, and put it away from children."
+   ] }
+  ] },
+  { "id": "what-you-cannot-know", "heading": "What you cannot know", "blocks": [
+   { "type": "p", "html": "Your kitchen is not a lab, so homemade potency can never be known exactly. The number on a flower label is itself a close estimate, and the oven, the timing and the recipe all change what ends up on your spoon." },
+   { "type": "p", "html": "That leaves two habits. Label everything you make and keep it away from children. And start low: try a small amount, wait at least two hours and only then decide whether you want more. Our piece on <a href=\"/blog/edibles-start-low/\">starting low</a> goes into why." },
+   { "type": "callout", "html": "Keep to the oven and to recipes based on fat. Do not make butane or alcohol extracts at home. Michigan’s adult-use law does not authorize separating plant resin with butane or any other substance whose flash point is below 100°F in a public place, a motor vehicle or at a home or on its immediate grounds, and high-proof drinking alcohol is such a substance. This is general information, not legal advice, as of October 2026." }
+  ] },
+  { "id": "where-to-go-next", "heading": "Where to go from here", "blocks": [
+   { "type": "p", "html": "Once your flower is ready, our recipe for <a href=\"/blog/infused-honey/\">simple infused honey</a> is an easy first use. And if a kitchen project is more than you want, that is a perfectly good decision too, since our <a href=\"/products/edibles/\">edibles</a> come lab-tested and labeled. Ask our team, and we will gladly talk through either route with you." }
+  ] }
+ ],
+ "faq": [
+  { "q": "Do I have to decarboxylate before cooking with flower?", "a_html": "For most infused recipes, yes. Without this step much of the THCA stays as it is, and the result is even harder to predict." },
+  { "q": "Can I use a different temperature?", "a_html": "Many cooks work somewhere between about 220 and 250°F and adjust the time to suit. Higher heat risks scorching the flower and driving off its aroma, so we would stay low." },
+  { "q": "How strong will my batch be?", "a_html": "Nobody can say exactly without a lab. Label it, keep it away from children and start low." }
+ ]
+}

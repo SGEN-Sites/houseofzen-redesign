@@ -1,0 +1,70 @@
+{
+  "order": 1,
+  "slug": "cannabis-for-beginners",
+  "path": "/blog/cannabis-for-beginners/",
+  "title": "A Calm Beginner’s Guide to Cannabis | House of Zen",
+  "h1": "A Calm Beginner’s Guide to Cannabis",
+  "description": "A plain guide for people new to cannabis: how it is used, how to begin with a small amount, and what Michigan law expects of adults 21 and older.",
+  "categories": [{ "name": "Cannabis 101", "slug": "cannabis-101" }],
+  "popular": true,
+  "readTime": "4 min read",
+  "image": "g-journal",
+  "imageAlt": "",
+  "excerpt": "You don’t need to know the vocabulary before you begin. Here is what we would tell you on a first visit.",
+  "pull": "Take less than you think you need, and wait.",
+  "relatedCategories": ["flower", "edibles"],
+  "related": ["first-dispensary-visit", "edibles-start-low", "how-to-read-a-dispensary-menu"],
+  "sections": [
+    {
+      "id": "no-vocabulary-needed",
+      "heading": "You don’t need the vocabulary first",
+      "blocks": [
+        { "type": "p", "html": "People often apologize when they tell us they’re new to cannabis, as though they should have studied first. There’s no need. We usually set the strain names aside and ask two plain questions: how do you picture using it, and is there anything you would rather avoid? Those answers narrow things down faster than any chart." },
+        { "type": "p", "html": "A little background does make the rest easier. Cannabis is a plant that produces many compounds, and the two you will hear about most are THC and CBD. THC is the one responsible for the high. CBD doesn’t produce a high of its own, and we’ve written about <a href=\"/blog/what-is-cbd/\">how the two differ</a> if you’d like more. Every marijuana product sold in Michigan must be sealed and labeled with its THC and CBD content, so those numbers are always there for you to read." }
+      ]
+    },
+    {
+      "id": "ways-people-use-it",
+      "heading": "Three ways people use it",
+      "blocks": [
+        { "type": "p", "html": "How you take cannabis changes how it reaches you, and for a beginner that matters more than which product you pick." },
+        { "type": "ul", "items": [
+          "<strong>Inhaled.</strong> <a href=\"/products/flower/\">Flower</a>, <a href=\"/products/pre-rolls/\">pre rolls</a> and <a href=\"/products/vaporizers/\">vaporizers</a>. Effects usually begin within minutes, so you find out quickly how it’s going and can stop when you’ve had enough.",
+          "<strong>Eaten.</strong> <a href=\"/products/edibles/\">Edibles</a> pass through your digestion first. They can take anywhere from half an hour to two hours to be felt, sometimes longer, and they tend to last longer as well. Waiting well is a skill, so we gave it <a href=\"/blog/edibles-start-low/\">its own article</a>.",
+          "<strong>Applied.</strong> <a href=\"/products/topicals/\">Topicals</a> are creams and balms for the skin. Most aren’t made to produce a high, though you should still ask about any specific product."
+        ] },
+        { "type": "p", "html": "We also carry <a href=\"/products/concentrates/\">concentrates</a>, which hold far more THC for their size. We suggest leaving those for later." }
+      ]
+    },
+    {
+      "id": "a-sensible-first-time",
+      "heading": "A sensible first time",
+      "blocks": [
+        { "type": "p", "html": "Pick a time when you have nowhere to be and no one to drive. Home is a good setting, or a friend’s place if that friend has some experience and you trust them." },
+        { "type": "p", "html": "The rest comes down to one habit. Take less than you think you need, and wait. With something inhaled, that might be one small puff, followed by ten minutes of paying attention before you decide on another. With an edible, it means a low dose and at least two hours before you think about more." },
+        { "type": "p", "html": "People describe the experience in all sorts of ways. Some feel light or talkative. Some notice a dry mouth, a quicker heartbeat or a moment of unease. Everyone responds differently, and the same person can respond differently from one day to the next, so we won’t promise you a particular result." },
+        { "type": "callout", "html": "<strong>Health questions belong with your doctor.</strong> If you take medication, have a health condition, or are pregnant or breastfeeding, please talk with a doctor before using cannabis. We can explain products. We can’t give medical advice." }
+      ]
+    },
+    {
+      "id": "what-michigan-expects",
+      "heading": "What Michigan expects of you",
+      "blocks": [
+        { "type": "p", "html": "Adults 21 and older may legally buy, possess and use marijuana in Michigan. You may carry up to 2.5 ounces, of which no more than 15 grams may be concentrate. That is far more than anyone starting out would need." },
+        { "type": "p", "html": "Using it in a public place isn’t allowed, and property owners may ban smoking or use on their property. No one may use it while driving, and it is illegal to drive under the influence. Please keep it out of reach of children. Our <a href=\"/blog/michigan-cannabis-rules-plain-english/\">plain-English guide to the rules</a> goes further if you’d like the details." }
+      ]
+    },
+    {
+      "id": "when-youre-ready",
+      "heading": "When you’re ready to talk it through",
+      "blocks": [
+        { "type": "p", "html": "None of this needs memorizing. Come in, tell us it’s your first time, and we’ll go through it with you at your pace. Clear, honest recommendations are what we promise, and sometimes that means telling you a product is more than you need. If you’d like to know what to expect before you arrive, we’ve laid out <a href=\"/blog/first-dispensary-visit/\">a first visit, step by step</a>." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Do I need a medical card to buy cannabis in Michigan?", "a_html": "No. Adults 21 and older may legally buy it. Before any sale, a licensed store must check a valid driver’s license or government-issued photo ID showing you are 21 or older." },
+    { "q": "Which product should a beginner try first?", "a_html": "There’s no single right answer. Many people like something that lets them take a small amount and stop, such as one puff from a pre roll or a low dose of an edible. Tell us what you’re comfortable with and we’ll talk through the options." },
+    { "q": "Will I feel the same way every time?", "a_html": "Not necessarily. The amount, the way you take it and what you’ve eaten can all change things, and everyone responds differently. A few notes on what you tried can be useful later." }
+  ]
+}

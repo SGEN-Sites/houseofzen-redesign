@@ -1,0 +1,112 @@
+{
+"the-house-of-zen": {
+"text": "The House of Zen",
+"ar": 5.613,
+"emh": 1.031
+},
+"house-of-zen": {
+"text": "House of Zen",
+"ar": 4.594,
+"emh": 0.978
+},
+"balance": {
+"text": "Balance",
+"ar": 2.949,
+"emh": 0.906
+},
+"find-your-balance": {
+"text": "Find your Balance",
+"ar": 5.378,
+"emh": 1.114
+},
+"got-you": {
+"text": "We’ve Got You",
+"ar": 4.917,
+"emh": 0.963
+},
+"zen": {
+"text": "Zen",
+"ar": 1.693,
+"emh": 0.822
+},
+"family": {
+"text": "Family",
+"ar": 1.818,
+"emh": 1.11
+},
+"trust": {
+"text": "Trust",
+"ar": 2.072,
+"emh": 0.856
+},
+"purpose": {
+"text": "Purpose",
+"ar": 2.963,
+"emh": 0.919
+},
+"detroit": {
+"text": "Detroit",
+"ar": 2.771,
+"emh": 0.888
+},
+"welcome": {
+"text": "Welcome",
+"ar": 3.023,
+"emh": 0.906
+},
+"products": {
+"text": "Products",
+"ar": 3.401,
+"emh": 0.903
+},
+"explore": {
+"text": "Explore",
+"ar": 2.63,
+"emh": 0.973
+},
+"rewards": {
+"text": "Rewards",
+"ar": 3.227,
+"emh": 0.903
+},
+"deals": {
+"text": "Deals",
+"ar": 2.033,
+"emh": 0.931
+},
+"journal": {
+"text": "Journal",
+"ar": 2.997,
+"emh": 0.906
+},
+"resources": {
+"text": "Resources",
+"ar": 4.304,
+"emh": 0.803
+},
+"visit": {
+"text": "Visit",
+"ar": 1.494,
+"emh": 0.9
+},
+"start-here": {
+"text": "Start here",
+"ar": 3.722,
+"emh": 0.956
+},
+"our-team": {
+"text": "Our Team",
+"ar": 3.509,
+"emh": 0.856
+},
+"mindful": {
+"text": "Mindful",
+"ar": 2.667,
+"emh": 0.935
+},
+"questions": {
+"text": "Questions",
+"ar": 3.18,
+"emh": 1.015
+}
+}

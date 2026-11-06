@@ -1,0 +1,51 @@
+{
+  "_note": "House of Zen's facts. Every value is from its own live pages (houseofzendetroit.com) unless the key says otherwise. docs/OPEN-DECISIONS.md lists where its own sources disagree.",
+  "name": "House of Zen",
+  "longName": "The House of Zen",
+  "legalName": "House of Zen Detroit",
+  "origin": "https://houseofzendetroit.com",
+  "address": { "street": "14501 Mack Ave", "city": "Detroit", "state": "MI", "zip": "48215", "full": "14501 Mack Ave, Detroit, MI 48215" },
+  "phone": "(313) 332-1733",
+  "phoneHref": "tel:+13133321733",
+  "email": "hello@houseofzendetroit.com",
+  "hours": { "label": "Hours of Operation", "text": "Mon-Sun: 9 am to 9 pm" },
+  "offer": { "firstCustomer": "first customer deals: 30% OFF the purchase" },
+  "menu": {
+    "base": "https://www.houseofzendetroit.com/stores/house-of-zen",
+    "categories": [
+      { "slug": "flower", "url": "https://www.houseofzendetroit.com/stores/house-of-zen/products/flower" },
+      { "slug": "pre-rolls", "url": "https://www.houseofzendetroit.com/stores/house-of-zen/products/pre-rolls" },
+      { "slug": "edibles", "url": "https://www.houseofzendetroit.com/stores/house-of-zen/products/edibles" },
+      { "slug": "concentrates", "url": "https://www.houseofzendetroit.com/stores/house-of-zen/products/concentrates" },
+      { "slug": "topicals", "url": "https://www.houseofzendetroit.com/stores/house-of-zen/products/topicals" },
+      { "slug": "cbd", "url": "https://www.houseofzendetroit.com/stores/house-of-zen/products/cbd" },
+      { "slug": "vaporizers", "url": "https://www.houseofzendetroit.com/stores/house-of-zen/products/vaporizers" },
+      { "slug": "accessories", "url": "https://www.houseofzendetroit.com/stores/house-of-zen/products/accessories" }
+    ]
+  },
+  "categories": [
+    { "slug": "flower", "label": "Premium Flower", "photo": "hoz/premium-flower.jpg", "gimg": "g-cat-flower" },
+    { "slug": "pre-rolls", "label": "Pre Rolls", "photo": "hoz/pre-rolls.jpg", "gimg": "g-cat-prerolls" },
+    { "slug": "edibles", "label": "Edibles", "photo": "hoz/edibles.jpg", "gimg": "g-cat-edibles" },
+    { "slug": "concentrates", "label": "Concentrates", "photo": "hoz/concentrates.jpg", "gimg": "g-cat-concentrates" },
+    { "slug": "topicals", "label": "Topicals", "photo": "hoz/topicals.jpg", "gimg": "g-cat-topicals" },
+    { "slug": "cbd", "label": "CBD Products", "photo": "hoz/cbd-products.jpg", "gimg": "g-cat-cbd" },
+    { "slug": "vaporizers", "label": "Vaporizers", "photo": "hoz/vaporizers.jpg", "gimg": "g-cat-vaporizers" },
+    { "slug": "accessories", "label": "Accessories", "photo": "hoz/accessories.jpg", "gimg": "g-cat-accessories" }
+  ],
+  "social": { "instagram": "https://www.instagram.com/houseofzen_313/", "instagramHandle": "houseofzen_313" },
+  "mapEmbed": "https://maps.google.com/maps?q=14501%20Mack%20Ave%2C%20Detroit%2C%20MI%2048215&t=m&z=14&output=embed&iwloc=near&hl=en_US",
+  "directions": "https://www.google.com/maps/dir/?api=1&destination=14501+Mack+Ave%2C+Detroit%2C+MI+48215",
+  "ageGate": { "question": "Are you 21 years or older?", "yes": "Yes", "no": "No", "remember": "Remember me", "denied": "This site is only for adults 21 and older." },
+  "copyright": "©2026 House of Zen Detroit. All Rights Reserved",
+  "legalLine": "For adults 21 and older. Keep out of reach of children. It is illegal to drive under the influence of marijuana.",
+  "liveMenuFacts": {
+    "_source": "The client's own live menu page, /stores/house-of-zen (not its main site). Its phone and hours disagree with the site: never print those two from here.",
+    "blurb": "Welcome to the family!!!!! The House of Zen is your hidden gem located on the eastside of Detroit. We pride ourselves on providing quality meds and exceptional customer service, for all your Zenful needs!!!!",
+    "inStorePickup": true,
+    "curbsidePickup": true,
+    "delivery": false,
+    "menuTypes": ["Recreational", "Medical (the menu's age prompt says '21 years old or a valid medical patient')"],
+    "photoIdForPickup": true
+  }
+}

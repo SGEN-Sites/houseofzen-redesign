@@ -1,0 +1,110 @@
+/* tokens.css - "KINTSUGI MORNING": glassmorphism x luxury typography x wabi sabi, on House of Zen's own brand.
+   Client colours from the live site: moss #515D30 (buttons), olive #808B55 (bands), sage #A4A865 (age gate), ink #151515,
+   mint-white #F6FFF7 (page ground). From the logo and the store: indigo (the Buddha's crown, the staff shirts, the glazed
+   planters) and gold (the Buddha's face, the sunburst mirror in the lounge).
+   Main session owns this file: lanes USE these names and never hard-code a colour that has a token. */
+:root {
+  /* paper grounds (light grounds lead) */
+  --rice: #fbf9f3;
+  --washi: #f5f2e9;
+  --washi-2: #ece8da;
+  --mint: #f6fff7;              /* client page ground */
+  --plaster: #e4dfd0;
+
+  /* greens: the client's */
+  --sage: #a4a865;
+  --olive: #808b55;
+  --moss: #515d30;
+  --moss-2: #3f4925;
+  --moss-deep: #2a3219;
+
+  /* indigo + gold: the logo and the store */
+  --indigo: #0b3f6b;
+  --indigo-2: #123253;
+  --indigo-deep: #0a2238;
+  --gold: #c8a24b;              /* the kintsugi seam; decorative or on dark */
+  --gold-soft: #e8d57e;         /* the Buddha's face; text on dark */
+  --gold-text: #7a5f1c;         /* gold words on paper: 5.3:1 on --washi */
+  --gold-grad: linear-gradient(100deg, #8e6f24 0%, #d9b65c 34%, #f1e19a 52%, #c8a24b 72%, #8e6f24 100%);
+
+  /* text */
+  --ink: #171812;
+  --text: var(--ink);
+  --text-2: #43453a;            /* body on paper: 8.8:1 on --washi */
+  --text-3: #5f6152;            /* captions on paper: 5.7:1 on --washi */
+  --text-on-dark: #f7f4ea;
+  --text-on-dark-2: rgba(247, 244, 234, 0.8);
+
+  /* lines */
+  --line: rgba(23, 24, 18, 0.14);
+  --line-2: rgba(23, 24, 18, 0.28);
+  --line-on-dark: rgba(247, 244, 234, 0.2);
+  --hair-gold: rgba(200, 162, 75, 0.65);
+
+  /* glass (mid plane): frosted shoji */
+  --glass: rgba(251, 249, 243, 0.42);
+  --glass-strong: rgba(251, 249, 243, 0.72);
+  --glass-moss: rgba(42, 50, 25, 0.44);
+  --glass-indigo: rgba(10, 34, 56, 0.46);
+  --glass-border: rgba(255, 255, 255, 0.62);
+  --glass-border-dark: rgba(247, 244, 234, 0.2);
+  --glass-blur: 22px;
+  --glass-sat: 135%;
+  --glass-sheen: linear-gradient(118deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 42%);
+  --glass-shadow: 0 34px 70px -36px rgba(42, 50, 25, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  --glass-shadow-dark: 0 34px 70px -34px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  /* the faint shoji lattice laid over some panes (never under long text) */
+  --shoji: linear-gradient(to right, rgba(81, 93, 48, 0.1) 1px, transparent 1px) 0 0 / 96px 100%,
+           linear-gradient(to bottom, rgba(81, 93, 48, 0.1) 1px, transparent 1px) 0 0 / 100% 128px;
+
+  /* wabi sabi: nothing is perfectly square. Hand-thrown corners, each a little different. */
+  --r-1: 46px 38px 54px 32px / 40px 54px 36px 48px;
+  --r-2: 34px 52px 38px 56px / 52px 36px 50px 34px;
+  --r-3: 58px 34px 44px 40px / 36px 50px 58px 42px;
+  --r-sm: 20px 15px 22px 14px / 15px 22px 14px 20px;
+  --r-pill: 999px;
+
+  /* type: the client's three faces */
+  --font-display: 'Instrument Serif', 'Times New Roman', Georgia, serif;
+  --font-body: 'Lato', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-label: 'Poppins', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --fs-mega: clamp(3.3rem, 8.8vw, 9.2rem);
+  --fs-h1: clamp(2.9rem, 6.2vw, 6.2rem);
+  --fs-h2: clamp(2.3rem, 4.5vw, 4.5rem);
+  --fs-h3: clamp(1.5rem, 2.2vw, 2.1rem);
+  --fs-h4: clamp(1.2rem, 1.5vw, 1.4rem);
+  --fs-lede: clamp(1.1rem, 1.35vw, 1.3rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.9375rem;
+  --fs-label: 0.8125rem;        /* the floor: never smaller */
+  --lh-tight: 0.98;
+  --lh-snug: 1.12;
+  --lh-body: 1.72;
+  --track-display: -0.018em;
+  --track-label: 0.2em;
+  --measure: 62ch;
+
+  /* space and layers */
+  --wrap: 1280px;
+  --wrap-wide: 1560px;
+  --wrap-narrow: 760px;
+  --gutter: clamp(20px, 4.4vw, 72px);
+  --section-y: clamp(72px, 10vw, 168px);
+  --overhang: clamp(56px, 8vw, 132px);   /* extra top padding of a band under a protruding object */
+  --z-back: -1;
+  --z-band: 1;
+  --z-band-over: 2;
+  --z-protrude: 6;
+  --z-header: 50;
+  --z-mega: 60;
+  --z-drawer: 70;
+  --z-gate: 90;
+
+  /* motion */
+  --ease: cubic-bezier(0.22, 0.8, 0.24, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-1: 0.28s;
+  --dur-2: 0.6s;
+  --dur-3: 1.1s;
+  --focus-ring: 0 0 0 3px var(--rice), 0 0 0 5px var(--indigo);
+}

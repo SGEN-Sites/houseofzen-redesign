@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-ink-mist",
+  "file": "assets/generated/g-ink-mist.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A real scan of very pale sumi ink wash on handmade off-white washi paper: wet-on-wet grey-green ink diffused softly into the paper in faint drifting clouds, feathered edges following the paper fibres, mostly empty pale paper, very low contrast, no hard edges. Only ink wash and paper, monochrome grey-green on warm off-white, nothing else in the image. Absolutely no text, no letters, no seal, no stamp.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 3388999509,
+  "requestId": "01a1b23b-94cc-70b0-aaa3-5a5fd4634916",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "7b7dc89eb24699da10ff01c21285de06a61c0ef55b9f95e3ac025daddbf0da6a",
+  "attempt": 2,
+  "generatedAt": "2026-11-06T19:00:26.200Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "attempt 1 rejected (flat shapes with an invented gold blossom). Attempt 2 regraded: ink softened and thinned, recoloured grey-green on warm off-white",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, graded"
+}

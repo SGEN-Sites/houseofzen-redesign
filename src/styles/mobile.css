@@ -1,0 +1,125 @@
+/* mobile.css (FOUNDATION): the drawer below 1024px, and phone rules: opaque panes on big glass (live blur only on the header, drawer and dialogs), 44px taps,
+   13px floor, smaller protrusions, no horizontal overflow. Loaded after every lane's sheet except fix.css. */
+@media (min-width: 1024px) {
+  .nav-scrim { display: none; }
+}
+@media (max-width: 1023.98px) {
+  :root { --bar-h: 60px; --bar-gap: 8px; }
+  .promo__facts { display: none; }
+  .promo__inner { justify-content: center; }
+  .mainbar { padding-inline: 12px 8px; gap: 8px; }
+  .mainbar__logo { width: 72px; --logo-tab: 16px; }
+  .mainbar__logo .logo__img { width: 72px; top: -6px; }
+  .header-cta { min-height: 44px; }
+  .nav-toggle { display: inline-grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line-2); color: var(--ink); cursor: pointer; transition: background-color var(--dur-1); }
+  .nav-toggle:hover, .nav-toggle:focus-visible { background: var(--gold-soft); }
+
+  /* the drawer: live blur is allowed here */
+  .nav {
+    position: fixed; top: 0; right: 0; bottom: 0; z-index: var(--z-drawer); width: min(94vw, 460px); flex-direction: column; align-items: stretch; overflow-y: auto; overscroll-behavior: contain;
+    background: color-mix(in srgb, var(--rice) 90%, transparent); -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)); backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+    border-left: 1px solid var(--glass-border); border-radius: var(--r-1); border-top-right-radius: 0; border-bottom-right-radius: 0; box-shadow: var(--shade-deep);
+    transform: translateX(104%); visibility: hidden; transition: transform 0.5s var(--ease), visibility 0s linear 0.5s; padding-bottom: env(safe-area-inset-bottom);
+  }
+  html.nav-open .nav { transform: none; visibility: visible; transition: transform 0.5s var(--ease), visibility 0s; }
+  .nav__drawer-head { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px 6px 20px; }
+  .nav__logo { width: 76px; }
+  .nav__close { display: inline-grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line-2); cursor: pointer; }
+  .nav__list { display: block; height: auto; padding-inline: 20px; }
+  .nav__item { display: block; border-bottom: 1px solid var(--line); }
+  .nav__row { justify-content: space-between; }
+  .nav__link { flex: 1 1 auto; min-height: 58px; padding: 0; font-family: var(--font-display); font-weight: 400; font-size: 1.85rem; letter-spacing: var(--track-display); background: none; }
+  .has-mega .nav__link { padding: 0; }
+  .nav__more { width: 52px; height: 58px; margin: 0; color: var(--moss); }
+  .nav__more .icon { width: 20px; height: 20px; }
+
+  .mega { position: static; display: none; visibility: visible; transition: none; }
+  .mega::before { content: none; }
+  .is-open > .mega { display: block; }
+  .mega__panel, .mega--wide .mega__panel, .mega--guides .mega__panel, .mega--store .mega__panel { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; max-height: none; overflow: visible; padding: 2px 0 20px; background: none; border: 0; border-radius: 0; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; opacity: 1; transform: none; transition: none; }
+  .is-open > .mega > .mega__panel { transition: none; }
+  .mega__feature { min-height: 180px; }
+  .mega__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .mega__group--n4, .mega__group--n8 { --mega-card-h: 112px; }
+  .mega__card-t { min-height: 30px; font-size: 1rem; }
+  .mega__link { min-height: 46px; font-size: 1.0625rem; }
+  .mega__store { grid-template-columns: minmax(0, 1fr); }
+  .mega__store-media { height: 180px; }
+
+  .nav__drawer-foot { display: grid; gap: 14px; padding: 18px 20px 26px; }
+  .nav__cta { width: 100%; }
+  .nav__quick { display: grid; gap: 0; list-style: none; margin: 0; padding: 0; font-size: 1rem; }
+  .nav__quick li { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 8px; align-items: center; min-height: 44px; }
+  .nav__quick .icon { width: 18px; height: 18px; color: var(--moss); }
+  .nav__quick a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--hair-gold); text-underline-offset: 0.22em; display: inline-flex; align-items: center; min-height: 44px; }
+
+  /* heroes stack */
+  .page-hero__inner { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .page-hero__h1, .page-hero__h1.h1--mid, .page-hero__h1.h1--long { max-width: none; }
+  .page-hero__media { justify-self: end; width: min(70%, 340px); margin-top: 6px; margin-right: 4%; }
+  .page-hero__cut { left: -22%; width: 48%; }
+
+  .footer__top { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .footer__brand { grid-column: 1 / -1; min-height: 60px; }
+  .footer__cols { grid-column: 1 / -1; }
+  .footer__visit { grid-column: 1 / -1; }
+}
+
+@media (max-width: 720px) {
+  :root { --promo-h: 44px; --bar-h: 56px; --bar-x: 10px; --section-y: clamp(64px, 16vw, 92px); --hero-top: calc(var(--bar-gap) + var(--bar-h) + 40px); }
+  .promo { font-size: var(--fs-label); }
+  .promo__inner { padding-inline: 10px; }
+  .promo__offer { gap: 10px; flex-wrap: nowrap; }
+  .promo__text { letter-spacing: 0; white-space: nowrap; }
+  .promo__link { display: inline-flex; align-items: center; min-height: 44px; padding-bottom: 0; background-position: 0% calc(100% - 8px); }
+  .mainbar__logo { width: 64px; --logo-tab: 14px; }
+  .mainbar__logo .logo__img { width: 64px; top: -5px; }
+  .site-header.is-scrolled .mainbar__logo .logo__img { transform: scale(0.9); }
+  .mainbar { gap: 6px; }
+  .header-tools { gap: 6px; }
+  .header-cta { padding-inline: 1em; }
+
+  /* big glass goes opaque on phones; live blur stays on the header, the drawer and dialogs */
+  .glass:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--rice) 94%, transparent); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .glass--moss:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--moss-deep) 95%, transparent); }
+  .glass--indigo:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--indigo-deep) 95%, transparent); }
+  .btn--glass { --btn-bg: var(--rice); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .glass { --r: var(--r-2); }
+
+  .frame::before, .cat-card::before { inset: 8px -7px -8px 7px; }
+  .cat-card::before { bottom: auto; }
+  .cat-card__cut { display: none; }
+  .seam { --seam-w: clamp(60px, 18vw, 90px); }
+  .seam--2 { --seam-w: 86vw; }
+  .seam--3 { --seam-w: 100%; }
+  .protrude { max-width: 62vw; }
+
+  .demo-form { grid-template-columns: minmax(0, 1fr); }
+  .demo-form__btn { justify-self: stretch; }
+  .spec__row { grid-template-columns: minmax(0, 1fr); }
+  .step:nth-child(even) { margin-left: 0; }
+  .btn { min-height: 48px; }
+  .btn--sm { min-height: 44px; }
+  .crumbs a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; background-position: 100% calc(100% - 10px); }
+  .crumbs a:hover, .crumbs a:focus-visible { background-position: 0% calc(100% - 10px); }
+  .crumbs li { align-items: center; min-height: 44px; }
+  .page-hero__text > .crumbs { margin-bottom: 2px; }
+
+  .footer__top { grid-template-columns: minmax(0, 1fr); gap: 26px; }
+  .footer__chip { top: -112px; width: 132px; padding: 14px 16px 10px; }
+  .footer__brand { min-height: 26px; }
+  .footer__cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .footer__links a, .footer__social, .footer__totop, .footer__legal a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; background-position: 100% calc(100% - 8px); }
+  .footer__links a:hover, .footer__links a:focus-visible, .footer__social:hover, .footer__totop:hover, .footer__legal a:hover { background-position: 0% calc(100% - 8px); }
+  .footer__addr a, .footer__addr p { min-height: 44px; align-items: center; }
+  .footer__bottom { grid-template-columns: minmax(0, 1fr); }
+  .footer__legal li { display: inline-flex; align-items: center; }
+  .footer__mark { padding-inline: 16px; }
+}
+
+/* the narrowest phones: the offer line may wrap to two lines inside the 44px strip, Start here keeps its place */
+@media (max-width: 400px) {
+  .promo__offer { white-space: normal; }
+  .promo__text { flex: 0 1 auto; min-width: 0; white-space: normal; line-height: 1.18; text-wrap: balance; }
+  .promo__link { flex: none; white-space: nowrap; }
+}

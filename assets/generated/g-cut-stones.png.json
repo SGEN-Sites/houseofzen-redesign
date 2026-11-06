@@ -1,0 +1,33 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cut-stones",
+  "file": "assets/generated/g-cut-stones.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Three smooth rounded grey river stones balanced on top of one another in a small stack, largest at the bottom and smallest on top, soft matte surfaces with faint mineral veins, slightly asymmetrical. The whole stack is inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface, product photograph",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4"
+  },
+  "seed": 4148236987,
+  "requestId": "01a1b234-0fb1-7dd2-979a-201120cc2e91",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1b234-608b-7a81-8b6f-f3013e09cb1c"
+  },
+  "width": 1792,
+  "height": 2368,
+  "sha256": "03fe8abe9d4616de125a93b74dd399bf30340a5201e0d6b41586fa8f616eff4c",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:52:21.799Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra + BiRefNet v2 matting"
+}

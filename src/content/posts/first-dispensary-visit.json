@@ -1,0 +1,73 @@
+{
+  "order": 10,
+  "slug": "first-dispensary-visit",
+  "path": "/blog/first-dispensary-visit/",
+  "title": "Your First Dispensary Visit, Step by Step | House of Zen",
+  "h1": "Your First Dispensary Visit, Step by Step",
+  "description": "A first visit to House of Zen in Detroit, step by step: the ID to bring, the questions to ask, how checkout works and how to get your purchase home.",
+  "categories": [{ "name": "Resources", "slug": "resources" }],
+  "popular": true,
+  "readTime": "4 min read",
+  "image": "g-first-visit",
+  "imageAlt": "",
+  "excerpt": "A first visit is simpler than most people imagine. Here is what happens, one step at a time.",
+  "pull": "Nobody expects you to know how this works, and guiding first-time customers is something we specialize in.",
+  "relatedCategories": ["flower", "pre-rolls", "edibles"],
+  "related": ["cannabis-for-beginners", "how-to-read-a-dispensary-menu", "michigan-cannabis-rules-plain-english"],
+  "sections": [
+    {
+      "id": "before-you-leave-home",
+      "heading": "Step 1: Before you leave home",
+      "blocks": [
+        { "type": "p", "html": "Bring one thing without fail: a valid driver’s license or government-issued photo ID showing you are 21 or older. Michigan stores must check it before any sale." },
+        { "type": "p", "html": "A few minutes with our product pages will show you the words you’re likely to hear: <a href=\"/products/flower/\">flower</a>, <a href=\"/products/pre-rolls/\">pre rolls</a>, <a href=\"/products/edibles/\">edibles</a> and so on. Our guide to <a href=\"/blog/how-to-read-a-dispensary-menu/\">reading a menu</a> explains the rest. You don’t need to decide anything yet. Settle on a rough budget instead, and jot down any questions." },
+        { "type": "p", "html": "We’re at 14501 Mack Ave, Detroit, MI 48215, and our hours are Mon-Sun: 9 am to 9 pm. If you’d like to check something first, including how you can pay, call us at (313) 332-1733." }
+      ]
+    },
+    {
+      "id": "when-you-arrive",
+      "heading": "Step 2: When you arrive",
+      "blocks": [
+        { "type": "p", "html": "Tell whoever greets you that it’s your first time. Nobody expects you to know how this works, and guiding first-time customers is something we specialize in." },
+        { "type": "p", "html": "House of Zen began as a family vision of a dispensary experience that feels calm, welcoming and intentional, and we’d like your first visit to feel that way too. Take your time and ask what things are." }
+      ]
+    },
+    {
+      "id": "talk-it-through",
+      "heading": "Step 3: Talk it through with the team",
+      "blocks": [
+        { "type": "p", "html": "This is the useful part. We can only be as helpful as what you share with us, and none of it needs to be technical. These are the things we’ll want to hear:" },
+        { "type": "ul", "items": [
+          "If you’ve used cannabis before, and how long ago.",
+          "How you picture using it, and where.",
+          "Anything you’d rather avoid, such as smoking or a strong high.",
+          "What you’d like to spend."
+        ] },
+        { "type": "p", "html": "From there we’ll show you a few options and explain the differences in plain terms, including how each is used, what’s on the label and how much to begin with. Ask the basic question. We would much rather answer it than have you leave unsure. The one kind of question we’ll pass along is medical, because that belongs with your doctor." }
+      ]
+    },
+    {
+      "id": "at-the-checkout",
+      "heading": "Step 4: At the checkout",
+      "blocks": [
+        { "type": "p", "html": "Our checkout is a guided one, so someone will walk you through it. Adult-use purchases carry a 10% excise tax plus the 6% sales tax, and the sales tax is figured on the price including the excise. If the final figure matters to you, ask for the total before you decide." },
+        { "type": "p", "html": "There’s a limit as well. A licensed adult-use store may sell no more than 2.5 ounces in a single transaction, with no more than 15 grams as concentrate. Stores must also offer every customer a pamphlet with the Poison Control hotline and statements on the risks of adolescent use, so don’t be surprised if you’re handed one." },
+        { "type": "callout", "html": "<strong>First customer deals: 30% OFF the purchase.</strong> Let us know it’s your first visit. You’ll find current offers on our <a href=\"/deals/\">deals page</a>." }
+      ]
+    },
+    {
+      "id": "getting-home",
+      "heading": "Step 5: Getting home, and afterward",
+      "blocks": [
+        { "type": "p", "html": "Your purchase will be sealed. We suggest keeping it that way on the trip home, out of reach, in the trunk if you have one. That’s the cautious practice. No one may use marijuana while driving, it is illegal to drive under the influence, and using it in a public place isn’t allowed either." },
+        { "type": "p", "html": "At home, keep it out of reach of children, and look over our <a href=\"/blog/cannabis-for-beginners/\">beginner’s guide</a> before you open anything." },
+        { "type": "p", "html": "If something stops making sense once you’re home, ask. You can reach us through our <a href=\"/contact/\">contact page</a>, or simply bring the question on your next visit, and we’ll go through it together." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Do I need to know what I want before I come in?", "a_html": "No. Working that out with you is part of what we’re here for. Tell us what you’re comfortable with and we’ll take it from there." },
+    { "q": "Do I need a medical card?", "a_html": "No. Adults 21 and older may legally buy marijuana in Michigan with a valid ID. If you’re a registered patient with questions, please <a href=\"/contact/\">check with us</a>." },
+    { "q": "What if my questions feel too basic?", "a_html": "Please ask them anyway. A judgment-free environment is one of the things we promise, and a basic question is often the most useful one." }
+  ]
+}

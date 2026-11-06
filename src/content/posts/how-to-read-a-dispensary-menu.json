@@ -1,0 +1,83 @@
+{
+  "order": 7,
+  "slug": "how-to-read-a-dispensary-menu",
+  "path": "/blog/how-to-read-a-dispensary-menu/",
+  "title": "How to Read a Dispensary Menu | House of Zen",
+  "h1": "How to Read a Dispensary Menu",
+  "description": "What each part of a cannabis menu listing means: product types, THC and CBD figures, weights, prices and Michigan taxes, with a short list of common terms.",
+  "categories": [{ "name": "Shopping & Reviews", "slug": "shopping-and-reviews" }],
+  "popular": true,
+  "readTime": "4 min read",
+  "image": "g-art-label",
+  "imageAlt": "",
+  "excerpt": "A dispensary menu packs a lot into one line. Once you know what each part means, it reads much more easily.",
+  "pull": "The biggest number on the page is rarely where we’d have a newcomer begin.",
+  "relatedCategories": ["flower", "vaporizers"],
+  "related": ["first-dispensary-visit", "thc-vs-thca", "michigan-cannabis-label"],
+  "sections": [
+    {
+      "id": "whats-in-a-listing",
+      "heading": "What’s in a listing",
+      "blocks": [
+        { "type": "p", "html": "A cannabis menu can look like a spreadsheet written for someone else. Ours runs from <a href=\"/products/flower/\">flower</a> through to <a href=\"/products/vaporizers/\">vaporizers</a> and accessories, and on any menu, most listings carry the same few details." },
+        { "type": "ul", "items": [
+          "<strong>Name.</strong> The strain or product, usually with the brand or grower.",
+          "<strong>Type.</strong> Often <a href=\"/blog/indica-sativa-hybrid/\">indica, sativa or hybrid</a>. Read this as a hint about the plant’s family and not as a forecast of how you’ll feel.",
+          "<strong>Potency.</strong> THC and CBD, shown as a percentage or in milligrams.",
+          "<strong>Size.</strong> The weight, or the number of pieces in a package.",
+          "<strong>Price.</strong> Compare it against the size, not on its own."
+        ] },
+        { "type": "p", "html": "Some menus add mood words or effect tags. Read those as someone else’s impression and never as a promise, because everyone responds differently." }
+      ]
+    },
+    {
+      "id": "percent-and-milligrams",
+      "heading": "Percent and milligrams",
+      "blocks": [
+        { "type": "p", "html": "Flower and concentrates usually show potency as a percentage, the share of the product’s weight that is THC. Edibles show milligrams, the actual amount in a piece or a package. The two don’t compare directly, so stick to comparing like with like. An edible listing may show both the amount per piece and the total for the package. Adult-use edibles are capped at 10 mg per dose and 200 mg per package." },
+        { "type": "p", "html": "Flower can also show a THC figure beside a much larger THCa figure, which we explain in <a href=\"/blog/thc-vs-thca/\">THC and THCa</a>. Michigan labels must state that actual values may vary by 10%, so don’t read too much into a small difference. The package itself says more than a listing can, including the net weight, the harvest date where it applies, the testing lab and the test date. Our article on <a href=\"/blog/michigan-cannabis-label/\">the Michigan label</a> goes through it." },
+        { "type": "p", "html": "A higher percentage means more THC, and it doesn’t tell you much else. The biggest number on the page is rarely where we’d have a newcomer begin." }
+      ]
+    },
+    {
+      "id": "weights-and-sizes",
+      "heading": "Weights and sizes",
+      "blocks": [
+        { "type": "p", "html": "Flower is sold by weight, and the old fractions of an ounce are still in everyday use. To compare two sizes fairly, divide the price by the grams." },
+        { "type": "ul", "items": [
+          "An eighth is about 3.5 grams.",
+          "A quarter is about 7 grams.",
+          "A half is about 14 grams.",
+          "An ounce is about 28 grams."
+        ] },
+        { "type": "p", "html": "A licensed adult-use store may sell no more than 2.5 ounces in a single transaction, and no more than 15 grams of that as concentrate." }
+      ]
+    },
+    {
+      "id": "a-few-words",
+      "heading": "A few words you may meet",
+      "blocks": [
+        { "type": "ul", "items": [
+          "<strong>Distillate:</strong> highly refined cannabis oil, common in vape cartridges.",
+          "<strong>Live resin:</strong> a concentrate made from freshly frozen plants.",
+          "<strong>Rosin:</strong> a concentrate pressed out with heat and pressure, using no solvents.",
+          "<strong>Infused pre roll:</strong> flower with concentrate added, so it’s much stronger than a plain one.",
+          "<strong>Tincture:</strong> a liquid extract, measured out by the dropper."
+        ] }
+      ]
+    },
+    {
+      "id": "prices-and-taxes",
+      "heading": "What you’ll pay",
+      "blocks": [
+        { "type": "p", "html": "Adult-use purchases in Michigan carry a 10% excise tax plus the 6% sales tax, and the sales tax is figured on the price including the excise. Menus don’t all show this the same way, so ask us if you’re unsure whether a price already includes tax." },
+        { "type": "callout", "html": "<strong>The state’s own example.</strong> On a $100 sale, the excise tax is $10 and the sales tax is 6% of $110, or $6.60. That comes to $116.60 in all. The figures show the arithmetic only and aren’t a House of Zen price." },
+        { "type": "p", "html": "Current offers are on our <a href=\"/deals/\">deals page</a>. If you’ve narrowed things down to a few listings and can’t decide, show them to us. We’re glad to explain any word on the page, and it saves you guessing." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Is the highest THC number the right choice?", "a_html": "Not necessarily. It tells you how much THC is present. It doesn’t tell you how carefully something was grown or how you’ll respond, and someone new usually does well to begin with a smaller amount." },
+    { "q": "Do medical and adult-use menus differ?", "a_html": "They can. Medical marijuana sold to registered patients isn’t subject to the 10% excise tax, only the 6% sales tax. Medical edibles may also contain up to 50 mg per dose, where adult-use edibles stop at 10 mg. If you’re a registered patient, please <a href=\"/contact/\">check with us</a> before you come." }
+  ]
+}

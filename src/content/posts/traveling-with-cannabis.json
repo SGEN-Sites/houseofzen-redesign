@@ -1,0 +1,45 @@
+{
+ "order": 20,
+ "slug": "traveling-with-cannabis",
+ "path": "/blog/traveling-with-cannabis/",
+ "title": "Traveling With Cannabis in Michigan | House of Zen",
+ "h1": "Traveling With Cannabis: What Michigan Law Does and Doesn’t Cover",
+ "description": "What Michigan law covers when you travel with cannabis, as of October 2026: cars, boats, state lines, airports, federal land, hotels and rental cabins.",
+ "categories": [{ "name": "News & Culture", "slug": "news-and-culture" }],
+ "popular": false,
+ "readTime": "3 min read",
+ "image": "g-ink-mist",
+ "imageAlt": "",
+ "excerpt": "Michigan’s law covers more than people expect on the road and less than they hope at the state line. Here is where it stops.",
+ "pull": "Michigan law ends at the state line, and federal law applies on both sides of it.",
+ "relatedCategories": ["accessories"],
+ "related": ["michigan-cannabis-rules-plain-english", "how-to-store-cannabis", "first-dispensary-visit"],
+ "sections": [
+  { "id": "inside-michigan", "heading": "On the road inside Michigan", "blocks": [
+   { "type": "callout", "html": "These summaries are general information, not legal advice, as of October 2026. Travel can bring in other states’ rules as well as federal law. We can tell you what we know, and a lawyer can tell you what applies to you." },
+   { "type": "p", "html": "Adults 21 and older may transport up to 2.5 ounces in Michigan, but not use it on the road. Keeping it sealed and out of reach is the cautious practice." },
+   { "type": "p", "html": "We suggest the trunk. An older Michigan statute calls for usable marijuana in a vehicle to be enclosed in a case carried in the trunk. We found no clear answer on whether it still applies to adults who are not patients, so we think of the trunk as a safe habit rather than a settled rule." },
+   { "type": "p", "html": "No one may use marijuana while driving or in control of a motor vehicle, motorboat, snowmobile, off-road vehicle or aircraft, and smoking is not allowed in a vehicle’s passenger area on a public road. Up north, that list covers the boat and the snowmobile as well as the car." },
+   { "type": "p", "html": "Michigan has no numeric THC limit like the 0.08 alcohol limit. It bans driving while under the influence, and a separate zero-tolerance law bars driving with any amount of a Schedule 1 drug, a list that includes marijuana. If you have used cannabis, let someone else drive." }
+  ] },
+  { "id": "state-lines", "heading": "Crossing a state line", "blocks": [
+   { "type": "p", "html": "Taking cannabis across a state line is not protected by Michigan law and remains illegal under federal law, even between two states where it is legal. Michigan law ends at the state line, and federal law applies on both sides of it. A receipt from a licensed Michigan store does not change that." },
+   { "type": "p", "html": "Detroit readers will also think of the bridge and the tunnel to Windsor. We have not summarized Canadian or border rules here, and we will not guess at them. Our advice is the same: leave it at home." }
+  ] },
+  { "id": "airports", "heading": "Airports and flying", "blocks": [
+   { "type": "p", "html": "TSA officers do not search for drugs, but anything illegal they find is referred to law enforcement, and adult-use marijuana remains illegal under federal law. Airline rules and the rules of your destination apply as well." },
+   { "type": "p", "html": "We cannot tell you that flying with cannabis is allowed, and we would not pack it." }
+  ] },
+  { "id": "federal-land", "heading": "Parks, forests and other federal land", "blocks": [
+   { "type": "p", "html": "Michigan’s law does not protect anyone on federal land such as Sleeping Bear Dunes or a national forest. Federal law applies there, and under it adult-use marijuana is still a Schedule I drug. The simple message is not to bring cannabis at all, and it is worth checking who manages the land before you pack." }
+  ] },
+  { "id": "where-you-stay", "heading": "Hotels, rentals and cabins", "blocks": [
+   { "type": "p", "html": "Private property owners and managers, hotels among them, may prohibit consumption on their premises, and using marijuana in a public place is not allowed. Read the house rules before you unpack, and ask if they are unclear." },
+   { "type": "p", "html": "The plan we like best is the simple one: enjoy the trip, leave your cannabis locked up at home and come back to it when you return. If you are staying inside Michigan and want to talk through how to carry what you have bought, ask our team before you leave. We would rather answer the question than have you guess." }
+  ] }
+ ],
+ "faq": [
+  { "q": "Can I drive home with what I just bought?", "a_html": "Adults 21 and older may transport up to 2.5 ounces in Michigan. Keep it sealed and out of reach, and do not use it on the road." },
+  { "q": "Does a medical card change any of this?", "a_html": "Not that we can promise. The April 2026 federal rule is aimed at licensed medical businesses and does not say that patients may carry medical marijuana across state lines or onto federal property, so those questions remain unresolved." }
+ ]
+}

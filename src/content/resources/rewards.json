@@ -1,0 +1,65 @@
+{
+  "slug": "rewards",
+  "path": "/rewards/",
+  "title": "Rewards | House of Zen",
+  "description": "A concept for discussion: how a House of Zen rewards program could feel, with terms to be set by the owners. No rewards program has been announced so far.",
+  "kicker": "Concept",
+  "h1": "Rewards",
+  "concept": "Concept for discussion: House of Zen has not announced a rewards program. This page shows how one could look, with terms to be set by the owners.",
+  "lede": "Families do not keep score, but they do remember you. Here is a sketch of how that feeling could become a rewards program.",
+  "sections": [
+    {
+      "id": "why-rewards",
+      "heading": "Why rewards could fit a family dispensary",
+      "blocks": [
+        { "type": "p", "html": "House of Zen began as a family vision, and we think of every customer as family. A rewards program, if the owners choose to build one, could grow out of that: a way of saying we are glad you keep coming back." },
+        { "type": "p", "html": "Many programs begin with arithmetic. This one could begin with something else: knowing your name, remembering what you liked, and taking the time to explain what is new." },
+        { "type": "p", "html": "This is only a sketch. There is no program to join today, nothing to earn, and nothing on this page is a promise." }
+      ]
+    },
+    {
+      "id": "how-it-could-work",
+      "heading": "How it could work",
+      "kicker": "A sketch",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            { "title": "Join", "text": "You could sign up at the counter or on this site, with nothing more than a first name and an email address." },
+            { "title": "Visit", "text": "You could shop the way you always do, with no target to reach and no pressure to buy more than you came for." },
+            { "title": "Be remembered", "text": "If you would like, our team could keep a note of what you have enjoyed and what you would rather skip, so each conversation picks up where the last one ended." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "heading": "Ideas to shape together",
+      "kicker": "Ideas, not offers",
+      "blocks": [
+        { "type": "p", "html": "None of these exist today. They are places to begin a conversation." },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Idea:</strong> a quiet note when something new arrives in a category you told us you like.",
+            "<strong>Idea:</strong> a small thank-you from the family on a day that matters to you.",
+            "<strong>Idea:</strong> an education evening at the store, where you can ask the questions you have been saving up.",
+            "<strong>Idea:</strong> a word of thanks for introducing a friend who is twenty-one or older to the house.",
+            "<strong>Idea:</strong> a way to pass your thank-you along to a community cause chosen by the family."
+          ]
+        },
+        { "type": "p", "html": "Tell us which of these sound right and which do not. If a program is ever built, we would want it to sound like this family and like you." },
+        { "type": "callout", "html": "The owners would set any terms, rewards and eligibility. Our <a href=\"/terms-of-use/\">Terms of Use</a> already note that loyalty programs may be subject to additional terms and conditions." }
+      ]
+    }
+  ],
+  "form": {
+    "heading": "Would this feel right to you?",
+    "fields": ["First name", "Email"],
+    "button": "Share my interest"
+  },
+  "_confirm": [
+    "The whole page is a concept. The client has announced no rewards program; its Terms of Use mention only that loyalty programs may be subject to additional terms (docs/OPEN-DECISIONS.md C2).",
+    "The form is a demo through demoForm(): nothing is sent, and it creates no program or list."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "order": 8,
+  "slug": "pre-rolls-vs-flower",
+  "path": "/blog/pre-rolls-vs-flower/",
+  "title": "Pre Rolls or Flower? A Simple Way to Choose | House of Zen",
+  "h1": "Pre Rolls or Flower? A Simple Way to Choose",
+  "description": "Pre rolls come ready to use and flower asks for a little preparation. A plain comparison of the two, and a simple way to decide which suits how you use it.",
+  "categories": [{ "name": "Shopping & Reviews", "slug": "shopping-and-reviews" }],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-cat-prerolls",
+  "imageAlt": "",
+  "excerpt": "Both come from the same plant. The real difference is how much of the process you want to be part of.",
+  "pull": "Most of this decision comes down to one question: how much of the process do you want to be part of?",
+  "relatedCategories": ["pre-rolls", "flower", "accessories"],
+  "related": ["how-to-clean-glass", "how-to-store-cannabis", "how-to-read-a-dispensary-menu"],
+  "sections": [
+    {
+      "id": "the-one-question",
+      "heading": "The one question that decides most of it",
+      "blocks": [
+        { "type": "p", "html": "Pre rolls and flower come from the same plant, so the choice has little to do with the cannabis itself. Most of this decision comes down to one question: how much of the process do you want to be part of?" },
+        { "type": "p", "html": "A pre roll comes ground and rolled, ready to light. Loose flower asks a little of you first: breaking it up, rolling it or packing a bowl, cleaning up afterward. Some people enjoy that part. Others would be glad never to own a grinder. Neither is the more serious way to do it." }
+      ]
+    },
+    {
+      "id": "what-a-pre-roll-gives-you",
+      "heading": "What a pre roll gives you",
+      "blocks": [
+        { "type": "p", "html": "The appeal is that everything is done. You need a light and nothing else, and net weight is printed on every package, so you know how much is in it. That also makes a <a href=\"/products/pre-rolls/\">pre roll</a> a low-commitment way to try something new. Sizes differ and some come in multi-packs, so net weight is the figure to compare." },
+        { "type": "p", "html": "The trade-offs deserve a mention. You can’t see what’s inside, so ask what went into it, whether whole flower or smaller trimmed pieces. Ground cannabis dries out sooner than whole buds, so keep pre rolls in their package, somewhere cool and dark. You’re often paying a little for the convenience, too, so compare the price per gram if budget matters." },
+        { "type": "p", "html": "One more caution: an infused pre roll has concentrate added, which makes it much stronger than a plain one. We wouldn’t start there." }
+      ]
+    },
+    {
+      "id": "what-flower-gives-you",
+      "heading": "What flower gives you",
+      "blocks": [
+        { "type": "p", "html": "<a href=\"/products/flower/\">Flower</a> gives you more say. You choose how much to use and how to use it, whether that’s a paper, a piece of glass or a dry-herb vaporizer, and you can take as little as a pinch. Because the buds stay whole until you need them, flower also tends to hold its aroma longer than anything ground in advance." },
+        { "type": "p", "html": "It does ask for some equipment and a bit of upkeep. You’ll need something to break the buds up and something to use them with. We carry <a href=\"/products/accessories/\">glass accessories</a>, and our articles on <a href=\"/blog/how-to-clean-glass/\">cleaning glass</a> and <a href=\"/blog/how-to-store-cannabis/\">storing cannabis</a> cover the upkeep." }
+      ]
+    },
+    {
+      "id": "a-simple-way-to-choose",
+      "heading": "A simple way to choose",
+      "blocks": [
+        { "type": "h3", "text": "A pre roll may suit you if" },
+        { "type": "ul", "items": [
+          "You’re new and don’t own any equipment.",
+          "You’d like to try something before buying more of it."
+        ] },
+        { "type": "h3", "text": "Flower may suit you if" },
+        { "type": "ul", "items": [
+          "You use cannabis regularly and like having a routine around it.",
+          "You want to decide your own portion each time.",
+          "You enjoy the preparation as much as anything else."
+        ] },
+        { "type": "p", "html": "Both carry the same kind of Michigan label, with THC and CBD content and the testing lab, so you can compare them on the same terms. Plenty of people keep both around, and nothing here has to be settled for good. If you start with a pre roll, remember that a whole one is often more than a beginner needs. Take a puff or two, put it out completely, and wait before deciding on more." },
+        { "type": "callout", "html": "<strong>Easy to carry doesn’t mean allowed anywhere.</strong> Using marijuana in a public place isn’t allowed in Michigan, property owners may ban smoking on their property, and smoking isn’t allowed in a vehicle’s passenger area on a public road." }
+      ]
+    },
+    {
+      "id": "still-not-sure",
+      "heading": "Still not sure?",
+      "blocks": [
+        { "type": "p", "html": "Some people begin with a single pre roll to learn what they like, then move to flower once they know. Tell us what you have at home and how often you expect to use it. We’ll give you a straight answer about which one we’d lean toward, and it may well be the simpler one." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "How much cannabis is in a pre roll?", "a_html": "It varies by product. The net weight must be on the label, so you can check before you buy, or ask us." },
+    { "q": "Can I save part of a pre roll for later?", "a_html": "Yes. Make sure it’s fully out, then keep it in a closed container, out of reach of children. It may taste a little different when you come back to it." },
+    { "q": "What do I need to start with flower?", "a_html": "Something to break it up, and either rolling papers or a piece of glass. Ask us what we have and how to use it." }
+  ]
+}

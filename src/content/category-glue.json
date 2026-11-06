@@ -1,0 +1,210 @@
+{
+  "flower": {
+    "label": "Premium Flower",
+    "title": "Premium Flower | House of Zen",
+    "description": "Premium Flower at House of Zen in Detroit: what cannabis flower is, how people choose among strains and what to read on the label. Just ask us.",
+    "kicker": "Flower",
+    "h1": "Premium Flower",
+    "lede": "Flower is the dried bud of the cannabis plant, the form most people picture first. It is simple, and there is still plenty to learn.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>Flower comes from the plant, dried and trimmed, and is usually ground and then smoked or used in a vaporizer made for it. It is the plainest format we carry: the plant itself, ready for you to prepare.</p>"
+      },
+      {
+        "heading": "How people choose",
+        "html": "<p>Most people start with aroma and strain, then read the label. In Michigan, the label lists THC and CBD content, with a statement that actual values may vary by 10%, plus the testing lab and, where it applies, the harvest date and strain. If you are new, tell us and we will keep it simple.</p>"
+      }
+    ],
+    "tip": "We usually begin by asking what you have enjoyed before and what you would rather avoid, then we read the labels together.",
+    "faq": [
+      {
+        "q": "Is the THC number the only thing to look at?",
+        "a_html": "No. It is one detail on the label. Aroma, strain and your own comfort level matter too, and everyone responds differently."
+      }
+    ],
+    "_claims": ["mi-labeling"]
+  },
+  "pre-rolls": {
+    "label": "Pre Rolls",
+    "title": "Pre Rolls | House of Zen",
+    "description": "Pre Rolls at House of Zen in Detroit: what a pre roll is, how people choose by size, strain and infusion, and where you can use one under Michigan rules.",
+    "kicker": "Pre rolls",
+    "h1": "Pre Rolls",
+    "lede": "A pre roll is flower that is already ground and rolled, so there is nothing to prepare.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>Pre rolls are cannabis flower rolled in paper and ready to light. They come as singles or in small packs and in different sizes, and some are infused with concentrate. Ask us which is which, and we will read the label with you.</p>"
+      },
+      {
+        "heading": "How people choose",
+        "html": "<p>People usually choose by size, by strain and by whether the pre roll is infused. A smaller size can be an easy way to begin if you are new, since you are not holding more than you want. Ask us to compare a few, and we will walk you through the labels.</p>"
+      }
+    ],
+    "tip": "If you are new, we will often point you toward a smaller size first and a plain pre roll before an infused one.",
+    "faq": [
+      {
+        "q": "Where can I use a pre roll?",
+        "a_html": "Using marijuana in a public place is not allowed in Michigan, and property owners may ban smoking on their property. Our <a href=\"/michigan-cannabis-laws/\">Michigan Cannabis Laws</a> page has more."
+      }
+    ],
+    "_claims": ["mi-au-public-use"]
+  },
+  "edibles": {
+    "label": "Edibles",
+    "title": "Edibles | House of Zen",
+    "description": "Edibles at House of Zen in Detroit: what they are, how people choose by format and dose, what Michigan labels list, and why to start low and go slow.",
+    "kicker": "Edibles",
+    "h1": "Edibles",
+    "lede": "Edibles are foods made with cannabis. You eat them rather than inhale them, which changes how you pace yourself.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>Edibles come in many forms and in measured doses. In Michigan, adult-use edibles are capped at 10 mg THC per dose and 200 mg per package, and they must come in opaque, child-resistant packaging. Please keep them out of reach of children.</p>"
+      },
+      {
+        "heading": "How people choose",
+        "html": "<p>People choose by format, by flavor and by the amount of THC per dose. Edibles can take longer to begin than anything inhaled, and the label lists an activation time. Start low and go slow: <a href=\"/blog/edibles-start-low/\">our short read</a> explains why.</p>"
+      }
+    ],
+    "tip": "We suggest starting with a small amount and waiting well past the time on the label before having more.",
+    "faq": [
+      {
+        "q": "How long should I wait before having more?",
+        "a_html": "It varies from person to person, so check the activation time on the label and give it longer than feels necessary. If you are unsure, ask us."
+      }
+    ],
+    "_claims": ["mi-thc-limits", "mi-edibles", "mi-labeling"]
+  },
+  "concentrates": {
+    "label": "Concentrates",
+    "title": "Concentrates | House of Zen",
+    "description": "Concentrates at House of Zen in Detroit: what they are, the names you may hear, how people choose by texture and method, and how to ask our team for help.",
+    "kicker": "Concentrates",
+    "h1": "Concentrates",
+    "lede": "Concentrates are cannabis extracts that hold a lot in a small amount. Most people come to them after some time with other formats.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>A concentrate separates the resin of the plant from the rest of it. You may hear names such as wax, shatter, rosin or live resin, which describe its texture and how it was made. Most are used with a dedicated device, so ask us what you will need.</p>"
+      },
+      {
+        "heading": "How people choose",
+        "html": "<p>People choose by texture, by how it was made and by what the label lists for THC and CBD. Michigan lets adults 21 and older carry up to 2.5 ounces of marijuana, of which no more than 15 grams may be concentrate. If you are new to this format, tell us, and we will slow down and explain.</p>"
+      }
+    ],
+    "tip": "Tell us what you have tried so far, and we will explain the differences before we suggest anything.",
+    "faq": [
+      {
+        "q": "Are concentrates a good place to start?",
+        "a_html": "They can be a lot for someone new, so many people begin with another format first. Tell us your comfort level, and we will talk it through."
+      }
+    ],
+    "_claims": ["mi-au-possession", "mi-labeling"]
+  },
+  "topicals": {
+    "label": "Topicals",
+    "title": "Topicals | House of Zen",
+    "description": "Topicals at House of Zen in Detroit: what these skin-applied formats are, how people choose by texture and label, and what our team can explain.",
+    "kicker": "Topicals",
+    "h1": "Topicals",
+    "lede": "Topicals are cannabis products made to go on the skin, not to be eaten or inhaled.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>Topicals come as creams, balms, lotions and oils, and you apply them to the skin as the package directs. They may contain THC, CBD or both, and the label tells you how much.</p>"
+      },
+      {
+        "heading": "How people choose",
+        "html": "<p>People usually choose by texture, by scent and by what the label lists. We make no promises about what a topical will do, and Michigan’s rules generally do not allow health claims in marijuana marketing. What we can do is walk you through what is in each one and how it is meant to be used.</p>"
+      }
+    ],
+    "tip": "We will happily go through the label with you, so you know what is in it before you choose.",
+    "faq": [
+      {
+        "q": "Can you give me health advice about a topical?",
+        "a_html": "No. That is a question for your physician. We can explain what a product contains and how it is used, and we are glad to do that."
+      }
+    ],
+    "_claims": ["mi-advertising", "mi-labeling"]
+  },
+  "cbd": {
+    "label": "CBD Products",
+    "title": "CBD Products | House of Zen",
+    "description": "CBD Products at House of Zen in Detroit: what CBD is, the formats it comes in, how people compare CBD and THC on the label, and how our team can guide you.",
+    "kicker": "CBD",
+    "h1": "CBD Products",
+    "lede": "CBD is one of the compounds found in the cannabis plant. CBD products are built around it, in many familiar formats.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>CBD comes in formats such as edibles, oils and topicals. Some products contain very little THC and others contain a good deal, so the label matters here as much as anywhere. Michigan requires marijuana product labels to list both THC and CBD content.</p>"
+      },
+      {
+        "heading": "How people choose",
+        "html": "<p>People choose by format first, and then by how much CBD and how much THC a product contains. We make no promises about what a CBD product will do, and Michigan’s rules generally do not allow health claims in marijuana marketing. For anything about your health, please talk with your physician. We can explain the label and the differences between formats in plain words.</p>"
+      }
+    ],
+    "tip": "If you are comparing two CBD products, we will read both labels side by side with you.",
+    "faq": [
+      {
+        "q": "Does CBD mean there is no THC?",
+        "a_html": "No. Some CBD products also contain THC, so check the label, and ask us if you are not sure what you are reading."
+      }
+    ],
+    "_claims": ["mi-advertising", "mi-labeling"]
+  },
+  "vaporizers": {
+    "label": "Vaporizers",
+    "title": "Vaporizers | House of Zen",
+    "description": "Vaporizers at House of Zen in Detroit: what a vaporizer is, the common device types, how people choose among them, and how to ask what fits your own.",
+    "kicker": "Vaporizers",
+    "h1": "Vaporizers",
+    "lede": "A vaporizer heats cannabis oil or flower into a vapor you inhale, instead of burning it.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>Most vaporizers are a cartridge with a battery, an all-in-one device you use as it comes, or a dedicated device for flower or concentrate. Cartridges and batteries have to fit each other, so it is worth asking before you choose.</p>"
+      },
+      {
+        "heading": "How people choose",
+        "html": "<p>People choose by device type first, then by strain and by what the label lists for THC and CBD. Some like something small and simple, others like more control. The same rules apply as with any cannabis: no use while driving and no use in a public place. See <a href=\"/michigan-cannabis-laws/\">Michigan Cannabis Laws</a>.</p>"
+      }
+    ],
+    "tip": "Tell us what device you already have, and we will work out with you what fits it.",
+    "faq": [
+      {
+        "q": "Do I need anything besides the cartridge?",
+        "a_html": "Usually a battery that fits it, unless the vaporizer is an all-in-one. Ask us, and we will walk you through the options."
+      }
+    ],
+    "_claims": ["mi-au-vehicles-use", "mi-au-public-use", "mi-labeling"]
+  },
+  "accessories": {
+    "label": "Accessories",
+    "title": "Accessories | House of Zen",
+    "description": "Accessories at House of Zen in Detroit, including our glass: what this category covers, how people choose a piece, and how to ask us when you come in.",
+    "kicker": "Accessories",
+    "h1": "Accessories",
+    "lede": "The things that go with cannabis, including our glass.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>Accessories are the tools people use with cannabis, and glass accessories are part of what we offer. In general, the category means items such as pipes, papers, grinders and storage, rather than cannabis itself.</p>"
+      },
+      {
+        "heading": "How people choose",
+        "html": "<p>People choose by how they use cannabis, by how much care a piece asks for and by what they like to look at and hold. Glass is as much about feel as function, so come see it if you can. Our team can walk you through what we have today.</p>"
+      }
+    ],
+    "tip": "If you are choosing a first piece of glass, tell us how you plan to use it and we will start from there.",
+    "faq": [
+      {
+        "q": "Do I need to be 21 to buy accessories?",
+        "a_html": "At House of Zen, yes, because we are for adults 21 and older. Michigan’s law authorizes businesses to sell marijuana accessories to adults 21 and older."
+      }
+    ],
+    "_claims": ["mi-au-accessories"]
+  }
+}

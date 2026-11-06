@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cat-vaporizers",
+  "file": "assets/generated/g-cat-vaporizers.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A vertical still life. One slim modern cylindrical vape pen, a matte graphite battery body with a short clear glass cartridge of golden oil at one end and a small flat mouthpiece, completely plain and unbranded with a smooth bare surface, lying at a slight angle on a rough dark slate slab, one very thin thread of pale vapor curling upward from the mouthpiece. The slate sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4"
+  },
+  "seed": 1035387963,
+  "requestId": "01a1b233-e741-7122-82f7-6e82906fe1b5",
+  "cutout": null,
+  "width": 1792,
+  "height": 2240,
+  "sha256": "72f19a168d967afaa69a1b82d03c5eca7ca96e0f630a8508e371c429d7b3d44b",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:51:57.054Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation; cropped from 3:4 to 4:5",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

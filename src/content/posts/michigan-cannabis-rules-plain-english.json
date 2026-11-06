@@ -1,0 +1,57 @@
+{
+ "order": 19,
+ "slug": "michigan-cannabis-rules-plain-english",
+ "path": "/blog/michigan-cannabis-rules-plain-english/",
+ "title": "Michigan’s Cannabis Rules in Plain English | House of Zen",
+ "h1": "Michigan’s Cannabis Rules in Plain English",
+ "description": "A plain summary of Michigan’s adult-use cannabis rules as of October 2026: age, limits, home storage, public use, driving, work, rentals and retail tax.",
+ "categories": [{ "name": "News & Culture", "slug": "news-and-culture" }],
+ "popular": true,
+ "readTime": "4 min read",
+ "image": "g-law",
+ "imageAlt": "",
+ "excerpt": "Who can buy, how much, where it is allowed and where it is not: Michigan’s adult-use rules as of October 2026, without the legal language.",
+ "pull": "Legal in Michigan does not mean legal everywhere in Michigan.",
+ "relatedCategories": ["flower"],
+ "related": ["traveling-with-cannabis", "first-dispensary-visit", "michigan-cannabis-label"],
+ "sections": [
+  { "id": "who-and-how-much", "heading": "Who can buy, and how much", "blocks": [
+   { "type": "p", "html": "Most of Michigan’s cannabis rules fit on one page once the legal language comes out. Here they are, as we would explain them at the counter." },
+   { "type": "callout", "html": "These summaries are general information, not legal advice, as of October 2026. Registered medical patients work under a separate law with its own rules, which we do not cover here. For more detail, see our <a href=\"/michigan-cannabis-laws/\">Michigan cannabis laws</a> page." },
+   { "type": "p", "html": "Adults 21 and older may legally buy, possess and use marijuana in Michigan. Marijuana is the law’s word, and cannabis is ours. The 2018 voter law does not cover anyone under 21." },
+   { "type": "ul", "items": [
+    "You may carry up to 2.5 ounces, of which no more than 15 grams may be concentrate.",
+    "A licensed store may sell you no more than 2.5 ounces in a single transaction, no more than 15 grams of it as concentrate, and no more than 3 immature plants.",
+    "Before any sale, the store must check a valid driver’s license or government-issued photo ID showing you are 21 or older. Bring yours."
+   ] }
+  ] },
+  { "id": "at-home", "heading": "Home, plants and gifts", "blocks": [
+   { "type": "p", "html": "At home, an adult may keep up to 10 ounces plus whatever their own plants produce, but anything over 2.5 ounces must be locked up. In a house with children, we suggest a lock long before that." },
+   { "type": "p", "html": "You may grow up to 12 plants for personal use, with no more than 12 on the premises at once, kept out of public view and behind a lock." },
+   { "type": "p", "html": "You may also give away up to 2.5 ounces, no more than 15 grams of it concentrate, to another adult 21 or older, as long as nothing is received in return and the gift is not advertised or promoted to the public." }
+  ] },
+  { "id": "where-it-is-not-allowed", "heading": "Where it is not allowed", "blocks": [
+   { "type": "ul", "items": [
+    "<strong>Public places.</strong> Using marijuana in a public place is not allowed. The exception is an area a local government has authorized for consumption, closed to anyone under 21.",
+    "<strong>Private property, if the owner says no.</strong> Property owners may ban smoking or use on their property.",
+    "<strong>Schools and prisons.</strong> Marijuana and accessories are not allowed on the grounds of any public or private preschool through 12th-grade school, on a school bus, or on the grounds of a correctional facility.",
+    "<strong>Federal land.</strong> Michigan’s law does not protect anyone on <a href=\"/blog/traveling-with-cannabis/\">federal land</a> such as Sleeping Bear Dunes or a national forest. Federal law applies there, and under it adult-use marijuana is still a Schedule I drug."
+   ] },
+   { "type": "p", "html": "Legal in Michigan does not mean legal everywhere in Michigan." }
+  ] },
+  { "id": "driving", "heading": "Driving", "blocks": [
+   { "type": "p", "html": "No one may use marijuana while driving or in control of a motor vehicle, motorboat, snowmobile, off-road vehicle or aircraft, and smoking is not allowed in a vehicle’s passenger area on a public road." },
+   { "type": "p", "html": "Michigan has no numeric THC limit like the 0.08 alcohol limit. It bans driving while under the influence, and a separate zero-tolerance law bars driving with any amount of a Schedule 1 drug, a list that includes marijuana. A Michigan judges’ handbook calls it unclear how that second law applies to adults who are not registered patients, so our advice stays simple: if you have used cannabis, do not drive." }
+  ] },
+  { "id": "work-rentals-tax", "heading": "Work, rentals and tax", "blocks": [
+   { "type": "p", "html": "Employers do not have to allow marijuana at work, and they may still enforce drug policies, discipline workers or refuse to hire someone over a policy violation." },
+   { "type": "p", "html": "Landlords and property owners may ban or limit it on their property, but a lease may not forbid a tenant from lawfully possessing and consuming it by means other than smoking." },
+   { "type": "p", "html": "Adult-use purchases carry a 10 percent excise tax plus the 6 percent sales tax, and the sales tax is figured on the price including the excise tax. In the state’s own example, a $100 sale owes $10 in excise and $6.60 in sales tax." },
+   { "type": "p", "html": "If one of these touches your own job or lease, a lawyer is the right person to ask. For anything about products and everyday use, ask us. Education comes first here, and no question is too basic." }
+  ] }
+ ],
+ "faq": [
+  { "q": "Do I need a medical card to buy cannabis?", "a_html": "Not for an adult-use purchase. If you are 21 or older with a valid photo ID, a licensed adult-use store can sell to you." },
+  { "q": "What happens if I go over a limit?", "a_html": "For modest amounts it is mostly a civil fine, not a crime: up to $500 for a first violation when holding no more than double the limit. It rises to a misdemeanor on a third violation or when holding more than double." }
+ ]
+}

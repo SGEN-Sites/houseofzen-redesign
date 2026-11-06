@@ -1,0 +1,50 @@
+{
+ "order": 16,
+ "slug": "evening-wind-down",
+ "path": "/blog/evening-wind-down/",
+ "title": "An Evening Wind-Down Ritual | House of Zen",
+ "h1": "An Evening Wind-Down Ritual",
+ "description": "A simple evening ritual built around lamplight, fewer screens and a pot of tea, with room for a chosen low dose if you already enjoy cannabis. No promises.",
+ "categories": [{ "name": "Health & Lifestyle", "slug": "health-and-lifestyle" }],
+ "popular": false,
+ "readTime": "3 min read",
+ "image": "g-art-evening",
+ "imageAlt": "",
+ "excerpt": "A lamp instead of the overhead light, the phone in another room, a pot of tea. A few small things, in the same order, because you chose them.",
+ "pull": "A ritual is worth keeping for what it is, not for what it might do.",
+ "relatedCategories": ["edibles", "topicals"],
+ "related": ["mindful-cannabis-ritual", "edibles-start-low", "microdosing-basics"],
+ "sections": [
+  { "id": "an-evening-has-a-shape", "heading": "An evening has a shape", "blocks": [
+   { "type": "p", "html": "Most evenings end by accident. The last email, one more episode, the phone in bed, and then it is late." },
+   { "type": "p", "html": "A ritual gives the end of the day an outline. You do a few small things in the same order, slowly, because you chose to. We think of it the way a household thinks of setting the table: nobody asks what setting the table will do for them." },
+   { "type": "p", "html": "A ritual is worth keeping for what it is, not for what it might do. So we will say this plainly at the start: none of what follows promises you a calm mind or a good night’s sleep." }
+  ] },
+  { "id": "light-and-screens", "heading": "Begin with the light and the screens", "blocks": [
+   { "type": "p", "html": "Pick a time, perhaps an hour before you mean to go to bed, and let something mark it. Turn off the overhead light and turn on a lamp. If you light a candle, stay in the room with it." },
+   { "type": "p", "html": "Then the screens. Put the phone on its charger in another room, and turn the television off rather than letting it talk to itself. If a whole hour feels like a lot, start with twenty minutes." },
+   { "type": "p", "html": "Do one small job for tomorrow, such as laying out a bag or rinsing a cup, and leave the rest of the house alone." }
+  ] },
+  { "id": "something-warm", "heading": "Make something warm", "blocks": [
+   { "type": "p", "html": "Tea sits at the center of our version. Boiling the water takes as long as it takes, and that is part of the appeal. Watch it steep. Choose something without caffeine if you like, and sit down with it somewhere other than your desk." },
+   { "type": "p", "html": "Hold the cup. Drink it without doing anything else at the same time. It sounds like nothing, and it is harder than you would think." }
+  ] },
+  { "id": "if-cannabis-is-part-of-it", "heading": "If cannabis is already part of your evening", "blocks": [
+   { "type": "p", "html": "This part is only for people who already enjoy cannabis. If you do not, nothing here is a reason to start, and the rest of the ritual stands perfectly well without it." },
+   { "type": "p", "html": "Choose your amount before you sit down, and keep it low. If you use an <a href=\"/products/edibles/\">edible</a>, remember it can take two hours or more to arrive, so it belongs early in the evening, and it does not get a second helping while you wait. Our piece on <a href=\"/blog/edibles-start-low/\">starting low</a> goes into the timing." },
+   { "type": "p", "html": "Some people like a <a href=\"/products/topicals/\">topical</a> as part of the routine: a minute spent on their hands, a scent they know. We make no claims for what it does. The minute is the point." },
+   { "type": "p", "html": "Put the package away before you settle in, especially if children live with you or visit. And stay in for the night, because the car keys are finished for the day." },
+   { "type": "callout", "html": "We make no promises about sleep, rest or how you will feel. If your nights are hard, that is a conversation for your doctor, not for a dispensary." }
+  ] },
+  { "id": "small-enough-to-repeat", "heading": "Keep it small enough to repeat", "blocks": [
+   { "type": "p", "html": "The best ritual is one you can still do when you are tired. Two or three steps are plenty, and you can skip a night without guilt." },
+   { "type": "p", "html": "Now and then, try the whole evening with no cannabis at all. It is a good way to see which parts you actually value." },
+   { "type": "p", "html": "If you would like to talk through what a low dose means on a label, ask us. We are here Mon-Sun: 9 am to 9 pm, and there is never any rush." }
+  ] }
+ ],
+ "faq": [
+  { "q": "Can you recommend something for sleep?", "a_html": "No. We do not make health claims, and questions about sleep belong with your doctor. What we can do is explain a label, a dose and what a product is." },
+  { "q": "When in the evening should I take an edible?", "a_html": "Early, if you take one at all. It can take two hours or more to arrive, so leave plenty of room and do not take more while you wait." },
+  { "q": "Can I do this without cannabis?", "a_html": "Yes. Most of it has nothing to do with cannabis, and we would encourage you to try it that way first." }
+ ]
+}

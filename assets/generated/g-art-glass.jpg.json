@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-glass",
+  "file": "assets/generated/g-art-glass.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A few clean pieces of hand-blown clear glass, a small rounded glass pipe and a short glass tube, drying on a folded linen cloth on a wooden sill by a bright window, soft backlight through the glass, water droplets, right of centre with empty space around them",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 219509341,
+  "requestId": "01a1b236-e6bb-7a22-ace6-000eb09203ae",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "4be8ade332ae64a3bfa0eaa2cb8d3717be1feaaef0c4eff1af7a948d589a2bed",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:55:26.320Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted; the glass reads as hand-blown vessels, not pipes, so the alt says vessels",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

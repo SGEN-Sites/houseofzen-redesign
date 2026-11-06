@@ -1,0 +1,52 @@
+{
+ "order": 14,
+ "slug": "mindful-cannabis-ritual",
+ "path": "/blog/mindful-cannabis-ritual/",
+ "title": "A Mindful Way to Use Cannabis | House of Zen",
+ "h1": "A Mindful Way to Use Cannabis",
+ "description": "A slow way to use cannabis, built on intention and attention: choosing the time, setting the room, taking a small amount and noticing, with no promises.",
+ "categories": [{ "name": "Health & Lifestyle", "slug": "health-and-lifestyle" }],
+ "popular": true,
+ "readTime": "3 min read",
+ "image": "g-moss-garden",
+ "imageAlt": "",
+ "excerpt": "An ordinary thing done with care is worth an hour of anyone’s time. This is how we would set about it, the way you might set about making tea.",
+ "pull": "A tea ceremony promises nothing and asks only that you pay attention to the next small thing.",
+ "relatedCategories": ["flower", "pre-rolls"],
+ "related": ["evening-wind-down", "microdosing-basics", "what-are-terpenes"],
+ "sections": [
+  { "id": "attention-first", "heading": "Attention comes first", "blocks": [
+   { "type": "p", "html": "Balance, education and intention are words we use a lot at House of Zen. The last of those is the easiest to practice. It only means deciding what you are doing before you do it." },
+   { "type": "p", "html": "A tea ceremony is a good picture of this. Water is heated, a bowl is wiped, the tea is whisked and passed along. The tea itself is ordinary. A tea ceremony promises nothing and asks only that you pay attention to the next small thing." },
+   { "type": "p", "html": "We think cannabis can be approached the same way by anyone who already enjoys it. Not to arrive anywhere in particular. Simply because an ordinary thing done with care is a better way to spend an hour than the same thing done in a hurry." }
+  ] },
+  { "id": "before-you-begin", "heading": "Before you begin", "blocks": [
+   { "type": "p", "html": "Start with a plain question: do I want this today? Some days the honest answer is no, and that counts as practice too." },
+   { "type": "p", "html": "If the answer is yes, choose a time when nobody needs you and you have nowhere to drive. An empty evening or a slow weekend morning will do. Decide roughly how much you will have while your head is clear, and then keep to it." }
+  ] },
+  { "id": "set-the-room", "heading": "Set the room", "blocks": [
+   { "type": "p", "html": "Clear a table. Put the phone in another room. Open a window or turn on a lamp you like, whichever suits the hour, and pour a glass of water or make a pot of tea before you sit down. Lay out what you need in the order you will use it, as a cook does." },
+   { "type": "p", "html": "Think, too, about who shares the air. If anyone else is at home, especially children, this happens somewhere else or it waits for another day." }
+  ] },
+  { "id": "go-slowly", "heading": "Go slowly", "blocks": [
+   { "type": "ol", "items": [
+    "Smell the <a href=\"/products/flower/\">flower</a> before you do anything else. If you are curious what you are smelling, read about <a href=\"/blog/what-are-terpenes/\">terpenes</a>.",
+    "Break it up or grind it by hand, without rushing. If you are using a <a href=\"/products/pre-rolls/\">pre-roll</a>, look it over first, then light it evenly.",
+    "Take one small draw and set everything down. You do not have to finish a pre-roll: it can be put out and kept for another day.",
+    "Wait at least ten minutes. Notice the taste, your breathing, the room, whatever happens to be there. Nothing in particular is supposed to happen.",
+    "Only then decide whether you want any more. “No” is a fine place to end."
+   ] }
+  ] },
+  { "id": "afterward", "heading": "Afterward", "blocks": [
+   { "type": "p", "html": "Put things away and rinse the glass. Clearing up belongs to the ritual as much as the beginning does. A tea ceremony, after all, ends with the host cleaning the bowl." },
+   { "type": "p", "html": "Some people keep a small notebook: what they used, how much, what they noticed. Keep it as a record rather than a scorecard, because there is no right result here." },
+   { "type": "callout", "html": "This is a way of paying attention, not a health practice. We make no promises about how cannabis will make you feel, and questions about your health belong with your doctor." },
+   { "type": "p", "html": "If you would like to talk through what to choose for a slow session like this, come and see us. Our shop is a judgment-free place, and nobody here is in a hurry." }
+  ] }
+ ],
+ "faq": [
+  { "q": "Do I need to meditate or know anything about tea?", "a_html": "No. The tea ceremony is only a picture of the idea. All you need is a little time, a clear table and your attention." },
+  { "q": "How much should I use?", "a_html": "Less than you think. If you are new to cannabis, our <a href=\"/blog/cannabis-for-beginners/\">guide for beginners</a> is a better place to start than this one." },
+  { "q": "Can I do this with an edible?", "a_html": "You can, though the timing changes. An edible can take two hours or more to arrive, so the waiting is longer, and <a href=\"/blog/edibles-start-low/\">starting low</a> matters more." }
+ ]
+}

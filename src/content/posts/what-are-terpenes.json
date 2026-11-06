@@ -1,0 +1,70 @@
+{
+  "order": 4,
+  "slug": "what-are-terpenes",
+  "path": "/blog/what-are-terpenes/",
+  "title": "Terpenes, Explained Without the Jargon | House of Zen",
+  "h1": "Terpenes, Explained Without the Jargon",
+  "description": "Terpenes give cannabis its smell and much of its flavor. What they are, a few common ones by aroma, what is still unsettled, and how to keep them fresh.",
+  "categories": [{ "name": "Cannabis 101", "slug": "cannabis-101" }],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-art-terpenes",
+  "imageAlt": "",
+  "excerpt": "Terpenes are the reason one jar smells of lemon peel and the next of pine. They are worth knowing about, as long as nobody oversells them.",
+  "pull": "We’d rather start from your nose than from a number.",
+  "relatedCategories": ["flower", "concentrates"],
+  "related": ["indica-sativa-hybrid", "how-to-store-cannabis", "thc-vs-thca"],
+  "sections": [
+    {
+      "id": "the-short-version",
+      "heading": "The short version",
+      "blocks": [
+        { "type": "p", "html": "Terpenes are the compounds that give a plant its smell. Plants make them for their own reasons, such as discouraging some insects and attracting others. Lemon peel, pine needles, lavender and black pepper all owe much of their scent to them. Cannabis makes terpenes too, in the same tiny resin glands where it makes THC and CBD, so when you open a jar of flower, terpenes are a large part of what reaches your nose. They shape flavor in much the same way." }
+      ]
+    },
+    {
+      "id": "a-few-you-may-see-named",
+      "heading": "A few you may see named",
+      "blocks": [
+        { "type": "p", "html": "A plant can carry many terpenes at once, and the blend is what you smell. These five come up often. We’ve described them by aroma because that’s the part we can describe with confidence." },
+        { "type": "ul", "items": [
+          "<strong>Myrcene:</strong> earthy and musky, with a herbal edge. Also found in hops and lemongrass.",
+          "<strong>Limonene:</strong> citrus, the same family of scent as orange and lemon peel.",
+          "<strong>Pinene:</strong> sharp and resinous, like pine needles or rosemary.",
+          "<strong>Linalool:</strong> soft and floral. Lavender is the familiar example.",
+          "<strong>Caryophyllene:</strong> warm and peppery. Black pepper and cloves carry it too."
+        ] }
+      ]
+    },
+    {
+      "id": "whats-known",
+      "heading": "What’s known, and what isn’t",
+      "blocks": [
+        { "type": "p", "html": "It’s well established that terpenes affect smell and taste. Whether they also change how cannabis feels is a more open question. You may hear about the entourage effect, the idea that terpenes and cannabinoids work together to shape an experience. Researchers are still looking into it, and we wouldn’t present it as settled." },
+        { "type": "p", "html": "You may also hear that a particular terpene will make you feel a particular way. Some people say they notice patterns like that in their own use, and that may well be true for them. Everyone responds differently, though, so nobody can honestly promise you that a lemon-scented flower will feel a certain way." }
+      ]
+    },
+    {
+      "id": "keeping-the-aroma",
+      "heading": "Keeping the aroma in the jar",
+      "blocks": [
+        { "type": "p", "html": "Terpenes evaporate easily, which is why you can smell them at room temperature and why they don’t last forever. Air, heat, light and time all wear them down, so a jar that smelled wonderful last month may seem flat today. Our article on <a href=\"/blog/how-to-store-cannabis/\">storing cannabis</a> has the details." },
+        { "type": "callout", "html": "<strong>Keep the lid on.</strong> Aroma is usually the first thing to fade. An airtight container somewhere cool and dark will hold it longer, and if you choose the spot with care, it also stays out of reach of children." }
+      ]
+    },
+    {
+      "id": "using-your-nose",
+      "heading": "Using your nose when you shop",
+      "blocks": [
+        { "type": "p", "html": "Not every product lists its terpenes. Every Michigan label does show THC and CBD content, so those numbers are your fixed point, and aroma is a good thing to ask us about alongside them." },
+        { "type": "p", "html": "How a product was made can tell you something too. <a href=\"/products/concentrates/\">Concentrates</a> called live resin come from freshly frozen plants, largely to keep more of the original aroma. Some <a href=\"/products/vaporizers/\">vape oils</a> are refined first and have terpenes added back afterward, from cannabis or from other plants. Neither approach is wrong, and you’re entitled to know which one you’re buying."},
+        { "type": "p", "html": "A strong smell isn’t a sign of strength, either. Aroma and THC content are separate things, so a very fragrant flower may carry less THC than a quieter one. Read the label for one and use your nose for the other." },
+        { "type": "p", "html": "Many people find they keep coming back to a certain kind of smell, so it’s a useful thing to notice when you try <a href=\"/products/flower/\">flower</a>. If you know you like citrus or pine, or something earthier, tell us. We’d rather start from your nose than from a number." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Are terpenes only found in cannabis?", "a_html": "No. They’re common across the plant world, in citrus peel, conifers, herbs and spices among many others. Cannabis is one of a great many plants that make them." },
+    { "q": "Do terpenes get you high?", "a_html": "They don’t produce the high that THC does. Whether they change how cannabis feels is still being studied, so we wouldn’t promise it." }
+  ]
+}

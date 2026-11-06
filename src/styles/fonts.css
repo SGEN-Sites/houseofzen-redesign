@@ -1,0 +1,11 @@
+/* fonts.css - self-hosted OFL faces, all the client's own: Instrument Serif (headings), Lato (body), Poppins (labels and
+   buttons). The client's brush accent is not a web font here: fixed phrases ship as outline art (util.mjs brush()). */
+@font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/instrument-serif-normal-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; font-display: swap; src: url('/assets/fonts/instrument-serif-italic-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Lato'; font-style: normal; font-weight: 300; font-display: swap; src: url('/assets/fonts/lato-300-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Lato'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/lato-400-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Lato'; font-style: italic; font-weight: 400; font-display: swap; src: url('/assets/fonts/lato-400i-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Lato'; font-style: normal; font-weight: 700; font-display: swap; src: url('/assets/fonts/lato-700-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 400; font-display: swap; src: url('/assets/fonts/poppins-400-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 500; font-display: swap; src: url('/assets/fonts/poppins-500-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 600; font-display: swap; src: url('/assets/fonts/poppins-600-latin.woff2') format('woff2'); }

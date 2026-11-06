@@ -1,0 +1,59 @@
+{
+ "order": 13,
+ "slug": "how-to-clean-glass",
+ "path": "/blog/how-to-clean-glass/",
+ "title": "How to Clean Your Glass | House of Zen",
+ "h1": "How to Clean Your Glass",
+ "description": "A step-by-step guide to cleaning a glass pipe or water pipe with isopropyl alcohol and coarse salt, including ventilation, flame safety and drying time.",
+ "categories": [{ "name": "Resources", "slug": "resources" }],
+ "popular": false,
+ "readTime": "3 min read",
+ "image": "g-art-glass",
+ "imageAlt": "",
+ "excerpt": "Alcohol, coarse salt and a few unhurried minutes will bring most glass back. Here is how we do it, and how to do it safely.",
+ "pull": "A piece rinsed every week asks for five minutes; a piece left for months asks for an afternoon.",
+ "relatedCategories": ["accessories"],
+ "related": ["how-to-store-cannabis", "what-are-terpenes", "cannabis-for-beginners"],
+ "sections": [
+  { "id": "why-we-clean-it", "heading": "Why we clean it", "blocks": [
+   { "type": "p", "html": "A good piece of glass is a small object worth looking after, and cleaning it is part of owning it. Resin collects inside with use. It changes the flavor of what you are tasting, narrows the paths the air travels through and leaves the glass looking tired." },
+   { "type": "p", "html": "None of this is hard, and most of it is timing. A piece rinsed every week asks for five minutes; a piece left for months asks for an afternoon." },
+   { "type": "p", "html": "For a water pipe, the first habit is the simplest one: pour out the old water and add fresh each time you use it. The rest of this guide is for when you can see a film on the glass, or when the taste has started to turn." }
+  ] },
+  { "id": "what-you-need", "heading": "What you need", "blocks": [
+   { "type": "ul", "items": [
+    "Isopropyl alcohol from the pharmacy. A higher percentage, such as 91 percent, cuts through resin faster.",
+    "Coarse salt, such as kosher or rock salt, which scrubs as it moves.",
+    "A zip-top bag for small parts like bowls and downstems.",
+    "Warm running water, paper towels and a few cotton swabs or pipe cleaners.",
+    "Gloves, if your skin is sensitive."
+   ] }
+  ] },
+  { "id": "step-by-step", "heading": "Step by step", "blocks": [
+   { "type": "callout", "html": "Isopropyl alcohol and its fumes catch fire easily. Open a window or run a fan, and work well away from stoves, candles, pilot lights and anything lit. Cap the bottle between pours." },
+   { "type": "ol", "items": [
+    "Let the glass cool completely, then empty it. Sudden changes in temperature can crack glass.",
+    "Rinse it with warm water to carry away anything loose.",
+    "Take out any removable parts and put them in the zip-top bag with a splash of alcohol and a spoonful of salt. Seal the bag and shake it gently.",
+    "Pour alcohol and a spoonful of salt into the main piece, with enough liquid to move around freely.",
+    "Cover the openings with your palms or with paper towels, then swirl and shake over the sink. Keep a firm grip, because wet glass is slippery.",
+    "For stubborn spots, let it soak for a while and shake again. A cotton swab or pipe cleaner can reach what the salt misses.",
+    "Pour the liquid out and rinse everything with warm water until no smell of alcohol remains.",
+    "Let every part air-dry fully before you use it again."
+   ] }
+  ] },
+  { "id": "worth-remembering", "heading": "A few things worth remembering", "blocks": [
+   { "type": "p", "html": "This method is for glass. Other materials behave differently, and anything with a battery or a heating element should never go in a soak. Follow the maker’s instructions for those." },
+   { "type": "p", "html": "Leave metal scrapers in the drawer, since they can scratch or chip the surface. If your sink is hard and unforgiving, fold a towel into the bottom of it before you start. It costs nothing, and glass does not bounce." },
+   { "type": "p", "html": "When you finish, wash your hands and put the alcohol back where children cannot reach it, the same way you would with your cannabis. Our guide to <a href=\"/blog/how-to-store-cannabis/\">storing cannabis</a> has more on that." }
+  ] },
+  { "id": "if-you-are-not-sure", "heading": "If you are not sure", "blocks": [
+   { "type": "p", "html": "Some pieces have shapes that make you wonder how anything could reach the far end. If yours does, tell us about it or bring a photo. We carry <a href=\"/products/accessories/\">glass accessories</a>, and our team is happy to think it through with you." }
+  ] }
+ ],
+ "faq": [
+  { "q": "How often should I clean my glass?", "a_html": "Change the water in a water pipe each time you use it. Clean the whole piece when you see a film or notice the taste has changed. There is no fixed schedule." },
+  { "q": "Is drugstore rubbing alcohol fine?", "a_html": "Yes, as long as the label says isopropyl alcohol. A higher percentage works faster. Keep it well away from flame and never drink it." },
+  { "q": "How soon can I use it after cleaning?", "a_html": "Only once it has been rinsed well, smells of nothing and is completely dry. Alcohol left inside is a fire risk, so give it the time it needs." }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "slug": "home",
+ "path": "/",
+ "url": "https://houseofzendetroit.com/",
+ "title": "House of Zen | Detroit Cannabis Dispensary",
+ "description": "Shop House of Zen, a family-owned Detroit cannabis dispensary offering premium flower, pre-rolls, edibles, concentrates, topicals, CBD and more.",
+ "h1": "Welcome to The House of Zen",
+ "sections": [
+  {
+   "id": "welcome",
+   "heading": "Welcome to The House of Zen",
+   "blocks": [
+    {
+     "type": "h1",
+     "text": "Welcome to The House of Zen",
+     "lead": "Welcome to",
+     "accent": "The House of Zen"
+    },
+    {
+     "type": "p",
+     "html": "At The House of Zen, we believe cannabis is more than a product—it’s an experience rooted in balance, education, and intention. Explore premium flower, edibles, concentrates, topicals, CBD, and glassware—all carefully selected and fully licensed."
+    },
+    {
+     "type": "button",
+     "text": "Shop now",
+     "href": "menu"
+    }
+   ]
+  },
+  {
+   "id": "products",
+   "heading": "Products",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Products"
+    },
+    {
+     "type": "p",
+     "html": "We carry a full selection of licensed cannabis products designed to meet every lifestyle and experience level."
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "title": "Premium Flower",
+       "slug": "flower",
+       "photo": "premium-flower.jpg"
+      },
+      {
+       "title": "Pre Rolls",
+       "slug": "pre-rolls",
+       "photo": "pre-rolls.jpg"
+      },
+      {
+       "title": "Edibles",
+       "slug": "edibles",
+       "photo": "edibles.jpg"
+      },
+      {
+       "title": "Concentrates",
+       "slug": "concentrates",
+       "photo": "concentrates.jpg"
+      },
+      {
+       "title": "Topicals",
+       "slug": "topicals",
+       "photo": "topicals.jpg"
+      },
+      {
+       "title": "CBD Products",
+       "slug": "cbd",
+       "photo": "cbd-products.jpg"
+      },
+      {
+       "title": "Vaporizers",
+       "slug": "vaporizers",
+       "photo": "vaporizers.jpg"
+      },
+      {
+       "title": "Accessories",
+       "slug": "accessories",
+       "photo": "accessories.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "new-here",
+   "heading": "New to The House of Zen? We’ve Got You.",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "New to The House of Zen? We’ve Got You."
+    },
+    {
+     "type": "tag",
+     "text": "first customer deals: 30% OFF the purchase"
+    },
+    {
+     "type": "p",
+     "html": "Walking into cannabis for the first time shouldn’t feel overwhelming."
+    },
+    {
+     "type": "p",
+     "html": "Our team is here to guide you through:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Product education tailored to your needs",
+      "Clear, honest recommendations",
+      "Easy, guided checkout experience",
+      "A judgment-free environment"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "START HERE",
+     "href": "/dispensary-guides/"
+    }
+   ]
+  },
+  {
+   "id": "about-zen",
+   "heading": "A Family-Owned Dispensary Built on Trust",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "A Family-Owned Dispensary Built on Trust"
+    },
+    {
+     "type": "tag",
+     "text": "about House of Zen"
+    },
+    {
+     "type": "p",
+     "html": "House of Zen is a licensed, family-run cannabis dispensary rooted in care, community, and education. We believe in creating a safe, welcoming space where customers can learn, explore, and feel confident in every choice they make."
+    },
+    {
+     "type": "p",
+     "html": "Our team is committed to providing a personalized experience through knowledgeable guidance, quality products, and approachable support for both new and experienced consumers. At House of Zen, we focus on building genuine connections within the community while promoting responsible, informed cannabis use in a comfortable and inclusive environment."
+    },
+    {
+     "type": "button",
+     "text": "Learn More",
+     "href": "/about/"
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "heading": "Find your Balance",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Find your Balance"
+    },
+    {
+     "type": "p",
+     "html": "Shop thoughtfully curated cannabis products designed to support your lifestyle."
+    },
+    {
+     "type": "button",
+     "text": "Shop now",
+     "href": "menu"
+    }
+   ]
+  },
+  {
+   "id": "reviews",
+   "heading": "What our clients have to say",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "What our clients have to say"
+    },
+    {
+     "type": "reviews",
+     "items": [
+      {
+       "name": "Teej J.",
+       "paras": [
+        "HIGHYLY RECOMMENDED!!!!! Nothing but high praise for this spot! They definitely give 5 star service to their customers.The best dispensary in the city with THEE best quality products and great prices!!! The interior is gorgeous, and the staff is so professional and friendly. I am so happy I found them. They explained each and every product on the shelves and made me feel so comfortable. I will ONLY choose them for all my needs. I will not shop with anyone else. I am a customer for life!"
+       ],
+       "stars": 5
+      },
+      {
+       "name": "F.M.",
+       "paras": [
+        "Diamond and Rodney were top notch and very knowledgeable about the strains. I almost lost my faith when bigger companies such as Cookies went down the toilet with toxic flower. This is how I used to remember the weed being euphoric and still high 2 hours later from this Garlic cookies. Better than the sauce pen that also went downhill which was Kinda like stiizy vape pens.",
+        "This place I will never stray again. That was my loss."
+       ],
+       "stars": 5
+      },
+      {
+       "name": "Carol K.",
+       "paras": [
+        "Another hidden gem on the border of Eastpointe. Put your GPS on. I’m not familiar with this part of the area but we got there and it was delightful! Two kind. FUN and women who know a TON about product. I learned so much more after chatting with these lovely ladies! No pressure, just pure honest advice. The prices are phenomenal….I left very zen"
+       ],
+       "stars": 5
+      },
+      {
+       "name": "Mike N.",
+       "paras": [
+        "These ladies have critical insight on various strains, good selection, and for a very fair and competitive price. All in a clean, comfy, mellow (Zen) environment…thru uncertainty and doubt on a few blind purchases, they literally have never let me down! (And I’m very particular) Integrity in a dispensary is #1, and I think they get it…."
+       ],
+       "stars": 5
+      },
+      {
+       "name": "Dee S.",
+       "paras": [
+        "This place has everything you need and more. The staff are super helpful and truly cater to your needs and offer great guidance to what products might be most beneficial. Love this place and the staff"
+       ],
+       "stars": 5
+      },
+      {
+       "name": "GodIs Consciousness",
+       "paras": [
+        "These ladies run an extremely professional business and always have great products. I drive 40 minutes just to go there and happily refer anyone who will listen. I love them much there"
+       ],
+       "stars": 5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "instagram",
+   "heading": "houseofzen_313",
+   "blocks": [
+    {
+     "type": "instagram",
+     "handle": "houseofzen_313",
+     "href": "https://www.instagram.com/houseofzen_313/",
+     "post": "https://www.instagram.com/p/Dbq_alczGxL/"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-journal",
+  "file": "assets/generated/g-journal.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A small stack of blank handmade deckle-edged paper with one pressed dried cannabis leaf lying flat on top, a true palmate leaf with seven slender serrated leaflets in a muted green, beside a small ash-glazed ceramic cup, on a weathered wood table, soft window light from the left, the stack right of centre with empty space around it, blank paper with nothing written on it",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 1375134094,
+  "requestId": "01a1b236-80a5-72f3-ab63-b3cca0df6d09",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "291e1b5b5718b67c17c807511fbeb0a0a1ec1eac00865edb94b2f358bc4c468d",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:54:48.679Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

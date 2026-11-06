@@ -1,0 +1,46 @@
+{
+ "order": 18,
+ "slug": "cannabis-and-creativity",
+ "path": "/blog/cannabis-and-creativity/",
+ "title": "Cannabis and Creative Time | House of Zen",
+ "h1": "Cannabis and Creative Time",
+ "description": "Some people like cannabis for creative time and others find the opposite. A plain guide to setting up a session and looking at your work honestly after.",
+ "categories": [{ "name": "Health & Lifestyle", "slug": "health-and-lifestyle" }],
+ "popular": false,
+ "readTime": "3 min read",
+ "image": "g-art-creative",
+ "imageAlt": "",
+ "excerpt": "Some people like cannabis for creative time, and others find the opposite. Either way, the setting up and the second look in the morning are yours to get right.",
+ "pull": "The idea that felt enormous at midnight deserves a second look in daylight.",
+ "relatedCategories": ["vaporizers", "flower"],
+ "related": ["vaporizers-explained", "what-are-terpenes", "mindful-cannabis-ritual"],
+ "sections": [
+  { "id": "an-honest-start", "heading": "An honest place to start", "blocks": [
+   { "type": "p", "html": "Some people like cannabis for creative time. They reach for it before sketching, playing an instrument or writing, and they say they notice color or rhythm differently. Others find the opposite: attention scatters, the hand slows down and the idea slips away before it reaches the page." },
+   { "type": "p", "html": "Both of those are honest reports, and neither one is a promise. We do not claim that cannabis improves creativity or that it will do anything in particular for your work. Plenty of fine work is made without it, and you may well prefer yours that way." },
+   { "type": "p", "html": "What we can talk about is the time itself, and how to look at the results with a clear eye." }
+  ] },
+  { "id": "set-up-first", "heading": "Set up before you start", "blocks": [
+   { "type": "p", "html": "Decide what you are making before anything else. One project is enough." },
+   { "type": "p", "html": "Get your tools out first: the paints mixed, the guitar tuned, the page open. Anything you would have to hunt for later is an invitation to wander off. Put the phone in another room and set a timer for a stretch you can actually protect, maybe an hour." },
+   { "type": "p", "html": "Keep a notebook within reach for thoughts that have nothing to do with the project. Write them down and come back to your work. They will still be there at the end." }
+  ] },
+  { "id": "keep-it-small", "heading": "Keep the amount small", "blocks": [
+   { "type": "p", "html": "If you do use cannabis, less is the place to begin. A <a href=\"/products/vaporizers/\">vaporizer</a> makes it easy to take one small draw and stop, which is why some people choose it for this, and our <a href=\"/blog/vaporizers-explained/\">guide to vaporizers</a> explains the types. Others like <a href=\"/products/flower/\">flower</a>, because grinding and packing give them a slow way into the session. Either way, wait a good while before deciding on anything more." },
+   { "type": "p", "html": "Edibles are harder to plan around. They can take two hours or more to arrive, which may be after you have put the brushes away." },
+   { "type": "p", "html": "Some people save cannabis for the end, when the work is done. Others leave it out altogether. Both are sensible." },
+   { "type": "callout", "html": "Leave the table saw, the kiln and anything hot or sharp for a sober day. If your studio is somewhere other than home, arrange a ride before you start." }
+  ] },
+  { "id": "look-again", "heading": "Look again in the morning", "blocks": [
+   { "type": "p", "html": "The idea that felt enormous at midnight deserves a second look in daylight. Some of it may hold up, and some of it may not. It is worth keeping the making and the judging apart, and leaving the judging for a clear head, preferably the next day." },
+   { "type": "p", "html": "If you are curious, keep a short log: what you used, how much, what you made and what you thought of it the next morning. Try the same kind of project without cannabis as well. You may prefer one way or the other, or notice no difference at all, and any of those is worth knowing." }
+  ] },
+  { "id": "ask-us", "heading": "Ask us what a small amount looks like", "blocks": [
+   { "type": "p", "html": "If you would like to know what a small amount means in each form, ask our team. We will tell you plainly, and we will not promise that your next painting will be better for it." }
+  ] }
+ ],
+ "faq": [
+  { "q": "Will cannabis make me more creative?", "a_html": "We cannot say that, and we will not. Some people like it for creative time and others find the opposite. Paying honest attention over time will tell you more about your own preference than we can." },
+  { "q": "What should I use for creative time?", "a_html": "That is personal, and using nothing is a perfectly good answer. If you do use something, a form that makes a small amount easy is a sensible place to begin, and our team can walk you through the options." }
+ ]
+}

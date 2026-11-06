@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-evening",
+  "file": "assets/generated/g-art-evening.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A single lit candle in a small plain stoneware holder and a plain ceramic cup on a weathered wood sill, a tall window behind them showing soft blue dusk with nothing outside but pale sky, warm candle glow on a limewash plaster wall, low-key and quiet, bare ceramic with nothing on it",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 310992180,
+  "requestId": "01a1b236-f04b-7eb0-b95e-457c552df7ab",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "174c39c560d625acd7f2ffe48e64b93f4cdceccf491008100cb946ccb5c69bef",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:55:18.398Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

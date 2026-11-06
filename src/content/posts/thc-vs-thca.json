@@ -1,0 +1,68 @@
+{
+  "order": 2,
+  "slug": "thc-vs-thca",
+  "path": "/blog/thc-vs-thca/",
+  "title": "THC and THCa: What the Label Is Telling You | House of Zen",
+  "h1": "THC and THCa: What the Label Is Telling You",
+  "description": "THCa is the form of THC found in the raw plant, and heat converts it. How to read both numbers on a cannabis label, and how Michigan law counts THCa.",
+  "categories": [{ "name": "Cannabis 101", "slug": "cannabis-101" }],
+  "popular": true,
+  "readTime": "4 min read",
+  "image": "g-art-label",
+  "imageAlt": "",
+  "excerpt": "A jar of flower can show a small THC number beside a large THCa number. Here is why, and which one to pay attention to.",
+  "pull": "A higher number means more of that compound, and that’s all it means.",
+  "relatedCategories": ["flower"],
+  "related": ["michigan-cannabis-label", "how-to-decarb-cannabis", "how-to-read-a-dispensary-menu"],
+  "sections": [
+    {
+      "id": "why-two-numbers",
+      "heading": "Why there are two numbers",
+      "blocks": [
+        { "type": "p", "html": "Pick up a jar of flower and you may find two figures that seem to describe the same thing. One says THC. The other says THCa, and it’s often much larger. If that has ever puzzled you, the explanation is simple chemistry, and it starts with the plant." },
+        { "type": "p", "html": "A growing cannabis plant makes very little THC directly. It makes THCa, an acid form of the molecule, and stores it in the sticky resin glands on its flowers. In that form, THCa isn’t generally considered intoxicating, and it’s not what people mean when they talk about the high." }
+      ]
+    },
+    {
+      "id": "what-heat-does",
+      "heading": "What heat does",
+      "blocks": [
+        { "type": "p", "html": "Heat turns THCa into THC. When you light a pre roll or warm up a vaporizer, part of the molecule breaks away as carbon dioxide, and what remains is THC. Chemists call this decarboxylation. Home cooks call it decarbing, and it’s the reason <a href=\"/blog/how-to-decarb-cannabis/\">flower goes in the oven</a> before it goes into a recipe." },
+        { "type": "p", "html": "So when flower shows a high THCa figure beside a low THC figure, it isn’t weak. Most of its THC just hasn’t been made yet. The same change also happens slowly on its own with time and warmth, which is one more reason to <a href=\"/blog/how-to-store-cannabis/\">store flower with care</a>." }
+      ]
+    },
+    {
+      "id": "reading-the-numbers",
+      "heading": "Reading the numbers",
+      "blocks": [
+        { "type": "h3", "text": "Total THC" },
+        { "type": "p", "html": "You may also see a total THC figure. It isn’t the two numbers added together. THCa is the heavier molecule, and the part that leaves as carbon dioxide takes some of that weight with it, so the calculation scales THCa down before adding it to THC. If a total looks lower than you expected, this is why." },
+        { "type": "h3", "text": "Products that have already been heated" },
+        { "type": "p", "html": "Edibles and many vape oils are made with cannabis that has already been through this change. Their labels usually list THC directly, and on edibles you’ll see it in milligrams rather than as a percentage." },
+        { "type": "h3", "text": "The 10% statement" },
+        { "type": "p", "html": "Michigan labels must state that actual values may vary by 10%, so a small gap between two products may not mean much. Our article on <a href=\"/blog/michigan-cannabis-label/\">the Michigan label</a> goes through the rest of what’s printed there." },
+        { "type": "callout", "html": "<strong>A quick way to read flower.</strong> Look for total THC or, if it isn’t shown, the THCa figure. Either one says more about what you’ll get once the flower is heated than the plain THC figure does." }
+      ]
+    },
+    {
+      "id": "thca-sold-as-hemp",
+      "heading": "THCa flower sold as hemp",
+      "blocks": [
+        { "type": "p", "html": "You may have seen “THCa flower” sold as hemp outside licensed stores. The argument goes that THCa isn’t THC until it’s heated, so the flower should count as hemp. Michigan doesn’t see it that way. Under state law, cannabis with more than 0.3% THC, counting THCa, is marijuana, and only licensed marijuana businesses may sell it. At 0.3% or less, it’s industrial hemp. A licensed store also means a sealed package labeled with its THC and CBD content, the testing lab and the state’s universal THC symbol." }
+      ]
+    },
+    {
+      "id": "what-numbers-cant-tell-you",
+      "heading": "What the numbers can’t tell you",
+      "blocks": [
+        { "type": "p", "html": "A higher number means more of that compound, and that’s all it means. It won’t tell you how carefully a flower was grown or whether you’ll enjoy it, and it can’t predict how you’ll respond, because everyone responds differently. Aroma is part of the picture too, which is why we also wrote about <a href=\"/blog/what-are-terpenes/\">terpenes</a>." },
+        { "type": "p", "html": "If a label ever leaves you unsure, bring your question to the counter and we’ll read it with you. Small questions like this one are a good part of why we’re here." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Is THCa the same as THC?", "a_html": "No. THCa is the acid form found in the raw plant. Heat changes it into THC, the compound responsible for the high." },
+    { "q": "Does raw cannabis get you high?", "a_html": "Generally not in the way people expect, because most of its THCa hasn’t been converted. That’s why recipes heat flower first." },
+    { "q": "Is a higher THCa number better?", "a_html": "It points to more THC once heated, which isn’t the same thing as better. An amount that suits you matters more to us than the largest figure on the shelf." }
+  ]
+}

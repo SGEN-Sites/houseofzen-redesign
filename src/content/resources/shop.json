@@ -1,0 +1,29 @@
+{
+  "slug": "shop",
+  "path": "/shop/",
+  "title": "Products | House of Zen",
+  "description": "Explore Premium Flower, Pre Rolls, Edibles, Concentrates, Topicals, CBD Products, Vaporizers and Accessories at House of Zen, family-run in Detroit.",
+  "kicker": "Explore",
+  "h1": "Products",
+  "lede": "We carry a full selection of licensed cannabis products designed to meet every lifestyle and experience level.",
+  "sections": [
+    {
+      "id": "how-shopping-works",
+      "heading": "How shopping works here",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Browse here.</strong> Each category page explains what the format is and how people choose among them. Take your time.",
+            "<strong>Order on the live menu.</strong> When you know what you would like, our <a href=\"https://www.houseofzendetroit.com/stores/house-of-zen\" target=\"_blank\" rel=\"noopener\">live menu</a> lists products by category, with in-store and curbside pickup. Please have your photo ID with you when you pick up.",
+            "<strong>Come in and ask.</strong> Visit us at 14501 Mack Ave, Detroit, or call <a href=\"tel:+13133321733\">(313) 332-1733</a>. Our hours are Mon-Sun: 9 am to 9 pm."
+          ]
+        },
+        { "type": "p", "html": "For adults 21 and older. If this is your first time, our <a href=\"/dispensary-guides/\">Dispensary Guide</a> is a good place to begin." }
+      ]
+    }
+  ],
+  "_confirm": [
+    "Ordering, in-store and curbside pickup and photo ID for pickup come from site.liveMenuFacts, the client's live menu. docs/OPEN-DECISIONS.md A2 records its header as 'Coming soon / Online ordering' and its status as closed, so the client must confirm that ordering works before this goes live."
+  ]
+}

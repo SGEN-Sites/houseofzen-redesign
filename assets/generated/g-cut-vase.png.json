@@ -1,0 +1,33 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cut-vase",
+  "file": "assets/generated/g-cut-vase.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A single hand-thrown stoneware vase with a deep indigo glaze, rounded and slightly asymmetrical, crossed by fine irregular gold kintsugi repair seams, holding one slender branch of sage-green olive leaves that arcs upward. The whole vase and the whole branch are inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface, product photograph",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4"
+  },
+  "seed": 3737930588,
+  "requestId": "01a1b233-ecba-7672-9339-ea04b8c531ef",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1b234-2952-7c11-b8c3-084fa98415f0"
+  },
+  "width": 1792,
+  "height": 2368,
+  "sha256": "f16912469c8376267831d91035b64c3dc9fb190570326bfefa6670f1c6b7ac2e",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:52:07.221Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra + BiRefNet v2 matting"
+}

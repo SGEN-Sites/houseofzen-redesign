@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-indigo-boro",
+  "file": "assets/generated/g-indigo-boro.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A close, flat overhead photograph of very dark indigo boro cloth, an old patched textile: every patch is in the same family of very dark, near-black indigo, tone on tone, worn hand-dyed cotton sewn together with sparse small muted grey running stitches, and along one seam at the lower right a few short soft gold mending stitches. Even soft light, calm, dark, matte, low contrast, the cloth fills the whole frame edge to edge. Absolutely no light patches, no tags, no labels, no text.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 621028265,
+  "requestId": "01a1b23b-94cc-71e3-b8ba-e3828f7f8d09",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "4565c056fae908d14fa6e33810a94aff1f77e34fd3930e219d87795d5dd1c309",
+  "attempt": 2,
+  "generatedAt": "2026-11-06T19:00:21.234Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "attempt 1 rejected (pale patches and small tags). Attempt 2: stitches dimmed for pale text, a few stitches at the lower right turned gold in the grade",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra, graded"
+}

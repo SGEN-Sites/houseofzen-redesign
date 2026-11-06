@@ -1,0 +1,30 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cat-topicals",
+  "file": "assets/generated/g-cat-topicals.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A vertical still life. A small round plain stoneware balm jar with a speckled oatmeal glaze and a matching lid set beside it, smooth pale cream balm inside, standing on a folded piece of raw linen. The jar is bare ceramic with nothing on it. It sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4"
+  },
+  "seed": 840789071,
+  "requestId": "01a1b233-e206-7130-b87c-f2f7ca1cd1fd",
+  "cutout": null,
+  "width": 1792,
+  "height": 2240,
+  "sha256": "e2eb781c5da45988907026d6321adb61bac8f6470a8e4016cf2bb2ca905ab251",
+  "attempt": 1,
+  "generatedAt": "2026-11-06T18:51:57.689Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "accepted on first generation; cropped from 3:4 to 4:5",
+    "reviewedBy": "IMAGERY lane, by eye (contact sheets, full-size crops of the hero, cut-outs and anything with cannabis)",
+    "at": "2026-11-06T19:28:34.130556+00:00"
+  },
+  "provider": "fal.ai",
+  "modelFamily": "FLUX 1.1 pro ultra"
+}

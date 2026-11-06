@@ -1,0 +1,128 @@
+{
+  "_note": "The adopted information architecture (promo strip, five-item main bar in this order with mega menus, Shop CTA, page types, footer columns, a Yes/No age gate) mapped onto ONE store. Labels are the client's where the client names the thing, neutral otherwise. Never name the adopted site in any public file.",
+  "promo": {
+    "text": "first customer deals: 30% OFF the purchase",
+    "link": { "label": "Start here", "href": "/dispensary-guides/" },
+    "pickup": { "label": "Pick up at", "store": "14501 Mack Ave, Detroit", "href": "/detroit-dispensary/" },
+    "hours": "Mon-Sun: 9 am to 9 pm",
+    "links": [
+      { "label": "About", "href": "/about/" },
+      { "label": "Contact us", "href": "/contact/" }
+    ]
+  },
+  "cta": { "label": "Shop now", "href": "menu" },
+  "nav": [
+    { "label": "Menu", "href": "menu", "external": true },
+    {
+      "label": "Explore",
+      "href": "/shop/",
+      "mega": {
+        "feature": { "gimg": "g-deals", "title": "Deals", "line": "first customer deals: 30% OFF the purchase", "href": "/deals/" },
+        "groups": [
+          {
+            "title": "Products", "kind": "cards", "href": "/shop/",
+            "links": [
+              { "label": "Premium Flower", "href": "/products/flower/", "gimg": "g-cat-flower" },
+              { "label": "Pre Rolls", "href": "/products/pre-rolls/", "gimg": "g-cat-prerolls" },
+              { "label": "Edibles", "href": "/products/edibles/", "gimg": "g-cat-edibles" },
+              { "label": "Concentrates", "href": "/products/concentrates/", "gimg": "g-cat-concentrates" },
+              { "label": "Topicals", "href": "/products/topicals/", "gimg": "g-cat-topicals" },
+              { "label": "CBD Products", "href": "/products/cbd/", "gimg": "g-cat-cbd" },
+              { "label": "Vaporizers", "href": "/products/vaporizers/", "gimg": "g-cat-vaporizers" },
+              { "label": "Accessories", "href": "/products/accessories/", "gimg": "g-cat-accessories" }
+            ]
+          },
+          {
+            "title": "Find your Balance", "kind": "links",
+            "note": "Short reads, not promises. Everyone responds differently.",
+            "links": [
+              { "label": "Evening", "href": "/blog/evening-wind-down/" },
+              { "label": "Mindful", "href": "/blog/mindful-cannabis-ritual/" },
+              { "label": "Social", "href": "/blog/cannabis-social-settings/" },
+              { "label": "Creative", "href": "/blog/cannabis-and-creativity/" },
+              { "label": "Low dose", "href": "/blog/microdosing-basics/" },
+              { "label": "CBD-forward", "href": "/blog/what-is-cbd/" }
+            ]
+          }
+        ]
+      }
+    },
+    { "label": "Rewards", "href": "/rewards/" },
+    {
+      "label": "Resources",
+      "href": "/blog/",
+      "mega": {
+        "feature": { "gimg": "g-journal", "title": "The Journal", "line": "Clear, honest reading on cannabis, from the people behind the counter.", "href": "/blog/" },
+        "groups": [
+          {
+            "title": "Guides", "kind": "cards",
+            "links": [
+              { "label": "Dispensary Guide", "href": "/dispensary-guides/", "gimg": "g-first-visit" },
+              { "label": "Getting A Medical Card", "href": "/getting-a-medical-card/", "gimg": "g-card" },
+              { "label": "Michigan Cannabis Laws", "href": "/michigan-cannabis-laws/", "gimg": "g-law" },
+              { "label": "Patient Guide", "href": "/patient-guide/", "gimg": "g-patient" }
+            ]
+          },
+          {
+            "title": "Learn", "kind": "links",
+            "links": [
+              { "label": "Blog", "href": "/blog/" },
+              { "label": "Recipes", "href": "/blog/recipes/" },
+              { "label": "FAQ", "href": "/faq/" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "Dispensary",
+      "href": "/detroit-dispensary/",
+      "mega": {
+        "store": { "photo": "hoz/storefront.jpg", "title": "House of Zen Detroit", "href": "/detroit-dispensary/" },
+        "groups": [
+          {
+            "title": "The house", "kind": "links",
+            "links": [
+              { "label": "Our Detroit dispensary", "href": "/detroit-dispensary/" },
+              { "label": "About", "href": "/about/" },
+              { "label": "Contact us", "href": "/contact/" },
+              { "label": "Deals", "href": "/deals/" },
+              { "label": "Get directions", "href": "directions", "external": true }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          { "label": "Home", "href": "/" },
+          { "label": "Menu", "href": "menu", "external": true },
+          { "label": "Rewards", "href": "/rewards/" },
+          { "label": "Deals", "href": "/deals/" },
+          { "label": "Blog", "href": "/blog/" },
+          { "label": "Dispensary", "href": "/detroit-dispensary/" }
+        ]
+      },
+      {
+        "title": "More information",
+        "links": [
+          { "label": "Getting A Medical Card", "href": "/getting-a-medical-card/" },
+          { "label": "About", "href": "/about/" },
+          { "label": "Contact", "href": "/contact/" },
+          { "label": "FAQ", "href": "/faq/" },
+          { "label": "Accessibility Statement", "href": "/accessibility-statement/" },
+          { "label": "Sitemap", "href": "/site-map/" }
+        ]
+      }
+    ],
+    "legal": [
+      { "label": "Terms Of Use", "href": "/terms-of-use/" },
+      { "label": "Privacy Policy", "href": "/privacy-policy/" }
+    ],
+    "follow": "Follow"
+  }
+}

@@ -1,631 +1,648 @@
 {
-  "about": "House of Zen redesign pitch, IMAGERY lane. Generated mood imagery for the KINTSUGI MORNING design: wabi sabi still life, photographed on film in soft natural window light. Every image is AI-generated illustrative imagery: never House of Zen's store, staff, customers, products or brands, never a real place. Ids = file names in assets/generated/ (16:9 backdrops and 1:1 tiles as JPEG, 4:5 categories generated at 3:4 and cropped to 4:5, 3:2 features and articles as JPEG, cut-outs as transparent PNG). 'aspect' = the delivered aspect, 'calmArea' = where type or glass can sit. Order = delivery order.",
-  "defaults": {
-    "model": "fal-ai/flux-pro/v1.1-ultra",
-    "input": {
-      "output_format": "jpeg",
-      "safety_tolerance": "5"
-    },
-    "cutoutModel": "fal-ai/birefnet/v2",
-    "cutoutInput": {
-      "model": "Matting",
-      "operating_resolution": "2048x2048",
-      "output_format": "png",
-      "refine_foreground": true
-    },
-    "style": "Wabi sabi still life photographed on medium format film in soft natural window light, muted warm airy palette of warm off-white, sage and moss green, deep indigo and soft gold, raw natural materials, handmade and imperfect, lots of empty space, luxurious and quiet, true-to-life textures, matte finish, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no characters of any script anywhere in the image. No people, no faces, no hands, no animals."
+ "about": "House of Zen redesign pitch, IMAGERY lane. Generated mood imagery for the KINTSUGI MORNING design: wabi sabi still life, photographed on film in soft natural window light. Every image is AI-generated illustrative imagery: never House of Zen's store, staff, customers, products or brands, never a real place. Ids = file names in assets/generated/ (16:9 backdrops and 1:1 tiles as JPEG, 4:5 categories generated at 3:4 and cropped to 4:5, 3:2 features and articles as JPEG, cut-outs as transparent PNG). 'aspect' = the delivered aspect, 'calmArea' = where type or glass can sit. Order = delivery order.",
+ "defaults": {
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "input": {
+   "output_format": "jpeg",
+   "safety_tolerance": "5"
   },
-  "images": [
-    {
-      "id": "g-hero-vessel",
-      "file": "assets/generated/g-hero-vessel.jpg",
-      "role": "backdrop",
-      "aspect": "16:9",
-      "usedFor": [
-        "home hero",
-        "hero-loop key frame",
-        "social share image"
-      ],
-      "calmArea": "left 53%: empty pale plaster (mean luminance 223 of 255) for dark serif type; the vase centre is at 72% across, the ledge top at 85% of the height",
-      "input": {
-        "aspect_ratio": "16:9",
-        "seed": 2202
-      },
-      "alt": "An indigo stoneware vase mended with gold seams, holding a branch of sage-green leaves on a stone ledge, against a pale plaster wall in morning light",
-      "prompt": "A pale warm limewash plaster wall in early morning window light, seen straight on, wide and very quiet. Soft shoji lattice window shadows, a faint grid of thin soft-edged shadow bars, fall across the wall in the centre and on the right. Far to the right of the frame, its centre about 72 percent across the frame width, stands one hand-thrown stoneware vase with a deep indigo glaze, rounded and slightly asymmetrical, crossed by fine irregular gold kintsugi repair seams, holding one slender branch of sage-green olive leaves that arcs upward. The vase stands on a long rough pale grey stone ledge that runs along the full width of the bottom of the frame. On the ledge just to the right of the vase, a very slim incense stick stands in a tiny plain stoneware holder with a single thin thread of pale smoke rising straight up from its tip. The left 50 percent of the frame is calm, empty, evenly pale plaster with nothing on it. The vase fills about 55 percent of the frame height. Very sharp focus, crisp plaster texture"
-    },
-    {
-      "id": "g-cat-flower",
-      "file": "assets/generated/g-cat-flower.jpg",
-      "role": "category",
-      "aspect": "4:5",
-      "usedFor": [
-        "/shop/ category card",
-        "/products/flower/ hero"
-      ],
-      "calmArea": "upper third is open plaster",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "Frosty cured cannabis buds in a shallow stoneware dish",
-      "prompt": "A vertical still life. Three real cured cannabis buds, irregular knobby tapered nugs as seen in a dispensary jar, not round: dense clusters of small calyxes in muted sage and olive green, frosted all over with fine white crystal trichomes, with short thin rust-orange hairs like fine threads lying close to the surface. They rest in a shallow hand-thrown stoneware dish with a speckled pale grey-green ash glaze, on a rough weathered wood table. The dish sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow. Wabi sabi still life photographed on medium format film in soft natural window light, muted warm airy palette of warm off-white, sage and moss green, deep indigo and soft gold, raw natural materials, handmade and imperfect, lots of empty space, luxurious and quiet, true-to-life textures, matte finish, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no characters of any script anywhere in the image. No people, no faces, no hands, no animals."
-    },
-    {
-      "id": "g-cat-prerolls",
-      "file": "assets/generated/g-cat-prerolls.jpg",
-      "role": "category",
-      "aspect": "4:5",
-      "usedFor": [
-        "/shop/ category card",
-        "/products/pre-rolls/ hero"
-      ],
-      "calmArea": "the upper fifth and the side margins are open plaster",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "Two cone-shaped cannabis joints with twisted tips on a slab of dark slate",
-      "prompt": "A vertical still life. Two hand-rolled cannabis joints lying side by side at a slight angle on a rough dark slate slab. Each joint is a slim cone of plain thin unbleached rolling paper, visibly and tightly packed with ground green cannabis flower showing faintly through the paper, wide at one end where the paper is neatly twisted closed into a small soft twisted tip, tapering evenly down to a narrow end of plain rolled paper. All paper, entirely paper from end to end, handmade and slightly uneven. The slate sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
-    },
-    {
-      "id": "g-cat-edibles",
-      "file": "assets/generated/g-cat-edibles.jpg",
-      "role": "category",
-      "aspect": "4:5",
-      "usedFor": [
-        "/shop/ category card",
-        "/products/edibles/ hero"
-      ],
-      "calmArea": "upper third is open plaster",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "Plain squares of dark chocolate on a rough stoneware plate",
-      "prompt": "A vertical still life. A few plain flat squares of matte dark chocolate, smooth and unmarked with no pattern or imprint, loosely stacked on a rough hand-thrown stoneware plate with a chalky off-white glaze and a dark iron-speckled rim, on a piece of raw linen. The plate sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
-    },
-    {
-      "id": "g-cat-concentrates",
-      "file": "assets/generated/g-cat-concentrates.jpg",
-      "role": "category",
-      "aspect": "4:5",
-      "usedFor": [
-        "/shop/ category card",
-        "/products/concentrates/ hero"
-      ],
-      "calmArea": "upper third is open plaster",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "A small glass jar holding a mound of golden cannabis resin on a river stone",
-      "prompt": "A vertical still life. A tiny squat clear glass concentrate jar, about the size of a thimble, with no lid, standing on a flat grey river stone. Inside the jar a small soft irregular mound of freshly pressed hash rosin, a waxy cannabis concentrate, opaque pale gold with a fine grainy crystalline texture and an oily sheen, tiny glistening terpene droplets, a little translucent amber terpene oil at its base. The stone sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
-    },
-    {
-      "id": "g-cat-topicals",
-      "file": "assets/generated/g-cat-topicals.jpg",
-      "role": "category",
-      "aspect": "4:5",
-      "usedFor": [
-        "/shop/ category card",
-        "/products/topicals/ hero"
-      ],
-      "calmArea": "upper third is open plaster",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "A plain stoneware balm jar on folded raw linen",
-      "prompt": "A vertical still life. A small round plain stoneware balm jar with a speckled oatmeal glaze and a matching lid set beside it, smooth pale cream balm inside, standing on a folded piece of raw linen. The jar is bare ceramic with nothing on it. It sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
-    },
-    {
-      "id": "g-cat-cbd",
-      "file": "assets/generated/g-cat-cbd.jpg",
-      "role": "category",
-      "aspect": "4:5",
-      "usedFor": [
-        "/shop/ category card",
-        "/products/cbd/ hero"
-      ],
-      "calmArea": "upper third is open plaster",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "An unlabelled amber dropper bottle beside a river stone and a serrated green leaf",
-      "prompt": "A vertical still life. A small amber glass dropper bottle with a plain black rubber bulb, the glass completely bare and smooth with nothing on it, standing beside a smooth grey river stone and one single fresh green hemp leaf with seven slender serrated leaflets lying flat, on a slab of pale weathered stone. The group sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
-    },
-    {
-      "id": "g-cat-vaporizers",
-      "file": "assets/generated/g-cat-vaporizers.jpg",
-      "role": "category",
-      "aspect": "4:5",
-      "usedFor": [
-        "/shop/ category card",
-        "/products/vaporizers/ hero"
-      ],
-      "calmArea": "upper third is open plaster",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "A slim matte vape pen on dark slate with a thin thread of vapor",
-      "prompt": "A vertical still life. One slim modern cylindrical vape pen, a matte graphite battery body with a short clear glass cartridge of golden oil at one end and a small flat mouthpiece, completely plain and unbranded with a smooth bare surface, lying at a slight angle on a rough dark slate slab, one very thin thread of pale vapor curling upward from the mouthpiece. The slate sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
-    },
-    {
-      "id": "g-cat-accessories",
-      "file": "assets/generated/g-cat-accessories.jpg",
-      "role": "category",
-      "aspect": "4:5",
-      "usedFor": [
-        "/shop/ category card",
-        "/products/accessories/ hero"
-      ],
-      "calmArea": "upper third is open plaster",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "A small hand-blown glass pipe resting on a cushion of moss",
-      "prompt": "A vertical still life. A small hand-blown glass spoon pipe for smoking cannabis, clear glass with a subtle smoky grey-green swirl, a round bowl and a short curved stem, resting on a low cushion of deep green moss on a flat grey stone. The group sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
-    },
-    {
-      "id": "g-cut-vase",
-      "file": "assets/generated/g-cut-vase.png",
-      "role": "cutout",
-      "aspect": "3:4",
-      "cutout": true,
-      "usedFor": [
-        "Visit band, standing on the bottom edge",
-        "inner page frames"
-      ],
-      "calmArea": "transparent ground",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "An indigo stoneware vase mended with gold seams, holding a green branch",
-      "prompt": "A single hand-thrown stoneware vase with a deep indigo glaze, rounded and slightly asymmetrical, crossed by fine irregular gold kintsugi repair seams, holding one slender branch of sage-green olive leaves that arcs upward. The whole vase and the whole branch are inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface, product photograph"
-    },
-    {
-      "id": "g-cut-bowl",
-      "file": "assets/generated/g-cut-bowl.png",
-      "role": "cutout",
-      "aspect": "3:2",
-      "cutout": true,
-      "usedFor": [
-        "front plane object"
-      ],
-      "calmArea": "transparent ground",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A hand-thrown indigo tea bowl mended with gold seams",
-      "prompt": "A single hand-thrown tea bowl with a deep indigo glaze, an uneven rim and a small foot, visibly mended with fine irregular gold kintsugi seams, seen from slightly above. The whole bowl is inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface, product photograph"
-    },
-    {
-      "id": "g-cut-stones",
-      "file": "assets/generated/g-cut-stones.png",
-      "role": "cutout",
-      "aspect": "3:4",
-      "cutout": true,
-      "usedFor": [
-        "Find your Balance band, balancing on the seam with the next band"
-      ],
-      "calmArea": "transparent ground",
-      "input": {
-        "aspect_ratio": "3:4"
-      },
-      "alt": "Three smooth river stones balanced on top of one another",
-      "prompt": "Three smooth rounded grey river stones balanced on top of one another in a small stack, largest at the bottom and smallest on top, soft matte surfaces with faint mineral veins, slightly asymmetrical. The whole stack is inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface, product photograph"
-    },
-    {
-      "id": "g-cut-sprig",
-      "file": "assets/generated/g-cut-sprig.png",
-      "role": "cutout",
-      "aspect": "1:1",
-      "cutout": true,
-      "usedFor": [
-        "over the corners of framed photos",
-        "category cards, rising on hover"
-      ],
-      "calmArea": "transparent ground",
-      "input": {
-        "aspect_ratio": "1:1"
-      },
-      "alt": "A sprig of fresh cannabis leaves",
-      "prompt": "A botanical photograph of a single fresh sprig of a real cannabis plant: a short green stem with three true cannabis fan leaves, each palmate leaf with seven slender serrated pointed leaflets radiating from one point, natural sage and moss green, matte, arranged loosely and naturally. The whole sprig is inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface"
-    },
-    {
-      "id": "g-enso",
-      "file": "assets/generated/g-enso.png",
-      "role": "cutout",
-      "aspect": "1:1",
-      "usedFor": [
-        "behind key moments: the hero vessel, the 30% offer, Balance, the Buddha mark"
-      ],
-      "calmArea": "transparent ground; the ring's inside is empty",
-      "input": {
-        "aspect_ratio": "1:1"
-      },
-      "alt": "",
-      "prompt": "Traditional Zen calligraphy on paper: a single enso circle painted in one continuous stroke with a big goat-hair brush and black sumi ink, on plain bright white paper, photographed flat from directly above. Black ink only, monochrome. The stroke starts wet and heavy at the lower left, runs clockwise, gets drier and splits into fine streaked bristle lines of dry brush texture towards its tail, and one clear open gap remains in the ring at the upper right. Natural ink edges with a few tiny splatters. The ring fills most of the frame, centred. Nothing else on the paper. Absolutely no text, no letters, no seal, no stamp, no signature, no colour."
-    },
-    {
-      "id": "g-shoji-light",
-      "file": "assets/generated/g-shoji-light.jpg",
-      "role": "backdrop",
-      "aspect": "16:9",
-      "usedFor": [
-        "PLASTER band ground",
-        "reviews backdrop",
-        "inner page heroes"
-      ],
-      "calmArea": "everywhere: a pale, low-contrast wall",
-      "input": {
-        "aspect_ratio": "16:9"
-      },
-      "alt": "",
-      "prompt": "An empty pale warm limewash plaster wall with a soft lattice shadow of a shoji window falling across it at a gentle angle, low contrast, soft-edged shadow bars, faint trowel marks and hairline imperfections, gentle morning light, nothing else in the frame, a wide seamless calm surface seen straight on"
-    },
-    {
-      "id": "g-moss-garden",
-      "file": "assets/generated/g-moss-garden.jpg",
-      "role": "backdrop",
-      "aspect": "16:9",
-      "usedFor": [
-        "Find your Balance band",
-        "MOSS band ground"
-      ],
-      "calmArea": "upper middle: dark, even, soft green for huge pale lettering",
-      "input": {
-        "aspect_ratio": "16:9"
-      },
-      "alt": "A moss garden with raked pale gravel and a few dark stones in dim dawn light",
-      "prompt": "A moss garden at dawn in dim blue-green light and low mist, seen from slightly above. In the lower third a sweep of raked pale gravel with fine parallel lines and a few weathered dark stones placed asymmetrically, edged by soft cushions of deep green moss. The upper middle of the frame is a wide calm slope of deep moss receding softly into dim mist, dark and even and out of focus, completely open and empty, room for huge pale lettering. Low-key, moody, quiet, muted deep greens"
-    },
-    {
-      "id": "g-ink-mist",
-      "file": "assets/generated/g-ink-mist.jpg",
-      "role": "backdrop",
-      "aspect": "16:9",
-      "usedFor": [
-        "/contact/ ground behind glass",
-        "pale section grounds"
-      ],
-      "calmArea": "everywhere: pale wash",
-      "input": {
-        "aspect_ratio": "16:9"
-      },
-      "alt": "",
-      "prompt": "A real scan of very pale sumi ink wash on handmade off-white washi paper: wet-on-wet grey-green ink diffused softly into the paper in faint drifting clouds, feathered edges following the paper fibres, mostly empty pale paper, very low contrast, no hard edges. Only ink wash and paper, monochrome grey-green on warm off-white, nothing else in the image. Absolutely no text, no letters, no seal, no stamp."
-    },
-    {
-      "id": "g-brick-dawn",
-      "file": "assets/generated/g-brick-dawn.jpg",
-      "role": "backdrop",
-      "aspect": "16:9",
-      "usedFor": [
-        "/detroit-dispensary/ and visit sections"
-      ],
-      "calmArea": "left two thirds: plain brick",
-      "input": {
-        "aspect_ratio": "16:9"
-      },
-      "alt": "A weathered brick wall with soft leaf shadows and a small indigo bowl on a stone ledge",
-      "prompt": "A weathered warm red-brown brick wall seen straight on in soft dawn light, old hand-made bricks with worn pale lime mortar, soft blurred shadows of leaves falling across it. A narrow rough stone ledge runs low along the bottom of the frame, and on it, towards the right, stands one small hand-thrown indigo-glazed stoneware bowl. A large calm stretch of plain wall fills the left two thirds. Bare brick with nothing on it, very quiet"
-    },
-    {
-      "id": "g-indigo-boro",
-      "file": "assets/generated/g-indigo-boro.jpg",
-      "role": "backdrop",
-      "aspect": "16:9",
-      "usedFor": [
-        "footer ground",
-        "INDIGO band ground"
-      ],
-      "calmArea": "everywhere: dark and even, for pale text",
-      "input": {
-        "aspect_ratio": "16:9"
-      },
-      "alt": "",
-      "prompt": "A close, flat overhead photograph of very dark indigo boro cloth, an old patched textile: every patch is in the same family of very dark, near-black indigo, tone on tone, worn hand-dyed cotton sewn together with sparse small muted grey running stitches, and along one seam at the lower right a few short soft gold mending stitches. Even soft light, calm, dark, matte, low contrast, the cloth fills the whole frame edge to edge. Absolutely no light patches, no tags, no labels, no text."
-    },
-    {
-      "id": "g-washi",
-      "file": "assets/generated/g-washi.jpg",
-      "role": "tile",
-      "aspect": "1:1",
-      "usedFor": [
-        "WASHI band ground, a repeating fibre texture"
-      ],
-      "calmArea": "everywhere",
-      "input": {
-        "aspect_ratio": "1:1"
-      },
-      "alt": "",
-      "prompt": "A flat straight-on scan of warm off-white handmade washi paper with fine long mulberry fibres scattered evenly, perfectly even illumination, no vignette, no edges, no shadows, no objects, the same even texture filling the whole frame"
-    },
-    {
-      "id": "g-washi-sage",
-      "file": "assets/generated/g-washi-sage.jpg",
-      "role": "tile",
-      "aspect": "1:1",
-      "usedFor": [
-        "SAGE WASHI band ground, a repeating fibre texture"
-      ],
-      "calmArea": "everywhere",
-      "input": {
-        "aspect_ratio": "1:1"
-      },
-      "alt": "",
-      "prompt": "A flat straight-on scan of pale sage green handmade washi paper with fine long mulberry fibres scattered evenly, perfectly even illumination, no vignette, no edges, no shadows, no objects, the same even texture filling the whole frame"
-    },
-    {
-      "id": "g-deals",
-      "file": "assets/generated/g-deals.jpg",
-      "role": "feature",
-      "aspect": "3:2",
-      "usedFor": [
-        "/deals/",
-        "mega menu cards"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A small washi paper packet tied with gold thread, resting on raw linen",
-      "prompt": "A small flat packet folded from plain off-white handmade washi paper and tied with a thin gold thread in a simple knot, resting on raw linen, soft window light from the left, the packet right of centre with empty linen around it, bare paper with nothing on it"
-    },
-    {
-      "id": "g-rewards",
-      "file": "assets/generated/g-rewards.jpg",
-      "role": "feature",
-      "aspect": "3:2",
-      "usedFor": [
-        "/rewards/",
-        "mega menu cards"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A tea bowl mended with gold seams, with a few smooth pebbles beside it on a wooden table",
-      "prompt": "A hand-thrown tea bowl with a deep indigo glaze, visibly mended with fine irregular gold kintsugi seams, holding a few small smooth pale river pebbles, on a weathered wood surface, soft window light from the left, the bowl right of centre with empty space around it, a pale limewash plaster wall behind"
-    },
-    {
-      "id": "g-journal",
-      "file": "assets/generated/g-journal.jpg",
-      "role": "feature",
-      "aspect": "3:2",
-      "usedFor": [
-        "/blog/ hero",
-        "mega menu cards"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A stack of handmade paper with a pressed cannabis leaf on top, beside a ceramic cup",
-      "prompt": "A small stack of blank handmade deckle-edged paper with one pressed dried cannabis leaf lying flat on top, a true palmate leaf with seven slender serrated leaflets in a muted green, beside a small ash-glazed ceramic cup, on a weathered wood table, soft window light from the left, the stack right of centre with empty space around it, blank paper with nothing written on it"
-    },
-    {
-      "id": "g-first-visit",
-      "file": "assets/generated/g-first-visit.jpg",
-      "role": "feature",
-      "aspect": "3:2",
-      "usedFor": [
-        "/dispensary-guides/",
-        "mega menu cards"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "An open blank notebook, a pencil and a cup of tea in soft window light",
-      "prompt": "An open notebook with completely blank cream pages, a plain unpainted wooden pencil lying across it, a stoneware cup of tea beside it, on a table covered in raw linen, soft window light from the left, the notebook right of centre, empty pages with nothing written or drawn on them"
-    },
-    {
-      "id": "g-card",
-      "file": "assets/generated/g-card.jpg",
-      "role": "feature",
-      "aspect": "3:2",
-      "usedFor": [
-        "/getting-a-medical-card/"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A blank cream card on raw linen beside a stoneware cup",
-      "prompt": "A blank cream card of thick handmade paper with soft edges, completely empty with nothing printed on it, lying on raw linen beside a stoneware cup, soft window light from the left, the card right of centre with empty linen around it"
-    },
-    {
-      "id": "g-law",
-      "file": "assets/generated/g-law.jpg",
-      "role": "feature",
-      "aspect": "3:2",
-      "usedFor": [
-        "/michigan-cannabis-laws/"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "An old brass balance scale on a limewash ledge",
-      "prompt": "An old brass balance scale with two small shallow pans hanging perfectly level, plain unmarked aged brass, standing on a limewash plaster ledge against a pale limewash plaster wall, soft window light from the left, the scale right of centre with empty wall around it, perfectly quiet"
-    },
-    {
-      "id": "g-patient",
-      "file": "assets/generated/g-patient.jpg",
-      "role": "feature",
-      "aspect": "3:2",
-      "usedFor": [
-        "/patient-guide/"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A plain amber bottle, a blank spiral notebook and a sprig of rosemary",
-      "prompt": "A plain amber glass bottle with a plain black cap, the glass completely bare and smooth with nothing on it, beside a closed notebook with a blank plain linen cover and a small sprig of fresh green rosemary, on a weathered wood table, soft window light from the left, the group right of centre with empty space around it"
-    },
-    {
-      "id": "g-recipes",
-      "file": "assets/generated/g-recipes.jpg",
-      "role": "feature",
-      "aspect": "3:2",
-      "usedFor": [
-        "/blog/recipes/"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A stoneware butter dish and a wooden honey dipper",
-      "prompt": "A plain hand-thrown stoneware butter dish with a pat of pale butter, and a wooden honey dipper resting beside it, on a weathered wood board, soft window light from the left, the dish right of centre with empty space around it"
-    },
-    {
-      "id": "g-art-terpenes",
-      "file": "assets/generated/g-art-terpenes.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "corners",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "Citrus peel, pine, lavender and peppercorns on slate",
-      "prompt": "Twists of fresh citrus peel, a small sprig of pine needles, a few stems of dried lavender and a small scatter of black peppercorns arranged sparsely on a rough dark slate slab, seen from above, soft window light from the left"
-    },
-    {
-      "id": "g-art-label",
-      "file": "assets/generated/g-art-label.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A plain glass jar with a blank kraft paper label on raw linen",
-      "prompt": "A plain clear glass jar with a plain lid and a completely blank rectangle of brown kraft paper stuck on its front with nothing printed or written on it, standing on raw linen, soft window light from the left, the jar right of centre with empty space around it, the kraft paper empty and bare"
-    },
-    {
-      "id": "g-art-store",
-      "file": "assets/generated/g-art-store.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "none",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "Glass jars with cork stoppers in an open wooden drawer lined with linen",
-      "prompt": "Several plain clear glass storage jars with plain cork stoppers, bare glass with nothing on them, standing in an open old wooden drawer lined with raw linen, seen from above at an angle, soft window light from the left"
-    },
-    {
-      "id": "g-art-glass",
-      "file": "assets/generated/g-art-glass.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "Clean hand-blown glass vessels drying on a linen cloth by a window",
-      "prompt": "A few clean pieces of hand-blown clear glass, a small rounded glass pipe and a short glass tube, drying on a folded linen cloth on a wooden sill by a bright window, soft backlight through the glass, water droplets, right of centre with empty space around them"
-    },
-    {
-      "id": "g-art-social",
-      "file": "assets/generated/g-art-social.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "upper left",
-      "alt": "Two ceramic cups on a low wooden table at dusk",
-      "prompt": "Two plain hand-thrown ceramic cups on a low weathered wooden table at dusk, fading blue-grey light from a window on the left, a pale limewash plaster wall behind in soft shade, the cups right of centre with empty space around them, bare ceramic with nothing on it, low-key and quiet",
-      "input": {
-        "aspect_ratio": "3:2"
-      }
-    },
-    {
-      "id": "g-art-evening",
-      "file": "assets/generated/g-art-evening.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "upper left",
-      "alt": "A lit candle, a cup and a window at dusk",
-      "prompt": "A single lit candle in a small plain stoneware holder and a plain ceramic cup on a weathered wood sill, a tall window behind them showing soft blue dusk with nothing outside but pale sky, warm candle glow on a limewash plaster wall, low-key and quiet, bare ceramic with nothing on it",
-      "input": {
-        "aspect_ratio": "3:2"
-      }
-    },
-    {
-      "id": "g-art-creative",
-      "file": "assets/generated/g-art-creative.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A brush, a dish of ink and a blank sheet of washi paper",
-      "prompt": "A calligraphy brush with a bamboo handle resting on a small ceramic rest, a small shallow dish of black sumi ink, and one sheet of blank off-white washi paper with nothing written on it, on a weathered wood table, soft window light from the left, the paper completely empty and clean"
-    },
-    {
-      "id": "g-art-micro",
-      "file": "assets/generated/g-art-micro.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "left half",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A tiny ceramic spoon and a small dish",
-      "prompt": "A tiny hand-made ceramic spoon resting in a very small shallow ash-glazed dish on raw linen, very small in the frame, right of centre, with a great deal of empty linen around it, soft window light from the left"
-    },
-    {
-      "id": "g-art-decarb",
-      "file": "assets/generated/g-art-decarb.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "corners",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A rustic baking tray lined with parchment, with a little cured cannabis flower",
-      "prompt": "A rustic dark worn metal baking tray lined with crinkled unbleached parchment paper, holding a small loose single layer of broken-up cured cannabis flower, real cannabis buds in frosty muted green with fine orange hairs, on a weathered wood counter, seen from above at an angle, soft window light from the left"
-    },
-    {
-      "id": "g-art-honey",
-      "file": "assets/generated/g-art-honey.jpg",
-      "role": "article",
-      "aspect": "3:2",
-      "usedFor": [
-        "journal article image"
-      ],
-      "calmArea": "left third",
-      "input": {
-        "aspect_ratio": "3:2"
-      },
-      "alt": "A rounded stoneware pot of honey with a wooden dipper",
-      "prompt": "A rounded plain hand-thrown stoneware pot of golden honey with a wooden dipper resting in it, a slow drip of honey on its rim, bare ceramic with nothing on it, on raw linen, soft window light from the left, the pot right of centre with empty space around it"
-    }
-  ]
+  "cutoutModel": "fal-ai/birefnet/v2",
+  "cutoutInput": {
+   "model": "Matting",
+   "operating_resolution": "2048x2048",
+   "output_format": "png",
+   "refine_foreground": true
+  },
+  "style": "Wabi sabi still life photographed on medium format film in soft natural window light, muted warm airy palette of warm off-white, sage and moss green, deep indigo and soft gold, raw natural materials, handmade and imperfect, lots of empty space, luxurious and quiet, true-to-life textures, matte finish, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no characters of any script anywhere in the image. No people, no faces, no hands, no animals."
+ },
+ "images": [
+  {
+   "id": "g-hero-vessel",
+   "file": "assets/generated/g-hero-vessel.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "home hero",
+    "hero-loop key frame",
+    "social share image"
+   ],
+   "calmArea": "left 53%: empty pale plaster (mean luminance 223 of 255) for dark serif type; the vase centre is at 72% across, the ledge top at 85% of the height",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 2202
+   },
+   "alt": "An indigo stoneware vase mended with gold seams, holding a branch of sage-green leaves on a stone ledge, against a pale plaster wall in morning light",
+   "prompt": "A pale warm limewash plaster wall in early morning window light, seen straight on, wide and very quiet. Soft shoji lattice window shadows, a faint grid of thin soft-edged shadow bars, fall across the wall in the centre and on the right. Far to the right of the frame, its centre about 72 percent across the frame width, stands one hand-thrown stoneware vase with a deep indigo glaze, rounded and slightly asymmetrical, crossed by fine irregular gold kintsugi repair seams, holding one slender branch of sage-green olive leaves that arcs upward. The vase stands on a long rough pale grey stone ledge that runs along the full width of the bottom of the frame. On the ledge just to the right of the vase, a very slim incense stick stands in a tiny plain stoneware holder with a single thin thread of pale smoke rising straight up from its tip. The left 50 percent of the frame is calm, empty, evenly pale plaster with nothing on it. The vase fills about 55 percent of the frame height. Very sharp focus, crisp plaster texture"
+  },
+  {
+   "id": "g-cat-flower",
+   "file": "assets/generated/g-cat-flower.jpg",
+   "role": "category",
+   "aspect": "4:5",
+   "usedFor": [
+    "/shop/ category card",
+    "/products/flower/ hero"
+   ],
+   "calmArea": "upper third is open plaster",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "Frosty cured cannabis buds in a shallow stoneware dish",
+   "prompt": "A vertical still life. Three real cured cannabis buds, irregular knobby tapered nugs as seen in a dispensary jar, not round: dense clusters of small calyxes in muted sage and olive green, frosted all over with fine white crystal trichomes, with short thin rust-orange hairs like fine threads lying close to the surface. They rest in a shallow hand-thrown stoneware dish with a speckled pale grey-green ash glaze, on a rough weathered wood table. The dish sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow. Wabi sabi still life photographed on medium format film in soft natural window light, muted warm airy palette of warm off-white, sage and moss green, deep indigo and soft gold, raw natural materials, handmade and imperfect, lots of empty space, luxurious and quiet, true-to-life textures, matte finish, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no logos, no brand marks, no characters of any script anywhere in the image. No people, no faces, no hands, no animals."
+  },
+  {
+   "id": "g-cat-prerolls",
+   "file": "assets/generated/g-cat-prerolls.jpg",
+   "role": "category",
+   "aspect": "4:5",
+   "usedFor": [
+    "/shop/ category card",
+    "/products/pre-rolls/ hero"
+   ],
+   "calmArea": "the upper fifth and the side margins are open plaster",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "Two cone-shaped cannabis joints with twisted tips on a slab of dark slate",
+   "prompt": "A vertical still life. Two hand-rolled cannabis joints lying side by side at a slight angle on a rough dark slate slab. Each joint is a slim cone of plain thin unbleached rolling paper, visibly and tightly packed with ground green cannabis flower showing faintly through the paper, wide at one end where the paper is neatly twisted closed into a small soft twisted tip, tapering evenly down to a narrow end of plain rolled paper. All paper, entirely paper from end to end, handmade and slightly uneven. The slate sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
+  },
+  {
+   "id": "g-cat-edibles",
+   "file": "assets/generated/g-cat-edibles.jpg",
+   "role": "category",
+   "aspect": "4:5",
+   "usedFor": [
+    "/shop/ category card",
+    "/products/edibles/ hero"
+   ],
+   "calmArea": "upper third is open plaster",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "Plain squares of dark chocolate on a rough stoneware plate",
+   "prompt": "A vertical still life. A few plain flat squares of matte dark chocolate, smooth and unmarked with no pattern or imprint, loosely stacked on a rough hand-thrown stoneware plate with a chalky off-white glaze and a dark iron-speckled rim, on a piece of raw linen. The plate sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
+  },
+  {
+   "id": "g-cat-concentrates",
+   "file": "assets/generated/g-cat-concentrates.jpg",
+   "role": "category",
+   "aspect": "4:5",
+   "usedFor": [
+    "/shop/ category card",
+    "/products/concentrates/ hero"
+   ],
+   "calmArea": "upper third is open plaster",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "A small glass jar holding a mound of golden cannabis resin on a river stone",
+   "prompt": "A vertical still life. A tiny squat clear glass concentrate jar, about the size of a thimble, with no lid, standing on a flat grey river stone. Inside the jar a small soft irregular mound of freshly pressed hash rosin, a waxy cannabis concentrate, opaque pale gold with a fine grainy crystalline texture and an oily sheen, tiny glistening terpene droplets, a little translucent amber terpene oil at its base. The stone sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
+  },
+  {
+   "id": "g-cat-topicals",
+   "file": "assets/generated/g-cat-topicals.jpg",
+   "role": "category",
+   "aspect": "4:5",
+   "usedFor": [
+    "/shop/ category card",
+    "/products/topicals/ hero"
+   ],
+   "calmArea": "upper third is open plaster",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "A plain stoneware balm jar on folded raw linen",
+   "prompt": "A vertical still life. A small round plain stoneware balm jar with a speckled oatmeal glaze and a matching lid set beside it, smooth pale cream balm inside, standing on a folded piece of raw linen. The jar is bare ceramic with nothing on it. It sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
+  },
+  {
+   "id": "g-cat-cbd",
+   "file": "assets/generated/g-cat-cbd.jpg",
+   "role": "category",
+   "aspect": "4:5",
+   "usedFor": [
+    "/shop/ category card",
+    "/products/cbd/ hero"
+   ],
+   "calmArea": "upper third is open plaster",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "An unlabelled amber dropper bottle beside a river stone and a serrated green leaf",
+   "prompt": "A vertical still life. A small amber glass dropper bottle with a plain black rubber bulb, the glass completely bare and smooth with nothing on it, standing beside a smooth grey river stone and one single fresh green hemp leaf with seven slender serrated leaflets lying flat, on a slab of pale weathered stone. The group sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
+  },
+  {
+   "id": "g-cat-vaporizers",
+   "file": "assets/generated/g-cat-vaporizers.jpg",
+   "role": "category",
+   "aspect": "4:5",
+   "usedFor": [
+    "/shop/ category card",
+    "/products/vaporizers/ hero"
+   ],
+   "calmArea": "upper third is open plaster",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "A slim matte vape pen on dark slate with a thin thread of vapor",
+   "prompt": "A vertical still life. One slim modern cylindrical vape pen, a matte graphite battery body with a short clear glass cartridge of golden oil at one end and a small flat mouthpiece, completely plain and unbranded with a smooth bare surface, lying at a slight angle on a rough dark slate slab, one very thin thread of pale vapor curling upward from the mouthpiece. The slate sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
+  },
+  {
+   "id": "g-cat-accessories",
+   "file": "assets/generated/g-cat-accessories.jpg",
+   "role": "category",
+   "aspect": "4:5",
+   "usedFor": [
+    "/shop/ category card",
+    "/products/accessories/ hero"
+   ],
+   "calmArea": "upper third is open plaster",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "A small hand-blown glass pipe resting on a cushion of moss",
+   "prompt": "A vertical still life. A small hand-blown glass spoon pipe for smoking cannabis, clear glass with a subtle smoky grey-green swirl, a round bowl and a short curved stem, resting on a low cushion of deep green moss on a flat grey stone. The group sits in the lower middle of the frame, small to medium size, with generous empty space around it and above it. Background a pale warm limewash plaster wall, soft side window light from the left, a gentle long shadow"
+  },
+  {
+   "id": "g-cut-vase",
+   "file": "assets/generated/g-cut-vase.png",
+   "role": "cutout",
+   "aspect": "3:4",
+   "cutout": true,
+   "usedFor": [
+    "Visit band, standing on the bottom edge",
+    "inner page frames"
+   ],
+   "calmArea": "transparent ground",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "An indigo stoneware vase mended with gold seams, holding a green branch",
+   "prompt": "A single hand-thrown stoneware vase with a deep indigo glaze, rounded and slightly asymmetrical, crossed by fine irregular gold kintsugi repair seams, holding one slender branch of sage-green olive leaves that arcs upward. The whole vase and the whole branch are inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface, product photograph"
+  },
+  {
+   "id": "g-cut-bowl",
+   "file": "assets/generated/g-cut-bowl.png",
+   "role": "cutout",
+   "aspect": "3:2",
+   "cutout": true,
+   "usedFor": [
+    "front plane object"
+   ],
+   "calmArea": "transparent ground",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A hand-thrown indigo tea bowl mended with gold seams",
+   "prompt": "A single hand-thrown tea bowl with a deep indigo glaze, an uneven rim and a small foot, visibly mended with fine irregular gold kintsugi seams, seen from slightly above. The whole bowl is inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface, product photograph"
+  },
+  {
+   "id": "g-cut-stones",
+   "file": "assets/generated/g-cut-stones.png",
+   "role": "cutout",
+   "aspect": "3:4",
+   "cutout": true,
+   "usedFor": [
+    "Find your Balance band, balancing on the seam with the next band"
+   ],
+   "calmArea": "transparent ground",
+   "input": {
+    "aspect_ratio": "3:4"
+   },
+   "alt": "Three smooth river stones balanced on top of one another",
+   "prompt": "Three smooth rounded grey river stones balanced on top of one another in a small stack, largest at the bottom and smallest on top, soft matte surfaces with faint mineral veins, slightly asymmetrical. The whole stack is inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface, product photograph"
+  },
+  {
+   "id": "g-cut-sprig",
+   "file": "assets/generated/g-cut-sprig.png",
+   "role": "cutout",
+   "aspect": "1:1",
+   "cutout": true,
+   "usedFor": [
+    "over the corners of framed photos",
+    "category cards, rising on hover"
+   ],
+   "calmArea": "transparent ground",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "A sprig of fresh cannabis leaves",
+   "prompt": "A botanical photograph of a single fresh sprig of a real cannabis plant: a short green stem with three true cannabis fan leaves, each palmate leaf with seven slender serrated pointed leaflets radiating from one point, natural sage and moss green, matte, arranged loosely and naturally. The whole sprig is inside the frame with a clear margin all round. Isolated on a plain seamless pure white background, soft even light, no shadow, no surface"
+  },
+  {
+   "id": "g-enso",
+   "file": "assets/generated/g-enso.png",
+   "role": "cutout",
+   "aspect": "1:1",
+   "usedFor": [
+    "behind key moments: the hero vessel, the 30% offer, Balance, the Buddha mark"
+   ],
+   "calmArea": "transparent ground; the ring's inside is empty",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "",
+   "prompt": "Traditional Zen calligraphy on paper: a single enso circle painted in one continuous stroke with a big goat-hair brush and black sumi ink, on plain bright white paper, photographed flat from directly above. Black ink only, monochrome. The stroke starts wet and heavy at the lower left, runs clockwise, gets drier and splits into fine streaked bristle lines of dry brush texture towards its tail, and one clear open gap remains in the ring at the upper right. Natural ink edges with a few tiny splatters. The ring fills most of the frame, centred. Nothing else on the paper. Absolutely no text, no letters, no seal, no stamp, no signature, no colour."
+  },
+  {
+   "id": "g-shoji-light",
+   "file": "assets/generated/g-shoji-light.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "PLASTER band ground",
+    "reviews backdrop",
+    "inner page heroes"
+   ],
+   "calmArea": "everywhere: a pale, low-contrast wall",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "",
+   "prompt": "An empty pale warm limewash plaster wall with a soft lattice shadow of a shoji window falling across it at a gentle angle, low contrast, soft-edged shadow bars, faint trowel marks and hairline imperfections, gentle morning light, nothing else in the frame, a wide seamless calm surface seen straight on"
+  },
+  {
+   "id": "g-moss-garden",
+   "file": "assets/generated/g-moss-garden.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "Find your Balance band",
+    "MOSS band ground"
+   ],
+   "calmArea": "upper middle: dark, even, soft green for huge pale lettering",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "A moss garden with raked pale gravel and a few dark stones in dim dawn light",
+   "prompt": "A moss garden at dawn in dim blue-green light and low mist, seen from slightly above. In the lower third a sweep of raked pale gravel with fine parallel lines and a few weathered dark stones placed asymmetrically, edged by soft cushions of deep green moss. The upper middle of the frame is a wide calm slope of deep moss receding softly into dim mist, dark and even and out of focus, completely open and empty, room for huge pale lettering. Low-key, moody, quiet, muted deep greens"
+  },
+  {
+   "id": "g-ink-mist",
+   "file": "assets/generated/g-ink-mist.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "/contact/ ground behind glass",
+    "pale section grounds"
+   ],
+   "calmArea": "everywhere: pale wash",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "",
+   "prompt": "A real scan of very pale sumi ink wash on handmade off-white washi paper: wet-on-wet grey-green ink diffused softly into the paper in faint drifting clouds, feathered edges following the paper fibres, mostly empty pale paper, very low contrast, no hard edges. Only ink wash and paper, monochrome grey-green on warm off-white, nothing else in the image. Absolutely no text, no letters, no seal, no stamp."
+  },
+  {
+   "id": "g-brick-dawn",
+   "file": "assets/generated/g-brick-dawn.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "/detroit-dispensary/ and visit sections"
+   ],
+   "calmArea": "left two thirds: plain brick",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "A weathered brick wall with soft leaf shadows and a small indigo bowl on a stone ledge",
+   "prompt": "A weathered warm red-brown brick wall seen straight on in soft dawn light, old hand-made bricks with worn pale lime mortar, soft blurred shadows of leaves falling across it. A narrow rough stone ledge runs low along the bottom of the frame, and on it, towards the right, stands one small hand-thrown indigo-glazed stoneware bowl. A large calm stretch of plain wall fills the left two thirds. Bare brick with nothing on it, very quiet"
+  },
+  {
+   "id": "g-indigo-boro",
+   "file": "assets/generated/g-indigo-boro.jpg",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "footer ground",
+    "INDIGO band ground"
+   ],
+   "calmArea": "everywhere: dark and even, for pale text",
+   "input": {
+    "aspect_ratio": "16:9"
+   },
+   "alt": "",
+   "prompt": "A close, flat overhead photograph of very dark indigo boro cloth, an old patched textile: every patch is in the same family of very dark, near-black indigo, tone on tone, worn hand-dyed cotton sewn together with sparse small muted grey running stitches, and along one seam at the lower right a few short soft gold mending stitches. Even soft light, calm, dark, matte, low contrast, the cloth fills the whole frame edge to edge. Absolutely no light patches, no tags, no labels, no text."
+  },
+  {
+   "id": "g-washi",
+   "file": "assets/generated/g-washi.jpg",
+   "role": "tile",
+   "aspect": "1:1",
+   "usedFor": [
+    "WASHI band ground, a repeating fibre texture"
+   ],
+   "calmArea": "everywhere",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "",
+   "prompt": "A flat straight-on scan of warm off-white handmade washi paper with fine long mulberry fibres scattered evenly, perfectly even illumination, no vignette, no edges, no shadows, no objects, the same even texture filling the whole frame"
+  },
+  {
+   "id": "g-washi-sage",
+   "file": "assets/generated/g-washi-sage.jpg",
+   "role": "tile",
+   "aspect": "1:1",
+   "usedFor": [
+    "SAGE WASHI band ground, a repeating fibre texture"
+   ],
+   "calmArea": "everywhere",
+   "input": {
+    "aspect_ratio": "1:1"
+   },
+   "alt": "",
+   "prompt": "A flat straight-on scan of pale sage green handmade washi paper with fine long mulberry fibres scattered evenly, perfectly even illumination, no vignette, no edges, no shadows, no objects, the same even texture filling the whole frame"
+  },
+  {
+   "id": "g-deals",
+   "file": "assets/generated/g-deals.jpg",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/deals/",
+    "mega menu cards"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A small washi paper packet tied with gold thread, resting on raw linen",
+   "prompt": "A small flat packet folded from plain off-white handmade washi paper and tied with a thin gold thread in a simple knot, resting on raw linen, soft window light from the left, the packet right of centre with empty linen around it, bare paper with nothing on it"
+  },
+  {
+   "id": "g-rewards",
+   "file": "assets/generated/g-rewards.jpg",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/rewards/",
+    "mega menu cards"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A tea bowl mended with gold seams, with a few smooth pebbles beside it on a wooden table",
+   "prompt": "A hand-thrown tea bowl with a deep indigo glaze, visibly mended with fine irregular gold kintsugi seams, holding a few small smooth pale river pebbles, on a weathered wood surface, soft window light from the left, the bowl right of centre with empty space around it, a pale limewash plaster wall behind"
+  },
+  {
+   "id": "g-journal",
+   "file": "assets/generated/g-journal.jpg",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/blog/ hero",
+    "mega menu cards"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A stack of handmade paper with a pressed cannabis leaf on top, beside a ceramic cup",
+   "prompt": "A small stack of blank handmade deckle-edged paper with one pressed dried cannabis leaf lying flat on top, a true palmate leaf with seven slender serrated leaflets in a muted green, beside a small ash-glazed ceramic cup, on a weathered wood table, soft window light from the left, the stack right of centre with empty space around it, blank paper with nothing written on it"
+  },
+  {
+   "id": "g-first-visit",
+   "file": "assets/generated/g-first-visit.jpg",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/dispensary-guides/",
+    "mega menu cards"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "An open blank notebook, a pencil and a cup of tea in soft window light",
+   "prompt": "An open notebook with completely blank cream pages, a plain unpainted wooden pencil lying across it, a stoneware cup of tea beside it, on a table covered in raw linen, soft window light from the left, the notebook right of centre, empty pages with nothing written or drawn on them"
+  },
+  {
+   "id": "g-card",
+   "file": "assets/generated/g-card.jpg",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/getting-a-medical-card/"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A blank cream card on raw linen beside a stoneware cup",
+   "prompt": "A blank cream card of thick handmade paper with soft edges, completely empty with nothing printed on it, lying on raw linen beside a stoneware cup, soft window light from the left, the card right of centre with empty linen around it"
+  },
+  {
+   "id": "g-law",
+   "file": "assets/generated/g-law.jpg",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/michigan-cannabis-laws/"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "An old brass balance scale on a limewash ledge",
+   "prompt": "An old brass balance scale with two small shallow pans hanging perfectly level, plain unmarked aged brass, standing on a limewash plaster ledge against a pale limewash plaster wall, soft window light from the left, the scale right of centre with empty wall around it, perfectly quiet"
+  },
+  {
+   "id": "g-patient",
+   "file": "assets/generated/g-patient.jpg",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/patient-guide/"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A plain amber bottle, a blank spiral notebook and a sprig of rosemary",
+   "prompt": "A plain amber glass bottle with a plain black cap, the glass completely bare and smooth with nothing on it, beside a closed notebook with a blank plain linen cover and a small sprig of fresh green rosemary, on a weathered wood table, soft window light from the left, the group right of centre with empty space around it"
+  },
+  {
+   "id": "g-recipes",
+   "file": "assets/generated/g-recipes.jpg",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/blog/recipes/"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A stoneware butter dish and a wooden honey dipper",
+   "prompt": "A plain hand-thrown stoneware butter dish with a pat of pale butter, and a wooden honey dipper resting beside it, on a weathered wood board, soft window light from the left, the dish right of centre with empty space around it"
+  },
+  {
+   "id": "g-art-terpenes",
+   "file": "assets/generated/g-art-terpenes.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "corners",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Citrus peel, pine, lavender and peppercorns on slate",
+   "prompt": "Twists of fresh citrus peel, a small sprig of pine needles, a few stems of dried lavender and a small scatter of black peppercorns arranged sparsely on a rough dark slate slab, seen from above, soft window light from the left"
+  },
+  {
+   "id": "g-art-label",
+   "file": "assets/generated/g-art-label.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A plain glass jar with a blank kraft paper label on raw linen",
+   "prompt": "A plain clear glass jar with a plain lid and a completely blank rectangle of brown kraft paper stuck on its front with nothing printed or written on it, standing on raw linen, soft window light from the left, the jar right of centre with empty space around it, the kraft paper empty and bare"
+  },
+  {
+   "id": "g-art-store",
+   "file": "assets/generated/g-art-store.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "none",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Glass jars with cork stoppers in an open wooden drawer lined with linen",
+   "prompt": "Several plain clear glass storage jars with plain cork stoppers, bare glass with nothing on them, standing in an open old wooden drawer lined with raw linen, seen from above at an angle, soft window light from the left"
+  },
+  {
+   "id": "g-art-glass",
+   "file": "assets/generated/g-art-glass.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "Clean hand-blown glass vessels drying on a linen cloth by a window",
+   "prompt": "A few clean pieces of hand-blown clear glass, a small rounded glass pipe and a short glass tube, drying on a folded linen cloth on a wooden sill by a bright window, soft backlight through the glass, water droplets, right of centre with empty space around them"
+  },
+  {
+   "id": "g-art-social",
+   "file": "assets/generated/g-art-social.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "upper left",
+   "alt": "Two ceramic cups on a low wooden table at dusk",
+   "prompt": "Two plain hand-thrown ceramic cups on a low weathered wooden table at dusk, fading blue-grey light from a window on the left, a pale limewash plaster wall behind in soft shade, the cups right of centre with empty space around them, bare ceramic with nothing on it, low-key and quiet",
+   "input": {
+    "aspect_ratio": "3:2"
+   }
+  },
+  {
+   "id": "g-art-evening",
+   "file": "assets/generated/g-art-evening.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "upper left",
+   "alt": "A lit candle, a cup and a window at dusk",
+   "prompt": "A single lit candle in a small plain stoneware holder and a plain ceramic cup on a weathered wood sill, a tall window behind them showing soft blue dusk with nothing outside but pale sky, warm candle glow on a limewash plaster wall, low-key and quiet, bare ceramic with nothing on it",
+   "input": {
+    "aspect_ratio": "3:2"
+   }
+  },
+  {
+   "id": "g-art-creative",
+   "file": "assets/generated/g-art-creative.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A brush, a dish of ink and a blank sheet of washi paper",
+   "prompt": "A calligraphy brush with a bamboo handle resting on a small ceramic rest, a small shallow dish of black sumi ink, and one sheet of blank off-white washi paper with nothing written on it, on a weathered wood table, soft window light from the left, the paper completely empty and clean"
+  },
+  {
+   "id": "g-art-micro",
+   "file": "assets/generated/g-art-micro.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "left half",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A tiny ceramic spoon and a small dish",
+   "prompt": "A tiny hand-made ceramic spoon resting in a very small shallow ash-glazed dish on raw linen, very small in the frame, right of centre, with a great deal of empty linen around it, soft window light from the left"
+  },
+  {
+   "id": "g-art-decarb",
+   "file": "assets/generated/g-art-decarb.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "corners",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A rustic baking tray lined with parchment, with a little cured cannabis flower",
+   "prompt": "A rustic dark worn metal baking tray lined with crinkled unbleached parchment paper, holding a small loose single layer of broken-up cured cannabis flower, real cannabis buds in frosty muted green with fine orange hairs, on a weathered wood counter, seen from above at an angle, soft window light from the left"
+  },
+  {
+   "id": "g-art-honey",
+   "file": "assets/generated/g-art-honey.jpg",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "journal article image"
+   ],
+   "calmArea": "left third",
+   "input": {
+    "aspect_ratio": "3:2"
+   },
+   "alt": "A rounded stoneware pot of honey with a wooden dipper",
+   "prompt": "A rounded plain hand-thrown stoneware pot of golden honey with a wooden dipper resting in it, a slow drip of honey on its rim, bare ceramic with nothing on it, on raw linen, soft window light from the left, the pot right of centre with empty space around it"
+  },
+  {
+   "id": "g-flower-macro",
+   "file": "assets/generated/g-flower-macro.jpg",
+   "role": "category photo",
+   "aspect": "3:4 cropped",
+   "usedFor": [
+    "home Products rail: Premium Flower",
+    "/products/flower/ hero",
+    "/detroit-dispensary/ What we carry"
+   ],
+   "alt": "A frosty cured cannabis bud with curling orange pistils, close up",
+   "prompt": "Vertical macro photograph filling the frame with a large real cured cannabis bud, sharp focus on frosted white trichomes like fine sugar crystals over dense green calyxes, with many fine curling orange pistils. A second smaller bud soft and out of focus behind it. Warm neutral brown background, soft directional daylight. Looks like a premium dispensary product photo, natural and realistic, not a plant growing in soil, no spines, no thorns, no cactus. No text, no logos, no people, no hands.",
+   "input": {
+    "aspect_ratio": "3:4",
+    "raw": true
+   }
+  }
+ ]
 }

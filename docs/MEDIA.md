@@ -47,6 +47,7 @@ Model: FLUX 1.1 pro ultra, reviewed by eye, then cropped, graded or composited a
 
 | Id | What it is | Model |
 |---|---|---|
+| `g-flower-macro` | A frosty cured cannabis bud, close up: the Premium Flower category image | FLUX 1.1 pro ultra |
 | `g-cut-vase` | Indigo vase with gold seams and a green branch | FLUX 1.1 pro ultra + BiRefNet v2 matting |
 | `g-cut-bowl` | Mended indigo tea bowl | FLUX 1.1 pro ultra + BiRefNet v2 matting |
 | `g-cut-stones` | Three balanced river stones | FLUX 1.1 pro ultra + BiRefNet v2 matting |

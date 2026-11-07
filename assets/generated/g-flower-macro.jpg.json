@@ -1,0 +1,24 @@
+{
+ "tool": "tools/fal-one.mjs",
+ "slot": "g-flower-macro",
+ "file": "assets/generated/g-flower-macro.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated. Illustrative only: never a photograph of House of Zen, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Vertical macro photograph filling the frame with a large real cured cannabis bud, sharp focus on frosted white trichomes like fine sugar crystals over dense green calyxes, with many fine curling orange pistils. A second smaller bud soft and out of focus behind it. Warm neutral brown background, soft directional daylight. Looks like a premium dispensary product photo, natural and realistic, not a plant growing in soil, no spines, no thorns, no cactus. No text, no logos, no people, no hands.",
+ "input": {
+  "aspect_ratio": "3:4",
+  "safety_tolerance": "5",
+  "output_format": "jpeg",
+  "raw": true
+ },
+ "seed": 3548209106,
+ "requestId": "01a1b3da-3fca-70d3-8d74-2f904dcdc07e",
+ "sha256": "94d816a2fe2780126773f36bd1152ebe56f7c1c25949cbaa65d7c5d33802fb5a",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": "read at full size: frosted calyxes and orange pistils, reads as cannabis flower; bottom 9% cropped"
+ },
+ "provider": "fal.ai",
+ "modelFamily": "FLUX 1.1 pro ultra"
+}

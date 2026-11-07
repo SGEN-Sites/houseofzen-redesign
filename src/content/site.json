@@ -24,7 +24,7 @@
     ]
   },
   "categories": [
-    { "slug": "flower", "label": "Premium Flower", "photo": "hoz/premium-flower.jpg", "gimg": "g-cat-flower" },
+    { "slug": "flower", "label": "Premium Flower", "photo": "g-flower-macro", "gimg": "g-cat-flower" },
     { "slug": "pre-rolls", "label": "Pre Rolls", "photo": "hoz/pre-rolls.jpg", "gimg": "g-cat-prerolls" },
     { "slug": "edibles", "label": "Edibles", "photo": "hoz/edibles.jpg", "gimg": "g-cat-edibles" },
     { "slug": "concentrates", "label": "Concentrates", "photo": "hoz/concentrates.jpg", "gimg": "g-cat-concentrates" },

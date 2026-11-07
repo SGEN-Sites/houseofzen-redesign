@@ -89,7 +89,6 @@ function renderScene(ctx, c) {
 </a>
 </div>
 <div class="h-hero__sheet" aria-hidden="true">${tornEdge(7)}</div>
-<div class="h-hero__bud protrude" aria-hidden="true"><div class="h-hero__bud-in" data-float>${photo(ctx, 'hoz/bud-cut.png', { alt: '', cls: 'cut h-hero__bud-img', eager: true, sizes: '(max-width: 720px) 86vw, (max-width: 1024px) 60vw, 56vw' })}</div></div>
 ${toggle ? `<div class="h-hero__ctrl">${toggle}</div>` : ''}
 </section>`;
 

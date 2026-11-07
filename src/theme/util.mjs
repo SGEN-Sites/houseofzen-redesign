@@ -42,6 +42,10 @@ export function linkAttrs(u, extra = {}) {
 // Client photo by file name under assets/photos, e.g. photo(ctx, 'hoz/lounge.jpg', { alt: '...', sizes: '...' }):
 // <img> with WebP variants + srcset, width/height from the file.
 export function photo(ctx, file, opts = {}) {
+  // A generated stand-in ("g-...") where the client has no usable photo: it keeps its AI label and its honest plan alt, unless the
+  // caller marks it decorative with alt: ''.
+  const gen = String(file).replace(/^hoz\//, '');
+  if (gen.startsWith('g-')) return gimg(gen, { ...opts, alt: opts.alt === '' ? '' : undefined });
   return img({ src: '/assets/photos/' + file, alt: opts.alt ?? '' }, opts);
 }
 

@@ -5,6 +5,7 @@
 // image, a template error or a duplicate path. Warnings: h1 count != 1, no <main id="main">, empty description.
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { ROOT } from './lib/paths.mjs';
 import { loadAll } from './lib/data.mjs';
 import { scanGenerated, writeVariants, imageErrors } from './lib/images.mjs';
@@ -38,9 +39,14 @@ function copyDir(src, dst, filter = () => true) {
 }
 
 // ---------- static assets ----------
-const cssFiles = CSS_ORDER.filter((f) => fs.existsSync(path.join(ROOT, 'src/styles', f + '.css')));
+const cssSheets = CSS_ORDER.filter((f) => fs.existsSync(path.join(ROOT, 'src/styles', f + '.css')));
 fs.mkdirSync(path.join(OUT, 'assets/css'), { recursive: true });
-for (const f of cssFiles) fs.writeFileSync(path.join(OUT, 'assets/css', f + '.css'), minifyCss(fs.readFileSync(path.join(ROOT, 'src/styles', f + '.css'), 'utf8')));
+// One stylesheet request instead of twelve (each render-blocking request costs a phone on a slow link). The sheets keep their
+// CSS_ORDER; the name carries a content hash, so a new publish is never paired with an old cached sheet.
+const cssBundle = cssSheets.map((f) => minifyCss(fs.readFileSync(path.join(ROOT, 'src/styles', f + '.css'), 'utf8')).trim()).join('\n') + '\n';
+const cssName = 'site-' + crypto.createHash('sha256').update(cssBundle).digest('hex').slice(0, 10);
+fs.writeFileSync(path.join(OUT, 'assets/css', cssName + '.css'), cssBundle);
+const cssFiles = [cssName];
 const extraCss = fs.readdirSync(path.join(ROOT, 'src/styles')).filter((f) => f.endsWith('.css') && !CSS_ORDER.includes(f.replace(/\.css$/, '')));
 if (extraCss.length) console.warn('warning: stylesheets not in CSS_ORDER are not linked: ' + extraCss.join(', '));
 fs.mkdirSync(path.join(OUT, 'assets/js'), { recursive: true });
@@ -115,4 +121,4 @@ const iv = await writeVariants(OUT);
 const errs2 = imageErrors();
 if (errs2.length) fail([...new Set(errs2)].join('\n  '));
 for (const w of warnings) console.warn('warning: ' + w);
-console.log(`built ${pages.size} pages -> ${path.relative(ROOT, OUT) || '.'} | css ${cssFiles.join(',')} | js ${jsFiles.join(',')} | brand ${copied.brand}, fonts ${copied.fonts}, media ${copied.media}, photos ${copied.photos} | img variants ${iv.copied} (encoded ${iv.encoded}, ai-label ${iv.labelled ? 'yes' : 'no'}) | ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+console.log(`built ${pages.size} pages -> ${path.relative(ROOT, OUT) || '.'} | css ${cssSheets.join(',')} -> ${cssName}.css | js ${jsFiles.join(',')} | brand ${copied.brand}, fonts ${copied.fonts}, media ${copied.media}, photos ${copied.photos} | img variants ${iv.copied} (encoded ${iv.encoded}, ai-label ${iv.labelled ? 'yes' : 'no'}) | ${((Date.now() - t0) / 1000).toFixed(1)}s`);

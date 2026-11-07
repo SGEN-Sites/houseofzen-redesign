@@ -26,7 +26,7 @@
 .n-art--tr .n-art__cut { top: -15%; right: -7%; }
 .n-art--bl .n-art__cut { bottom: -6%; left: -9%; }
 .n-art--br .n-art__cut { bottom: -9%; right: -4%; }
-.n-art:hover .n-art__cut .cut { translate: -8px 6px; }
+/* .n-art:hover moves the cut-out: see the (hover: hover) block at the end */
 
 /* ---------- heroes: type straight on plaster or washi, the frame crossing the bottom edge ---------- */
 .n-hero { z-index: calc(var(--z-band-over) + 1); padding-bottom: var(--n-pb); } /* above a next band that is itself torn at the bottom */
@@ -119,7 +119,7 @@
 .n-card .acard__media > img, .n-card .acard__media > .img-slot { position: absolute; inset: 0; }
 .n-card__sheen { position: absolute; inset: 0; overflow: hidden; border-radius: var(--r); pointer-events: none; }
 .n-card__sheen::before { content: ""; position: absolute; inset: 0; background: linear-gradient(112deg, transparent 30%, var(--glass-border) 50%, transparent 70%); transform: translateX(-130%); transition: transform 1.25s var(--ease); }
-.n-card:hover .n-card__sheen::before, .n-card:focus-within .n-card__sheen::before { transform: translateX(130%); }
+.n-card:focus-within .n-card__sheen::before { transform: translateX(130%); } /* and on :hover, under (hover: hover) at the end */
 .n-card .acard__meta { margin-top: 6px; }
 .n-card__title { font-size: clamp(1.55rem, 2.1vw, 2.05rem); line-height: 1.12; text-wrap: pretty; }
 .n-card__excerpt { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; }
@@ -230,17 +230,44 @@
   .n-pull__q p { font-size: clamp(1.9rem, 8.6vw, 2.3rem); }
   .n-pull__enso { opacity: 0.3; left: -2%; }
   .n-callout__mist { width: 74%; }
-  .n-mason, .n-mason--2 { grid-template-columns: minmax(0, 1fr); row-gap: 40px; }
-  .n-mason .n-item.n-item--a { padding-right: 11%; }
-  .n-mason .n-item.n-item--b { padding-left: 11%; margin-top: 0; }
-  .n-mason:has(.is-filtered-out) { grid-template-columns: minmax(0, 1fr); }
-  .n-mason:has(.is-filtered-out) .n-item.n-item--a, .n-mason:has(.is-filtered-out) .n-item.n-item--b { padding: 0; }
+  /* the journal list (hub and category pages): one compact row per article, a small hand-thrown thumbnail beside its
+     category, title and read time; the whole row is the link (.acard__title a::after). Filtered or not, the same rows. */
+  .n-mason, .n-mason--2, .n-mason:has(.is-filtered-out) { grid-template-columns: minmax(0, 1fr); gap: 0; border-bottom: 1px solid var(--line); }
+  .n-mason .n-item.n-item--a, .n-mason .n-item.n-item--b,
+  .n-mason:has(.is-filtered-out) .n-item.n-item--a, .n-mason:has(.is-filtered-out) .n-item.n-item--b { margin-top: 0; padding: 16px 0; border-top: 1px solid var(--line); }
+  .n-mason .n-card { --r: 26px 16px 22px 18px / 18px 24px 28px 20px; display: grid; grid-template-columns: clamp(96px, 28vw, 120px) minmax(0, 1fr); grid-template-rows: 1fr auto auto auto 1fr; gap: 0 16px; align-items: start; }
+  .n-mason .n-item:nth-child(3n + 2) > .n-card { --r: 22px 18px 26px 15px / 19px 26px 17px 23px; }
+  .n-mason .n-item:nth-child(3n) > .n-card { --r: 16px 25px 18px 27px / 25px 17px 24px 16px; }
+  .n-mason .n-card .acard__media, .n-mason:has(.is-filtered-out) .n-card .acard__media { grid-area: 1 / 1 / -1 / 2; aspect-ratio: 4 / 5; }
+  /* the category above the title, the read time under it: a long category no longer wraps the read time onto a line of its own */
+  .n-mason .n-card .acard__meta { display: contents; }
+  .n-mason .n-card .acard__meta > span { grid-area: 2 / 2; }
+  .n-mason .n-card .acard__meta > span + span { grid-area: 4 / 2; margin-top: 8px; }
+  .n-mason .n-card .acard__meta > span + span::before { content: none; }
+  .n-mason .n-card__title { grid-area: 3 / 2; margin-top: 4px; font-size: 1.375rem; line-height: 1.1; }
+  .n-mason .n-card__excerpt { display: none; }
   .n-chips { flex-wrap: nowrap; margin-inline: calc(var(--gutter) * -1); padding: 2px var(--gutter) 6px; overflow-x: auto; scrollbar-width: none; }
   .n-chips::-webkit-scrollbar { display: none; }
   .n-chips > li { flex: none; }
   .n-close__bud { top: calc(var(--overhang) * -1); right: 8px; width: 150px; }
   .n-close { padding-top: calc(var(--overhang) + 72px); }
   .n-keep-band { padding-bottom: calc(var(--section-y) + 24px); }
+}
+
+/* hover motion only where a pointer can hover: on a touch screen it would stick after the tap */
+@media (hover: hover) {
+  .n-art:hover .n-art__cut .cut { translate: -8px 6px; }
+  .n-card:hover .n-card__sheen::before { transform: translateX(130%); }
+}
+/* touch: a short press on a card or the featured image instead */
+@media (hover: none) {
+  .n-card, .n-feat__media { transition: scale 0.12s var(--ease); }
+  .n-card:active { scale: 0.975; }
+  .n-feat__media:active { scale: 0.985; }
+}
+@media (hover: none) and (prefers-reduced-motion: reduce) {
+  .n-card, .n-feat__media { transition: none; }
+  .n-card:active, .n-feat__media:active { scale: none; opacity: 0.84; }
 }
 
 @media (prefers-reduced-motion: reduce) {

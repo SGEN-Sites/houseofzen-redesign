@@ -27,6 +27,14 @@ reveals, a gold seam that draws itself with the scroll, brush words that paint o
 sheen, photographs zoom inside their frames while the object in front moves the other way. Everything is off under
 `prefers-reduced-motion`, and every page reads fully without JavaScript.
 
+## On phones
+
+Below 1024 px the pages are one column: product, category and reading rows become swipe rows that show the next card, the journal
+becomes a compact list, and the floating bar slides away while you read down and comes back as soon as you scroll up. Reveals drop
+the blur there (lighter on a phone's graphics chip), hover lifts and zooms only answer a real pointer, and a tap gets a short press
+instead. Taps are at least 44 px, text at least 13 px, the gutters clear a notch when the phone is turned sideways, and a phone
+gets a smaller square cut of the hero loop (none at all with Data Saver on). All styles load as one file.
+
 ## Brand kept
 
 Instrument Serif, Lato and Poppins, the client's brush lettering, its moss `#515D30`, olive `#808B55`, sage `#A4A865` and mint-white

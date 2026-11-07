@@ -48,7 +48,8 @@
 .h-hero__chip.glass { --r: var(--r-sm); --fill: rgba(251, 249, 243, 0.42); display: inline-flex; flex-direction: column; gap: 4px; padding: 10px 26px 20px 16px; font-family: var(--font-label); font-size: var(--fs-label); line-height: 1.45; color: var(--ink); text-decoration: none; transition: transform var(--dur-1) var(--ease), box-shadow var(--dur-1) var(--ease); }
 .h-hero__chip-row { display: flex; align-items: flex-start; gap: 8px; }
 .h-hero__chip-row .icon { width: 15px; height: 15px; margin-top: 3px; color: var(--gold-text); }
-.h-hero__chip:hover, .h-hero__chip:focus-visible { transform: translateY(-3px); }
+.h-hero__chip:focus-visible { transform: translateY(-3px); }
+@media (hover: hover) { .h-hero__chip:hover { transform: translateY(-3px); } }
 .h-hero__sheet { position: absolute; left: 0; right: 0; bottom: -1px; height: var(--h-sheet); z-index: 1; pointer-events: none; }
 .h-hero__ctrl { position: absolute; z-index: 3; left: 38vw; bottom: calc(var(--h-sheet) * 0.62 + 8px); }
 .h-hero__toggle.video-toggle { position: static; }
@@ -76,9 +77,14 @@
 .h-pc__end-enso img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .h-pc__end-word { position: relative; max-width: min-content; font-family: var(--font-display); font-size: clamp(2.4rem, 11vw, 3.4rem); line-height: 0.98; letter-spacing: var(--track-display); }
 .h-pc__end-arrow { position: relative; color: var(--gold-soft); transition: transform var(--dur-2) var(--ease); }
-.h-pc__endlink:hover, .h-pc__endlink:focus-visible { transform: translate3d(0, -6px, 0); }
-.h-pc__endlink:hover .h-pc__end-enso, .h-pc__endlink:focus-visible .h-pc__end-enso { transform: rotate(24deg); }
-.h-pc__endlink:hover .h-pc__end-arrow, .h-pc__endlink:focus-visible .h-pc__end-arrow { transform: translate3d(8px, 0, 0); }
+.h-pc__endlink:focus-visible { transform: translate3d(0, -6px, 0); }
+.h-pc__endlink:focus-visible .h-pc__end-enso { transform: rotate(24deg); }
+.h-pc__endlink:focus-visible .h-pc__end-arrow { transform: translate3d(8px, 0, 0); }
+@media (hover: hover) {
+  .h-pc__endlink:hover { transform: translate3d(0, -6px, 0); }
+  .h-pc__endlink:hover .h-pc__end-enso { transform: rotate(24deg); }
+  .h-pc__endlink:hover .h-pc__end-arrow { transform: translate3d(8px, 0, 0); }
+}
 
 /* ================================================================== 3. Find your Balance */
 .h-bal { position: relative; z-index: 3; isolation: isolate; color: var(--text-on-dark); background: var(--moss-deep); display: flex; }
@@ -96,8 +102,12 @@
 .h-bal__chips { margin: 8px 0 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .h-bal__chip.glass { --r: var(--r-sm); display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 52px; padding: 10px 16px; color: var(--text-on-dark); text-decoration: none; font-family: var(--font-display); font-size: 1.45rem; line-height: 1.05; transition: transform var(--dur-2) var(--ease); }
 .h-bal__chip .icon { width: 18px; height: 18px; color: var(--gold-soft); transition: transform var(--dur-2) var(--ease); }
-.h-bal__chip:hover, .h-bal__chip:focus-visible { transform: translate3d(0, -4px, 0); }
-.h-bal__chip:hover .icon, .h-bal__chip:focus-visible .icon { transform: translate3d(5px, 0, 0); }
+.h-bal__chip:focus-visible { transform: translate3d(0, -4px, 0); }
+.h-bal__chip:focus-visible .icon { transform: translate3d(5px, 0, 0); }
+@media (hover: hover) {
+  .h-bal__chip:hover { transform: translate3d(0, -4px, 0); }
+  .h-bal__chip:hover .icon { transform: translate3d(5px, 0, 0); }
+}
 .h-bal__note { font-size: var(--fs-small); color: var(--rice); text-shadow: 0 1px 10px rgba(23, 24, 18, 0.6); }
 
 /* ================================================================== 4. New to The House of Zen */
@@ -112,7 +122,7 @@
 /* the door crop keeps the letters and the Open window; the door's printed text stays out of frame (see the report) */
 .h-new__door-crop { position: relative; display: block; aspect-ratio: 0.8; overflow: hidden; border-radius: var(--r); }
 .h-new__door-img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: 90% 50%; transform-origin: 100% 0; transition: transform 1.8s var(--ease); }
-.h-new__door:hover .h-new__door-img { transform: scale(1.05); }
+@media (hover: hover) { .h-new__door:hover .h-new__door-img { transform: scale(1.05); } }
 .h-new__floor { --frame-ar: 1.42; margin: -22% -14% 0 22%; z-index: 2; box-shadow: var(--shade-deep); }
 .h-new__copy { order: 1; display: grid; gap: 26px; min-width: 0; }
 .h-new__h { margin: 0; color: var(--moss-deep); }
@@ -226,12 +236,67 @@
   .h-hero__enso { left: auto; right: -9vw; top: auto; bottom: 7%; width: min(86vw, 520px); opacity: 0.55; }
   .h-hero__lede { font-size: 16px; line-height: 1.5; }
   .h-hero__chip-at { margin-bottom: clamp(190px, 50vw, 300px); }
-  .h-hero__ctrl { left: auto; right: var(--gutter); bottom: clamp(190px, 50vw, 300px); }
+  /* the pause control waits bottom-left, just above the torn sheet, clear of the vase and the enso */
+  .h-hero__ctrl { left: var(--gutter); bottom: calc(var(--h-sheet) * 0.62 + 10px); }
   .h-hero__toggle.video-toggle { justify-content: center; min-width: 44px; padding: 0; }
   .h-hero__toggle .video-toggle__label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
   .h-prod { padding-top: 26px; }
   .h-bal__inner { padding-bottom: calc(14vw + 72px); }
   .h-new { padding-top: calc(var(--section-y) + 34vw); }
+  .h-new__item { text-wrap: balance; }   /* no one-word second line ("... to your / needs") */
+}
+/* phones: the Visit buttons keep clear of the vase cut-out standing at the pane's bottom-right (at 430 its branch
+   crossed "Contact"); Contact wraps under Get Directions at every phone width, as it already did at 360 and 390 */
+@media (max-width: 720px) {
+  .h-visit__cta { padding-right: 24vw; }
+}
+/* the narrowest phones: the balance chips keep one line each ("CBD-forward" broke in two at 360) */
+@media (max-width: 380px) {
+  .h-bal__chip.glass { gap: 6px; padding: 10px 12px; font-size: 1.32rem; }
+  .h-bal__chip .icon { width: 16px; height: 16px; }
+}
+
+/* ---- phones held upright (the square still): the vase stands right of centre on its ledge, the hours chip hangs on the
+   plaster beside it like a museum label. --S is the square's side; the chip block reserves the vase's height below the
+   buttons, so on a short phone the hero grows instead of the vase climbing into the text. */
+@media (max-width: 720px) and (orientation: portrait) {
+  .h-hero { --S: clamp(72vw, 44vh, 100vw); --shift: 6vw; }
+  .h-hero__plate {
+    left: auto; right: calc(-1 * var(--shift)); width: var(--S); height: var(--S);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 18%, #000 30%), linear-gradient(to right, transparent 0, #000 22%);
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(to bottom, transparent 18%, #000 30%), linear-gradient(to right, transparent 0, #000 22%);
+    mask-composite: intersect;
+  }
+  .h-hero__enso { right: calc(var(--S) * 0.01 - var(--shift)); bottom: calc(var(--S) * 0.03); width: calc(var(--S) * 0.78); }
+  .h-hero__chip-at { margin-bottom: 0; min-height: calc(var(--S) * 0.72 + 24px); }
+  .h-hero__chip.glass { padding: 11px 16px 13px 12px; }
+  .h-hero__chip-v { display: block; }
+}
+@supports (height: 1svh) {
+  @media (max-width: 720px) and (orientation: portrait) { .h-hero { --S: clamp(72vw, 44svh, 100vw); } }
+}
+
+/* ---- phones held sideways (the column layout on a short, wide screen): the type keeps the left, the vase stands in the
+   right half at full hero height, so the first screen is not one tall heading ---- */
+@media (max-width: 1023.98px) and (orientation: landscape) and (max-height: 540px) {
+  .h-hero__h1 { --h1: clamp(40px, 12.5vh, 58px); }
+  .h-hero__inner { padding-top: calc(var(--bar-gap) + var(--bar-h) + 22px); }
+  .h-hero__type { max-width: 56%; }
+  .h-hero__lede { font-size: 15px; }
+  .h-hero__chip-at { margin-bottom: 0; padding-bottom: calc(var(--h-sheet) + 12px); }
+  .h-hero__plate { top: 0; left: 42%; height: auto; -webkit-mask-image: linear-gradient(to right, transparent 0, #000 34%); mask-image: linear-gradient(to right, transparent 0, #000 34%); }
+  .h-hero__scrim { background: none; }
+  .h-hero__enso { right: 3vw; bottom: 12%; width: min(70vh, 34vw); }
+  .h-hero__ctrl { left: auto; right: var(--gutter); }
+}
+
+/* ---- touch: no hover lifts (see the hover: hover blocks above); a short press instead ---- */
+@media (hover: none) {
+  .h-pc__media { transition: box-shadow var(--dur-2) var(--ease), transform 0.12s var(--ease); }
+  .h-pc__link:active .h-pc__media { transform: scale(0.97); }
+  .h-pc__endlink.glass, .h-hero__chip.glass, .h-bal__chip.glass { transition: transform 0.12s var(--ease); }
+  .h-pc__endlink:active, .h-hero__chip:active, .h-bal__chip:active { transform: scale(0.97); }
 }
 
 /* ================================================================== desktop layouts, not pinned yet */

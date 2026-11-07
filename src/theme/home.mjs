@@ -12,6 +12,10 @@ import { esc, escA, linkAttrs, gimg, photo, menu, brush, rewriteLinks, absUrl, h
 const ico = (n, c = '') => shell.icon(n, c);
 // the plate is cover-cropped and scaled 1.08 on desktop; on phones it is the lower 62% of the hero, so its height decides
 const HERO_SIZES = '(max-width: 1023.98px) max(120vw, 110vh), max(108vw, 192vh)';
+// The enso is a soft, half-transparent brush ring: on phones every copy asks for the 640 variant (one file, cached once).
+const ENSO_PHONE = '(max-width: 720px) 210px';
+// "Mon-Sun: 9 am to 9 pm" as label + value spans: the same words inline (desktop), two lines in the phone chip.
+const hoursParts = (t) => { const m = String(t).match(/^(.*?:)\s+(.+)$/); return m ? `<span class="h-hero__chip-k">${esc(m[1])}</span> <span class="h-hero__chip-v">${esc(m[2])}</span>` : esc(t); };
 
 // ---------- captured copy: each section read by id, each block asserted ----------
 function reader(home) {
@@ -69,7 +73,7 @@ function renderScene(ctx, c) {
   const hero = `<section class="h-hero" id="welcome" aria-labelledby="h-h1"${video ? ' data-video-host' : ''}>
 <div class="band__clip h-hero__clip" aria-hidden="true">
 <div class="h-hero__plate">${still}${video}</div>
-<div class="h-hero__enso">${gimg('g-enso', { alt: '', cls: 'h-hero__enso-img', sizes: '(max-width: 720px) 90vw, 46vw', eager: true })}</div>
+<div class="h-hero__enso">${gimg('g-enso', { alt: '', cls: 'h-hero__enso-img', sizes: ENSO_PHONE + ', 46vw', eager: true })}</div>
 <div class="h-hero__scrim"></div>
 </div>
 <div class="wrap wrap--wide h-hero__inner">
@@ -84,7 +88,7 @@ function renderScene(ctx, c) {
 </div>
 <div class="h-hero__chip-at">
 <a class="h-hero__chip glass"${linkAttrs('/detroit-dispensary/')}>
-<span class="h-hero__chip-row">${ico('clock')}<span>${esc(site.hours.text)}</span></span>
+<span class="h-hero__chip-row">${ico('clock')}<span>${hoursParts(site.hours.text)}</span></span>
 <span class="h-hero__chip-row">${ico('pin')}<span>${esc(site.address.street)},<br>${esc(site.address.city)}, ${esc(site.address.state)} ${esc(site.address.zip)}</span></span>
 </a>
 </div>
@@ -109,7 +113,7 @@ ${toggle ? `<div class="h-hero__ctrl">${toggle}</div>` : ''}
   }).join('\n');
   const finalCard = `<li class="h-pc h-pc--end" style="--i:8">
 <a class="h-pc__endlink glass glass--moss"${linkAttrs(menu(ctx))}>
-<span class="h-pc__end-enso" aria-hidden="true">${gimg('g-enso', { alt: '', cls: 'cut', sizes: '30vw' })}</span>
+<span class="h-pc__end-enso" aria-hidden="true">${gimg('g-enso', { alt: '', cls: 'cut', sizes: ENSO_PHONE + ', 30vw' })}</span>
 <span class="h-pc__end-word">${esc(shop.text)}</span>
 <span class="h-pc__end-arrow">${ico('arrow')}</span>
 </a>
@@ -188,7 +192,7 @@ function renderNew(ctx, c) {
 <div class="wrap wrap--wide h-new__grid">
 <div class="h-new__photos">
 <figure class="h-new__door frame frame--r1" data-depth="0.04">
-<span class="h-new__door-crop">${photo(ctx, 'hoz/exterior-top.jpg', { alt: 'The House of Zen shopfront on Mack Ave: brick wall, the big House of Zen letters and the window with its Open sign', cls: 'h-new__door-img', sizes: '(max-width: 720px) 140vw, 60vw' })}</span>
+<span class="h-new__door-crop">${photo(ctx, 'hoz/exterior-top.jpg', { alt: 'The House of Zen shopfront on Mack Ave: brick wall, the big House of Zen letters and the window with its Open sign', cls: 'h-new__door-img', sizes: '(max-width: 720px) calc(92vw - 40px), 60vw' })}</span>
 </figure>
 <figure class="h-new__floor frame frame--r2 frame--bare" data-depth="-0.07">
 ${photo(ctx, 'hoz/counter-wall.jpg', { alt: 'Inside House of Zen: the counter and a wall of products on lit shelves', cls: 'frame__img h-new__floor-img', sizes: '(max-width: 720px) 80vw, 40vw' })}
@@ -197,7 +201,7 @@ ${photo(ctx, 'hoz/counter-wall.jpg', { alt: 'Inside House of Zen: the counter an
 <div class="h-new__copy">
 <h2 class="h-new__h" id="h-new-h"><span class="h-new__lead" data-reveal>${esc(lead)}</span> <span class="h-new__got" data-reveal style="--i:1">${brush('got-you', { paint: false })}<span class="h-new__dot">.</span></span></h2>
 <div class="h-new__offer" data-reveal>
-<span class="h-offer__ring" aria-hidden="true" data-spin="0.03">${gimg('g-enso', { alt: '', cls: 'cut', sizes: '(max-width: 720px) 86vw, 34vw' })}</span>
+<span class="h-offer__ring" aria-hidden="true" data-spin="0.03">${gimg('g-enso', { alt: '', cls: 'cut', sizes: ENSO_PHONE + ', 34vw' })}</span>
 <p class="h-offer">${offerType(tag.text)}</p>
 </div>
 <div class="h-new__guide">

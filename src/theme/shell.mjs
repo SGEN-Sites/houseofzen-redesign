@@ -179,7 +179,8 @@ export function tornEdge(pos = 'top', tone = 'washi') {
   return `<span class="torn torn--${pos === 'bottom' ? 'bottom' : 'top'} torn--${t}" aria-hidden="true"></span>`;
 }
 // A generated ground as a real <img> inside .band__clip. Missing ids stay on the band's token colour (no placeholder slot).
-export function bandBg(id, { pos = '', cls = '', alt = '', opacity = '', eager = false, sizes = '100vw' } = {}) {
+// The default sizes lets a phone (up to 720px, DPR 3) take the 960px variant, not the 1440: every ground drawn here sits under a veil or opaque glass.
+export function bandBg(id, { pos = '', cls = '', alt = '', opacity = '', eager = false, sizes = '(max-width: 720px) 320px, 100vw' } = {}) {
   const style = [pos ? `object-position:${pos}` : '', opacity !== '' ? `opacity:${opacity}` : ''].filter(Boolean).join(';');
   const pic = hasGenerated(id) ? gimg(id, { alt, cls: `band__bg${cls ? ' ' + cls : ''}`, sizes, eager, attrs: style ? { style } : {} }) : '';
   return `<div class="band__clip" aria-hidden="true">${pic}</div>`;

@@ -55,6 +55,16 @@
   .nav-scrim:not([hidden]) { animation: fade-in var(--dur-2) var(--ease); }
 }
 
+/* phones, tablets and touch screens: the reveal rises and fades with no blur (an animated filter on 20 to 30 elements a page is costly on a phone GPU
+   while scrolling) and a little shorter; wipe and lines keep their own. Desktop keeps reveal-up. */
+@keyframes reveal-rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: no-preference) and (max-width: 1023.98px), (prefers-reduced-motion: no-preference) and (hover: none) {
+  html.js [data-reveal]:not([data-reveal="wipe"]):not([data-reveal="lines"]).is-in { animation-name: reveal-rise; animation-duration: 0.8s; }
+  .age-gate:not([hidden]) .age-gate__dialog, html.gate-pending .age-gate__dialog { animation-name: reveal-rise; animation-duration: 0.8s; }
+}
+/* Save-Data (site.js adds html.save-data): no decorative video starts, the still under it stays */
+html.save-data video[autoplay], html.save-data video[data-after-load], html.save-data video[data-inview-play] { display: none; }
+
 /* the pin engine: only with JS, from 1024 x 560, without reduced motion */
 @media (min-width: 1024px) and (min-height: 560px) and (prefers-reduced-motion: no-preference) {
   html.js [data-pin] { position: relative; height: var(--pin-h, 180vh); }

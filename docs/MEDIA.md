@@ -56,7 +56,7 @@ Model: FLUX 1.1 pro ultra, reviewed by eye, then cropped, graded or composited a
 
 ## Motion
 
-`assets/media/hero-loop.mp4` and `hero-loop-small.mp4`: a muted, seamless 20 s loop. fal Kling 3.0 pro animated the AI-generated still `g-hero-vessel` (the leaves and their shadows move, the window light drifts), and playing it forward then in reverse makes the seam invisible. Both files carry an AI-generated label in their metadata. It is not footage of House of Zen.
+`assets/media/hero-loop.mp4` and `hero-loop-small.mp4`: a muted, seamless 20 s loop. fal Kling 3.0 pro animated the AI-generated still `g-hero-vessel` (the leaves and their shadows move, the window light drifts), and playing it forward then in reverse makes the seam invisible. Phones get `hero-loop-small.mp4`, a 720x720 square of the vase on its ledge (the part a phone shows), about 0.6 MB. Both files carry an AI-generated label in their metadata. It is not footage of House of Zen.
 
 ## Client images
 

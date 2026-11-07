@@ -46,9 +46,12 @@
 }
 .site-header.is-scrolled .mainbar__logo::after, .site:has(main > .band--moss:first-child) .mainbar__logo::after, .site:has(main > .band--indigo:first-child) .mainbar__logo::after { opacity: 1; }
 .mainbar__logo .logo__img { position: absolute; top: -7px; left: 0; width: 88px; max-width: none; transform-origin: 50% 0; filter: drop-shadow(0 9px 12px rgba(10, 34, 56, 0.2)); transition: transform var(--dur-2) var(--ease); }
-.mainbar__logo:hover .logo__img, .mainbar__logo:focus-visible .logo__img { transform: translateY(2px) scale(1.04); }
+/* hover lifts, zooms and slides only with a real hover, so they never stick after a tap on a phone (mobile.css gives touch a short press instead) */
+.mainbar__logo:focus-visible .logo__img { transform: translateY(2px) scale(1.04); }
+@media (hover: hover) { .mainbar__logo:hover .logo__img { transform: translateY(2px) scale(1.04); } }
 .site-header.is-scrolled .mainbar__logo .logo__img { transform: scale(0.88); }
-.site-header.is-scrolled .mainbar__logo:hover .logo__img, .site-header.is-scrolled .mainbar__logo:focus-visible .logo__img { transform: scale(0.92); }
+.site-header.is-scrolled .mainbar__logo:focus-visible .logo__img { transform: scale(0.92); }
+@media (hover: hover) { .site-header.is-scrolled .mainbar__logo:hover .logo__img { transform: scale(0.92); } }
 
 .nav { flex: 1 1 auto; min-width: 0; display: flex; align-items: center; }
 .nav__list { display: flex; align-items: stretch; height: var(--bar-h); gap: clamp(0px, 0.45vw, 8px); list-style: none; margin: 0; padding: 0; }
@@ -100,7 +103,8 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 .mega__h--link { display: inline-flex; align-items: center; gap: 0.35em; text-decoration: none; background: var(--brush-line) 100% 100% / 200% 6px no-repeat; transition: background-position 0.75s var(--ease); }
 .mega__h--link .icon { width: 0.72em; height: 0.72em; transition: transform 0.5s var(--ease); }
 .mega__h--link:hover, .mega__h--link:focus-visible { background-position: 0% 100%; }
-.mega__h--link:hover .icon, .mega__h--link:focus-visible .icon { transform: translateX(4px); }
+.mega__h--link:focus-visible .icon { transform: translateX(4px); }
+@media (hover: hover) { .mega__h--link:hover .icon { transform: translateX(4px); } }
 .mega__note { margin: -2px 0 8px; font-size: var(--fs-small); line-height: 1.4; color: var(--text-3); }
 
 .mega__feature { position: relative; display: block; isolation: isolate; min-height: 100%; border-radius: var(--r-1); overflow: hidden; background: var(--plaster); color: var(--text-on-dark); text-decoration: none; box-shadow: var(--shade-soft); transition: box-shadow var(--dur-2) var(--ease), transform var(--dur-2) var(--ease); }
@@ -109,10 +113,15 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 .mega__feature-t { display: block; font-family: var(--font-display); font-size: clamp(1.8rem, 2.5vw, 2.3rem); line-height: 1.02; color: var(--text-on-dark); }
 .mega__feature-l { display: block; margin-top: 6px; font-size: 1rem; line-height: 1.34; color: var(--text-on-dark); }
 .mega__go { display: inline-grid; margin-top: 8px; color: var(--gold-soft); transition: transform 0.5s var(--ease); }
-.mega__feature:hover, .mega__feature:focus-visible { box-shadow: var(--shade-deep), 0 0 0 1px var(--gold); transform: translateY(-3px); }
+.mega__feature:focus-visible { box-shadow: var(--shade-deep), 0 0 0 1px var(--gold); transform: translateY(-3px); }
+@media (hover: hover) { .mega__feature:hover { box-shadow: var(--shade-deep), 0 0 0 1px var(--gold); transform: translateY(-3px); } }
 .mega__feature:focus-visible { box-shadow: var(--focus-ring); border-radius: var(--r-1); }
-.mega__feature:hover .mega__img, .mega__feature:focus-visible .mega__img { transform: scale(1.06); }
-.mega__feature:hover .mega__go, .mega__feature:focus-visible .mega__go { transform: translateX(6px); }
+.mega__feature:focus-visible .mega__img { transform: scale(1.06); }
+.mega__feature:focus-visible .mega__go { transform: translateX(6px); }
+@media (hover: hover) {
+  .mega__feature:hover .mega__img { transform: scale(1.06); }
+  .mega__feature:hover .mega__go { transform: translateX(6px); }
+}
 
 .mega__cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(10px, 1vw, 16px); list-style: none; margin: 0; padding: 0; }
 .mega__card { position: relative; display: block; color: var(--ink); text-decoration: none; }
@@ -122,21 +131,32 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 .mega__cards > li:nth-child(3n) .mega__card-media { border-radius: 24px 14px 19px 16px / 16px 21px 14px 24px; }
 .mega__group--n4 { --mega-card-h: clamp(160px, 40vh, 280px); }
 .mega__card-t { display: block; margin-top: 6px; font-family: var(--font-label); font-weight: 500; font-size: 1rem; line-height: 1.22; transition: transform var(--dur-2) var(--ease), color var(--dur-1); }
-.mega__card:hover .mega__card-media, .mega__card:focus-visible .mega__card-media { box-shadow: 0 18px 28px -14px rgba(42, 50, 25, 0.62), 0 0 0 1px var(--gold); transform: translateY(-3px); }
+.mega__card:focus-visible .mega__card-media { box-shadow: 0 18px 28px -14px rgba(42, 50, 25, 0.62), 0 0 0 1px var(--gold); transform: translateY(-3px); }
+@media (hover: hover) { .mega__card:hover .mega__card-media { box-shadow: 0 18px 28px -14px rgba(42, 50, 25, 0.62), 0 0 0 1px var(--gold); transform: translateY(-3px); } }
 .mega__card:focus-visible .mega__card-media { box-shadow: var(--focus-ring); }
-.mega__card:hover .mega__img, .mega__card:focus-visible .mega__img { transform: scale(1.08); }
-.mega__card:hover .mega__card-t, .mega__card:focus-visible .mega__card-t { color: var(--moss); transform: translateX(3px); }
+.mega__card:focus-visible .mega__img { transform: scale(1.08); }
+.mega__card:focus-visible .mega__card-t { color: var(--moss); transform: translateX(3px); }
+@media (hover: hover) {
+  .mega__card:hover .mega__img { transform: scale(1.08); }
+  .mega__card:hover .mega__card-t { color: var(--moss); transform: translateX(3px); }
+}
 
 .mega__links { display: grid; gap: 0; list-style: none; margin: 0; padding: 0; }
 .mega__link { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 40px; padding-block: 4px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; font-size: 1.0625rem; line-height: 1.25; transition: color var(--dur-1), padding-left var(--dur-2) var(--ease); }
 .mega__link .icon { width: 16px; height: 16px; color: var(--moss); opacity: 0.55; transition: transform 0.5s var(--ease), opacity var(--dur-1); }
-.mega__link:hover, .mega__link:focus-visible { color: var(--moss); padding-left: 5px; }
-.mega__link:hover .icon, .mega__link:focus-visible .icon { opacity: 1; transform: translateX(3px); }
-.mega__link:hover .icon--ext, .mega__link:focus-visible .icon--ext { transform: translate(2px, -2px); }
+.mega__link:focus-visible { color: var(--moss); padding-left: 5px; }
+.mega__link:focus-visible .icon { opacity: 1; transform: translateX(3px); }
+.mega__link:focus-visible .icon--ext { transform: translate(2px, -2px); }
+@media (hover: hover) {
+  .mega__link:hover { color: var(--moss); padding-left: 5px; }
+  .mega__link:hover .icon { opacity: 1; transform: translateX(3px); }
+  .mega__link:hover .icon--ext { transform: translate(2px, -2px); }
+}
 
 .mega__store { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(16px, 2vw, 28px); align-items: stretch; }
 .mega__store-media { display: block; height: clamp(190px, 50vh, 340px); overflow: hidden; border-radius: var(--r-1); background: var(--plaster); box-shadow: var(--shade-soft); }
-.mega__store-media:hover .mega__img, .mega__store-media:focus-visible .mega__img { transform: scale(1.05); }
+.mega__store-media:focus-visible .mega__img { transform: scale(1.05); }
+@media (hover: hover) { .mega__store-media:hover .mega__img { transform: scale(1.05); } }
 .mega__store-media:focus-visible { box-shadow: var(--focus-ring); border-radius: var(--r-1); }
 .mega__store-body { display: flex; flex-direction: column; justify-content: center; gap: 12px; }
 .mega__store-t { font-family: var(--font-display); font-size: clamp(1.9rem, 2.7vw, 2.5rem); line-height: 1.02; color: var(--ink); text-decoration: none; background: var(--brush-line) 100% 100% / 200% 7px no-repeat; transition: background-position 0.75s var(--ease); }
@@ -189,7 +209,8 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 .footer__legal li + li::before { content: "|"; margin-inline: 0.7em; color: var(--text-on-dark-2); }
 .footer__totop { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; }
 .footer__totop .icon { width: 17px; height: 17px; transition: transform 0.5s var(--ease); }
-.footer__totop:hover .icon, .footer__totop:focus-visible .icon { transform: translateY(-3px); }
+.footer__totop:focus-visible .icon { transform: translateY(-3px); }
+@media (hover: hover) { .footer__totop:hover .icon { transform: translateY(-3px); } }
 
 /* ---------------------------------------------------------------- 21+ gate: a glass dialog over a dimmed, blurred page, the Buddha above it */
 .age-gate { position: fixed; inset: 0; z-index: var(--z-gate); display: grid; place-items: center; padding: 20px; overflow: auto; }

@@ -11,13 +11,13 @@
    "w": 1920,
    "h": 1072,
    "wSmall": 720,
-   "hSmall": 1280,
+   "hSmall": 720,
    "duration": 20.0,
    "fps": 24,
    "frames": 480,
    "audio": false,
    "alt": "",
-   "use": "Home hero: muted autoplay loop, playsinline, aria-hidden, the poster (frame 0) under it first, hidden under reduced motion, a visible pause toggle, start after window load. The small cut is 9:16 with the vase centre about 62% across.",
+   "use": "Home hero: muted autoplay loop, playsinline, aria-hidden, the poster (frame 0) under it first, hidden under reduced motion, a visible pause toggle, start after window load. The small cut (phones, up to 720 px wide) is a 720x720 square: the vase on its ledge, the only part a phone shows, centre about 60% across.",
    "note": "AI-generated motion: fal Kling 3.0 pro animated the AI-generated still g-hero-vessel (the leaves and their shadows move, the window light drifts); forward then reverse makes the loop seamless. Not footage of House of Zen, its store, staff, customers, products or brands."
   }
  }

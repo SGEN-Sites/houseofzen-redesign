@@ -14,12 +14,21 @@
   .nav-toggle { display: inline-grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line-2); color: var(--ink); cursor: pointer; transition: background-color var(--dur-1); }
   .nav-toggle:hover, .nav-toggle:focus-visible { background: var(--gold-soft); }
 
+  /* the bar slides up while the reader scrolls down and comes back on any scroll up (site.js sets .is-hidden from its scroll frame). The drawer is fixed
+     inside the bar and a transformed bar would carry it, so while the drawer is open the bar stands still with no transition */
+  .mainbar { transition: transform 0.4s var(--ease); }
+  .site-header.is-hidden .mainbar { transform: translate3d(0, calc(-100% - var(--bar-gap) - 48px), 0); }
+  html.nav-open .site-header .mainbar, .site-header.is-snap .mainbar { transform: none; transition: none; }
+  /* safe areas (viewport-fit=cover): the 21+ gate clears the notch and the home indicator */
+  .age-gate { padding: max(20px, env(safe-area-inset-top, 0px)) max(20px, env(safe-area-inset-right, 0px)) max(20px, env(safe-area-inset-bottom, 0px)) max(20px, env(safe-area-inset-left, 0px)); }
+
   /* the drawer: live blur is allowed here */
   .nav {
     position: fixed; top: 0; right: 0; bottom: 0; z-index: var(--z-drawer); width: min(94vw, 460px); flex-direction: column; align-items: stretch; overflow-y: auto; overscroll-behavior: contain;
     background: color-mix(in srgb, var(--rice) 90%, transparent); -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)); backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
     border-left: 1px solid var(--glass-border); border-radius: var(--r-1); border-top-right-radius: 0; border-bottom-right-radius: 0; box-shadow: var(--shade-deep);
-    transform: translateX(104%); visibility: hidden; transition: transform 0.5s var(--ease), visibility 0s linear 0.5s; padding-bottom: env(safe-area-inset-bottom);
+    transform: translateX(104%); visibility: hidden; transition: transform 0.5s var(--ease), visibility 0s linear 0.5s;
+    padding-bottom: max(0px, env(safe-area-inset-bottom, 0px)); padding-right: max(0px, env(safe-area-inset-right, 0px));
   }
   html.nav-open .nav { transform: none; visibility: visible; transition: transform 0.5s var(--ease), visibility 0s; }
   .nav__drawer-head { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px 6px 20px; }
@@ -66,7 +75,7 @@
 }
 
 @media (max-width: 720px) {
-  :root { --promo-h: 44px; --bar-h: 56px; --bar-x: 10px; --section-y: clamp(64px, 16vw, 92px); --hero-top: calc(var(--bar-gap) + var(--bar-h) + 40px); }
+  :root { --promo-h: 44px; --bar-h: 56px; --bar-x: max(10px, calc(env(safe-area-inset-left, 0px) + 8px), calc(env(safe-area-inset-right, 0px) + 8px)); --section-y: clamp(64px, 16vw, 92px); --hero-top: calc(var(--bar-gap) + var(--bar-h) + 40px); }
   .promo { font-size: var(--fs-label); }
   .promo__inner { padding-inline: 10px; }
   .promo__offer { gap: 10px; flex-wrap: nowrap; }
@@ -109,6 +118,8 @@
   .footer__chip { top: -112px; width: 132px; padding: 14px 16px 10px; }
   .footer__brand { min-height: 26px; }
   .footer__cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  /* "More information" wraps to two lines here: both column heads take two lines and sit on the lower one, so the two link lists start level */
+  .footer__cols .footer__h { display: flex; align-items: flex-end; min-height: 2.8em; }
   .footer__links a, .footer__social, .footer__totop, .footer__legal a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; background-position: 100% calc(100% - 8px); }
   .footer__links a:hover, .footer__links a:focus-visible, .footer__social:hover, .footer__totop:hover, .footer__legal a:hover { background-position: 0% calc(100% - 8px); }
   .footer__addr a, .footer__addr p { min-height: 44px; align-items: center; }
@@ -122,4 +133,19 @@
   .promo__offer { white-space: normal; }
   .promo__text { flex: 0 1 auto; min-width: 0; white-space: normal; line-height: 1.18; text-wrap: balance; }
   .promo__link { flex: none; white-space: nowrap; }
+}
+
+/* touch: no grey flash on a tap, a short press instead (about 120 ms). The hover lifts, zooms and slides only apply with a real hover (components.css, shell.css). */
+@media (any-pointer: coarse), (max-width: 1023.98px) {
+  html { -webkit-tap-highlight-color: transparent; }
+}
+@media (hover: none), (pointer: coarse) {
+  .nav-toggle, .nav__close, .nav__more, .rotator__btn, .video-toggle { transition: transform 120ms var(--ease), background-color var(--dur-1), color var(--dur-1); }
+  .btn:active, .chip:active, .nav-toggle:active, .nav__close:active, .nav__more:active, .rotator__btn:active, .video-toggle:active { transform: scale(0.96); transition-duration: 120ms; }
+  .btn:active { color: var(--btn-fill-fg); border-color: var(--btn-fill); }
+  .btn:active::before { transform: none; border-radius: 0; transition-duration: 120ms; }
+  .nav-toggle:active, .nav__close:active { background-color: var(--gold-soft); }
+  .nav__link:active, .mega__link:active, .mega__card:active .mega__card-t, .nav__quick a:active { color: var(--moss); }
+  .mega__feature:active, .mega__card:active .mega__card-media, .mega__store-media:active, .cat-card:active .cat-card__media, .acard:active .acard__media { transform: scale(0.97); transition: transform 120ms var(--ease); }
+  .footer__links a:active, .footer__social:active, .footer__addr a:active, .footer__legal a:active, .footer__totop:active { color: var(--gold-soft); background-position-x: 0%; transition-duration: 120ms; }
 }

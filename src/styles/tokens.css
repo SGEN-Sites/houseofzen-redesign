@@ -88,7 +88,8 @@
   --wrap: 1280px;
   --wrap-wide: 1560px;
   --wrap-narrow: 760px;
-  --gutter: clamp(20px, 4.4vw, 72px);
+  /* the page sets viewport-fit=cover: on a phone turned sideways the notch side gets its safe-area inset plus 12px */
+  --gutter: max(clamp(20px, 4.4vw, 72px), calc(env(safe-area-inset-left, 0px) + 12px), calc(env(safe-area-inset-right, 0px) + 12px));
   --section-y: clamp(72px, 10vw, 168px);
   --overhang: clamp(56px, 8vw, 132px);   /* extra top padding of a band under a protruding object */
   --z-back: -1;

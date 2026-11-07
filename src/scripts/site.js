@@ -11,6 +11,7 @@
   var root = doc.documentElement;
   var mq = function (q) { return window.matchMedia ? window.matchMedia(q) : { matches: false }; };
   var reduce = mq('(prefers-reduced-motion: reduce)').matches;
+  var saveData = !!(navigator.connection && navigator.connection.saveData);
   var finePointer = mq('(hover: hover) and (pointer: fine)').matches;
   var coarse = mq('(hover: none), (pointer: coarse)').matches;
   var desktopMq = mq('(min-width: 1024px)');
@@ -28,6 +29,9 @@
     els.forEach(function (el) { io.observe(el); });
   };
   root.classList.add('js');
+  if (saveData) root.classList.add('save-data');
+  /* WebKit only applies :active to a tapped element when a touch listener exists: the press states in mobile.css need this no-op */
+  doc.addEventListener('touchstart', function () {}, { passive: true });
 
   var focusables = function (el) {
     return $$('a[href], button:not([disabled]), input:not([disabled]), select, textarea, summary, [tabindex]:not([tabindex="-1"])', el).filter(function (x) {
@@ -192,8 +196,10 @@
   var toggle = $('[data-nav-toggle]');
   var scrim = $('[data-nav-scrim]');
   var closeBtn = $('[data-nav-close]');
+  var drawerShutAt = -9999;
   function setDrawer(open, returnFocus) {
     if (!nav || !toggle) return;
+    if (!open && root.classList.contains('nav-open')) drawerShutAt = now();
     root.classList.toggle('nav-open', open);
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     if (scrim) scrim.hidden = !open;
@@ -381,12 +387,56 @@
       }
     });
   }
+  /* below 1024px the floating bar slides up while the reader scrolls down (after 120px) and comes back on any scroll up, near the top,
+     while the drawer is open or just closing (it is fixed inside the bar, and a moved bar would carry it), and while keyboard focus is in it */
+  var lastY = 0, runY = 0, barHidden = false;
+  var kbFocusIn = function (el) {
+    var a = doc.activeElement;
+    if (!a || !el.contains(a)) return false;
+    try { return a.matches(':focus-visible'); } catch (err) { return true; }
+  };
+  function barState(y) {
+    var dy = y - lastY;
+    lastY = y;
+    if (desktopMq.matches || y < 120 || root.classList.contains('nav-open') || now() - drawerShutAt < 650 || kbFocusIn(header)) { runY = 0; return false; }
+    if (dy === 0) return barHidden;
+    runY = (dy > 0) === (runY > 0) ? runY + dy : dy;
+    if (runY > 8) return true;
+    if (runY < -4) return false;
+    return barHidden;
+  }
+  /* keyboard focus entering the hidden bar: show it at once (no slide), and undo the jump a browser makes to scroll an off-screen focus into view */
+  if (header) header.addEventListener('focusin', function () {
+    if (barHidden && kbFocusIn(header)) {
+      var was = lastY, holdT = 0;
+      var hold = function () { /* the first scroll after the focus is the browser's own: put the page back (an instant scroll also stops a smooth one) */
+        window.removeEventListener('scroll', hold);
+        clearTimeout(holdT);
+        var y = window.scrollY || window.pageYOffset || 0;
+        if (Math.abs(y - was) > 1) { lastY = was; window.scrollTo(0, was); }
+        root.style.removeProperty('scroll-behavior');
+      };
+      root.style.scrollBehavior = 'auto';
+      window.addEventListener('scroll', hold, { passive: true });
+      holdT = setTimeout(function () { window.removeEventListener('scroll', hold); root.style.removeProperty('scroll-behavior'); }, 400);
+      header.classList.add('is-snap');
+      header.classList.remove('is-hidden');
+      barHidden = false;
+      runY = 0;
+      window.requestAnimationFrame(function () { header.classList.remove('is-snap'); });
+    }
+    queue();
+  });
   var frameQueued = false;
   function frame() {
     frameQueued = false;
     var h = vh();
     var y = window.scrollY || window.pageYOffset || 0;
-    if (header) { header.classList.toggle('is-scrolled', y > 8); }
+    if (header) {
+      header.classList.toggle('is-scrolled', y > 8);
+      var hide = barState(y);
+      if (hide !== barHidden) { barHidden = hide; header.classList.toggle('is-hidden', hide); }
+    }
     var pinOn = root.classList.contains('pin-on');
     var i, r, b, c;
     for (i = 0; i < live.length; i++) { /* read */
@@ -680,7 +730,8 @@
      [data-video-toggle] pauses the video named by aria-controls, else every video in its host (closest [data-video-host], .band or section). ---------------- */
   var allVids = $$('video[data-inview-play], video[autoplay], video[data-after-load]');
   var playV = function (v) { if (v.hasAttribute('data-user-paused')) return; var p = v.play && v.play(); if (p && p.catch) p.catch(function () {}); };
-  if (reduce) {
+  /* Save-Data: no loop is started (so none downloads; they are preload="none"), the still stays and the pause button hides, as under reduced motion */
+  if (reduce || saveData) {
     allVids.forEach(function (v) { v.removeAttribute('autoplay'); if (v.pause) v.pause(); });
   } else {
     var ioVid = hasIO ? new IntersectionObserver(function (entries) {
@@ -728,7 +779,7 @@
     var host = hostOf(b);
     var vids = v ? [v] : (host ? $$('video', host) : []);
     if (vids.length) bindToggle(b, vids);
-    if (reduce) b.hidden = true;
+    if (reduce || saveData) b.hidden = true;
   });
 
   /* ---------------- demo forms (D9): never post; show the form's one honest line ---------------- */

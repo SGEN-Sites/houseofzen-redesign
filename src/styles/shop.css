@@ -81,10 +81,16 @@
 .s-mini__item:nth-child(3n + 2) .s-mini__media { border-radius: var(--r-1); }
 .s-mini__item:nth-child(3n) .s-mini__media { border-radius: var(--r-3); }
 .s-mini__media img, .s-mini__media .img-slot { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 1.4s var(--ease); }
-.s-mini:hover img, .s-mini:focus-visible img { transform: scale(1.08); }
-.s-mini:hover .s-mini__media, .s-mini:focus-visible .s-mini__media { box-shadow: var(--shade-deep); }
+.s-mini:focus-visible img { transform: scale(1.08); }
+.s-mini:focus-visible .s-mini__media { box-shadow: var(--shade-deep); }
 .s-mini__title { display: block; margin-top: 10px; font-family: var(--font-display); font-size: clamp(1.25rem, 1.7vw, 1.6rem); line-height: 1.1; color: inherit; transition: transform var(--dur-2) var(--ease); }
-.s-mini:hover .s-mini__title, .s-mini:focus-visible .s-mini__title { transform: translateY(-4px); }
+.s-mini:focus-visible .s-mini__title { transform: translateY(-4px); }
+/* the zoom and lift follow a pointer that hovers; on a touch screen they would stick after a tap */
+@media (hover: hover) {
+  .s-mini:hover img { transform: scale(1.08); }
+  .s-mini:hover .s-mini__media { box-shadow: var(--shade-deep); }
+  .s-mini:hover .s-mini__title { transform: translateY(-4px); }
+}
 .s-mini:focus-visible { box-shadow: var(--focus-ring); }
 .band--moss .s-mini { color: var(--text-on-dark); }
 .band--moss .s-mini:focus-visible { box-shadow: 0 0 0 3px var(--moss-deep), 0 0 0 5px var(--gold-soft); }
@@ -359,6 +365,22 @@
   .s-rev { box-shadow: var(--shade-soft); }
   .s-mapband__art { margin-top: 22px; }
   .s-formband__seam { display: none; }
+}
+/* ---------- touch layouts: swipe rows run to the screen edge, 44px taps for links set in running text ---------- */
+@media (max-width: 1023.98px) {
+  /* the next card peeks in from the screen edge, not from the text column; snapping keeps the first card on the column */
+  .s-mini-row { margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); }
+  /* padding on an inline link grows its tap area to 44px without moving a line; the hover brush keeps its place */
+  .s-prose .callout a:not([class]) { padding-block: 9px; background-origin: content-box; }
+  .s-faq .faq__a a:not([class]) { padding: 12px 2px; margin-inline: -2px; background-origin: content-box; }
+}
+/* a short press on cards that are links, where there is no hover to answer a touch */
+@media (hover: none) and (prefers-reduced-motion: no-preference) {
+  .s-cat, .s-mini, .s-acard { transition: scale 120ms var(--ease); }
+  .s-cat:active, .s-mini:active, .s-acard:active { scale: 0.97; }
+}
+@media (hover: none) and (prefers-reduced-motion: reduce) {
+  .s-cat:active, .s-mini:active, .s-acard:active { opacity: 0.86; }
 }
 @media (max-width: 480px) {
   .s-offer__big { font-size: clamp(5rem, 25vw, 6.4rem); }

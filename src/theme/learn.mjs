@@ -75,11 +75,14 @@ ${more ? `<span class="acard__more n-card__more">Read the article${icon('arrow')
 // The offset masonry: real columns of different widths starting at different heights, filled shortest-first so they stay
 // level. While a chip filter is on, learn.css flattens the columns into a plain grid (:has(.is-filtered-out)), so a filtered
 // set never hangs in one column. `twin` = a card that stays hidden until a filter is on (the featured article's own card).
+// Below 700px every card is a compact row with a thumbnail at most 120px wide (learn.css), so phones ask for that width.
 const COLS = [
-  { w: 1, ratios: ['4/5', '3/2', '1/1', '3/2'], excerpt: true, sizes: '(min-width: 1024px) 36vw, (min-width: 700px) 46vw, 80vw' },
-  { w: 0.8, ratios: ['3/2', '4/5', '3/2', '1/1'], excerpt: true, sizes: '(min-width: 1024px) 29vw, (min-width: 700px) 46vw, 80vw' },
-  { w: 0.68, ratios: ['1/1', '3/2', '4/5', '3/2'], excerpt: false, sizes: '(min-width: 1024px) 25vw, (min-width: 700px) 46vw, 80vw' },
+  { w: 1, ratios: ['4/5', '3/2', '1/1', '3/2'], excerpt: true, sizes: '(min-width: 1024px) 36vw, (min-width: 700px) 46vw, 120px' },
+  { w: 0.8, ratios: ['3/2', '4/5', '3/2', '1/1'], excerpt: true, sizes: '(min-width: 1024px) 29vw, (min-width: 700px) 46vw, 120px' },
+  { w: 0.68, ratios: ['1/1', '3/2', '4/5', '3/2'], excerpt: false, sizes: '(min-width: 1024px) 25vw, (min-width: 700px) 46vw, 120px' },
 ];
+// The hero frame below 1024px: 88% of the wrap (learn.css), capped at 620px; the wrap's gutters are 20px each on a phone.
+const HERO_SM = '(min-width: 776px) 620px, calc(88vw - 36px)';
 const ratioOf = (r) => { const [a, b] = r.split('/').map(Number); return b / a; };
 function mason(items, { filter = false, twin = null } = {}) {
   const cols = COLS.slice(0, items.length <= 2 ? 2 : 3).map((c) => ({ ...c, list: [], est: 0 }));
@@ -149,7 +152,7 @@ function hubPage(ctx, items) {
   const rest = items.slice(1);
   const hero = pageHero({
     ctx, tone: 'plaster', crumbs, cls: 'n-hero n-hero--hub',
-    media: heroFrame({ image: 'g-first-visit', sizes: '(min-width: 1024px) 44vw, 84vw' }, CUTS[0], 'n-art--hub'),
+    media: heroFrame({ image: 'g-first-visit', sizes: `(min-width: 1024px) 44vw, ${HERO_SM}` }, CUTS[0], 'n-art--hub'),
     kicker: 'Balance, education, and intention',
     h1Html: `The ${brush('journal')}`,
     lede: esc('Clear, honest reading on cannabis, from the people behind the counter.'),
@@ -203,7 +206,7 @@ function categoryPage(ctx, c, items) {
   const image = c.image || (mine[0] && mine[0].image) || 'g-journal';
   const hero = pageHero({
     ctx, tone: v.ground, crumbs, cls: 'n-hero n-hero--cat',
-    media: heroFrame({ image, sizes: '(min-width: 1024px) 36vw, 84vw' }, v, 'n-art--cat'),
+    media: heroFrame({ image, sizes: `(min-width: 1024px) 36vw, ${HERO_SM}` }, v, 'n-art--cat'),
     kicker: JOURNAL,
     h1Html: c.brush ? brush(c.brush) : accented(c.label),
     lede: esc(c.line),
@@ -255,7 +258,7 @@ function pullSlot(post) {
   return { sec: s, after: bi > list.length / 2 ? 0 : list.length - 1 };
 }
 
-const pullHtml = (post) => `<figure class="n-pull" data-reveal><span class="n-pull__enso" aria-hidden="true" data-spin="0.02">${gimg('g-enso', { alt: '', sizes: '320px' })}</span><blockquote class="n-pull__q"><p>${esc(stripTags(post.pull))}</p></blockquote></figure>`;
+const pullHtml = (post) => `<figure class="n-pull" data-reveal><span class="n-pull__enso" aria-hidden="true" data-spin="0.02">${gimg('g-enso', { alt: '', sizes: '(min-width: 1024px) 320px, 120px' })}</span><blockquote class="n-pull__q"><p>${esc(stripTags(post.pull))}</p></blockquote></figure>`;
 const calloutHtml = (b, i) => {
   const html = rewriteLinks(b.html || esc(b.text || ''));
   return `<aside class="n-callout n-callout--${i % 2 ? 'b' : 'a'}${/^\s*<strong>/i.test(html) ? ' n-callout--lead' : ''}" data-reveal><span class="n-callout__mist" aria-hidden="true">${gimg('g-ink-mist', { alt: '', sizes: '(min-width: 1024px) 460px, 76vw' })}</span><div class="glass glass--strong n-callout__pane"><p>${html}</p></div></aside>`;
@@ -311,7 +314,7 @@ ${crumbsHtml(crumbs)}
 <h1 class="display page-hero__h1" id="n-title" data-reveal style="--i:1">${accented(it.title)}</h1>
 ${it.excerpt ? `<p class="lede page-hero__lede" data-reveal style="--i:2">${esc(it.excerpt)}</p>` : ''}
 </div>
-<div class="page-hero__media" data-depth="0.05">${heroFrame({ image: it.image, alt: it.alt, sizes: '(min-width: 1024px) 44vw, 86vw' }, v, 'n-art--post')}</div>
+<div class="page-hero__media" data-depth="0.05">${heroFrame({ image: it.image, alt: it.alt, sizes: `(min-width: 1024px) 44vw, ${HERO_SM}` }, v, 'n-art--post')}</div>
 </div>
 ${seam(4, { cls: 'n-seam-hero' })}
 </section>`;
@@ -339,7 +342,7 @@ ${tocHtml}
 <div class="wrap">
 <h2 class="display n-keep__title" id="n-keep-h" data-reveal>Keep <em class="accent">reading</em></h2>
 <ul class="n-keep" role="list">
-${keep.map((x, i) => card(x, { n: i, ar: i === 1 ? '4/5' : '3/2', sizes: '(min-width: 1024px) 30vw, 76vw', more: true, cls: `n-item--k${i}` })).join('\n')}
+${keep.map((x, i) => card(x, { n: i, ar: i === 1 ? '4/5' : '3/2', sizes: '(min-width: 1024px) 30vw, (min-width: 448px) 340px, 76vw', more: true, cls: `n-item--k${i}` })).join('\n')}
 </ul>
 </div>
 </section>` : '';
